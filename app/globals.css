@@ -55,3 +55,13 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.2;
   font-weight: 700;
 }
+
+@layer components {
+  input[type="range"]::-webkit-slider-thumb {
+    @apply appearance-none w-6 h-6 bg-green-500 rounded-full cursor-pointer shadow-md hover:bg-green-600 transition-colors;
+  }
+  
+  input[type="range"]::-moz-range-thumb {
+    @apply appearance-none w-6 h-6 bg-green-500 rounded-full cursor-pointer shadow-md hover:bg-green-600 transition-colors border-0;
+  }
+}
