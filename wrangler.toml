@@ -1,4 +1,7 @@
 name = "boring-sales-growth"
 compatibility_date = "2024-06-30"
+main = ".vercel/output/static/_worker.js/index.js"
 
-# No main or assets needed - next-on-pages handles this
+[site]
+bucket = ".vercel/output/static"
+exclude = ["_worker.js"]
