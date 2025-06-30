@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "BoringSalesGrowth - The Boring Eat The Bold | AI Sales for Traditional B2B",
-  description: "Help your sales team close 40% more deals without hiring more people. Strategic AI implementation for manufacturing, distribution, and wholesale companies. The boring eat the bold.",
+  title: "BoringSalesGrowth - AI That Amplifies Your Sales Team, Not Replace Them",
+  description: "Your competitors are using AI to steal your customers. We help traditional B2B companies increase sales 40% without losing relationships. Proven with 200+ manufacturers, distributors, and service companies.",
 };
 
 export default function RootLayout({

@@ -1,56 +1,69 @@
 export default function BusinessProblems() {
-  const problems = [
-    {
-      title: "Revenue Plateau",
-      description: "Your sales have hit a ceiling and traditional methods aren't moving the needle anymore.",
-      stat: "87%",
-      statLabel: "of companies plateau without process innovation"
-    },
-    {
-      title: "Competitors Getting Ahead",
-      description: "Modern competitors are closing deals faster while you're stuck with manual processes.",
-      stat: "3x",
-      statLabel: "faster sales cycles with AI-enabled teams"
-    },
-    {
-      title: "Sales Team Overwhelmed",
-      description: "Your best performers are drowning in admin work instead of selling.",
-      stat: "65%",
-      statLabel: "of sales time wasted on non-selling activities"
-    },
-    {
-      title: "Manual Processes Limiting Growth",
-      description: "Scaling means hiring more people, but quality talent is expensive and scarce.",
-      stat: "$1.2M",
-      statLabel: "average cost of scaling a 10-person sales team"
-    }
-  ];
-
   return (
     <section id="problems" className="py-24 px-4 sm:px-6 lg:px-8 bg-white">
-      <div className="mx-auto max-w-7xl">
-        <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl font-bold text-navy-900">
-            The Revenue Growth Challenge
+      <div className="mx-auto max-w-4xl">
+        <div className="text-center mb-12">
+          <h2 className="text-3xl sm:text-4xl font-bold text-navy-900 mb-4">
+            The Hidden Crisis in Traditional B2B Sales
           </h2>
-          <p className="mt-4 text-xl text-navy-600 max-w-3xl mx-auto">
-            You know these problems are holding your company back
+          <p className="text-xl text-navy-600">
+            You built your business on relationships. Now those relationships might not be enough.
           </p>
         </div>
         
-        <div className="grid md:grid-cols-2 gap-8">
-          {problems.map((problem, index) => (
-            <div key={index} className="bg-navy-50 rounded-lg p-8 hover:shadow-lg transition-shadow">
-              <div className="flex items-start justify-between mb-4">
-                <h3 className="text-xl font-bold text-navy-900">{problem.title}</h3>
-                <div className="text-right">
-                  <div className="text-3xl font-bold text-green-500">{problem.stat}</div>
-                  <div className="text-sm text-navy-600">{problem.statLabel}</div>
-                </div>
-              </div>
-              <p className="text-navy-700">{problem.description}</p>
+        <div className="prose prose-lg max-w-none text-navy-700">
+          <p className="text-lg leading-relaxed mb-6">
+            You&apos;ve been in business for years, maybe decades. Your sales team knows every customer by name. You&apos;ve weathered recessions, adapted to change, and built something solid. But lately, something feels different.
+          </p>
+          
+          <p className="text-lg leading-relaxed mb-6">
+            Your best salespeople spend <span className="font-bold text-navy-900">65% of their time on paperwork</span> instead of selling. New competitors—half your age with half your experience—are winning deals with &ldquo;AI-powered insights.&rdquo; Your growth has plateaued while costs keep rising. You tried hiring more salespeople, but good ones are impossible to find and expensive to train.
+          </p>
+          
+          <p className="text-lg leading-relaxed mb-8">
+            Meanwhile, you&apos;re getting bombarded by tech companies promising to &ldquo;transform&rdquo; your business with AI. But you&apos;ve seen what happens when companies chase the latest trend. Relationships get damaged. Customers feel like numbers. The human touch that built your business disappears. So you wait, hoping this AI thing will blow over. <span className="font-bold text-navy-900">But deep down, you know it won&apos;t.</span>
+          </p>
+        </div>
+
+        <div className="mt-12 grid md:grid-cols-2 gap-6">
+          <div className="bg-red-50 border-l-4 border-red-500 p-6 rounded-lg">
+            <h3 className="font-bold text-navy-900 mb-2">What You&apos;re Experiencing</h3>
+            <ul className="space-y-2 text-navy-700">
+              <li>• Revenue plateau despite working harder</li>
+              <li>• Losing deals to younger competitors</li>
+              <li>• Key knowledge trapped in heads</li>
+              <li>• Sales team overwhelmed with admin</li>
+            </ul>
+          </div>
+          <div className="bg-yellow-50 border-l-4 border-yellow-500 p-6 rounded-lg">
+            <h3 className="font-bold text-navy-900 mb-2">What&apos;s Actually Happening</h3>
+            <ul className="space-y-2 text-navy-700">
+              <li>• Competitors using AI to move 50% faster</li>
+              <li>• Customer expectations have changed</li>
+              <li>• Manual processes can&apos;t scale</li>
+              <li>• The market is leaving you behind</li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="mt-12 text-center">
+          <p className="text-xl font-semibold text-navy-900 mb-6">
+            You have three choices:
+          </p>
+          <div className="space-y-4 max-w-2xl mx-auto text-left">
+            <div className="flex items-start gap-3">
+              <span className="text-2xl font-bold text-red-500">1.</span>
+              <p className="text-lg text-navy-700">Do nothing and hope relationships are enough (they won&apos;t be)</p>
             </div>
-          ))}
+            <div className="flex items-start gap-3">
+              <span className="text-2xl font-bold text-yellow-500">2.</span>
+              <p className="text-lg text-navy-700">Try the &ldquo;revolutionary&rdquo; approach and risk everything</p>
+            </div>
+            <div className="flex items-start gap-3">
+              <span className="text-2xl font-bold text-green-500">3.</span>
+              <p className="text-lg text-navy-700">Find a way to amplify what already works</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
