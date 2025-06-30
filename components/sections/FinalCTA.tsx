@@ -6,12 +6,12 @@ export default function FinalCTA() {
           Is This Strategic Move Right for Your Company?
         </h2>
         <p className="text-xl text-navy-200 mb-8">
-          Let's have a frank 15-minute conversation about your revenue goals and whether AI-enabled sales makes sense for your business.
+          Let&apos;s have a frank 15-minute conversation about your revenue goals and whether AI-enabled sales makes sense for your business.
         </p>
         
         <div className="bg-navy-800 rounded-lg p-8 mb-8">
           <h3 className="text-xl font-semibold text-white mb-6">
-            What You'll Get in 15 Minutes:
+            What You&apos;ll Get in 15 Minutes:
           </h3>
           <div className="grid md:grid-cols-3 gap-6 text-left max-w-3xl mx-auto">
             <div className="flex items-start gap-3">

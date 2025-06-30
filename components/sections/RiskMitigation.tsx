@@ -16,8 +16,8 @@ export default function RiskMitigation() {
       icon: "👥"
     },
     {
-      concern: "What if it doesn't work for our industry?",
-      mitigation: "30-day pilot program with success metrics defined upfront. If we don't hit the targets, you don't pay. Zero risk to try.",
+      concern: "What if it doesn&apos;t work for our industry?",
+      mitigation: "30-day pilot program with success metrics defined upfront. If we don&apos;t hit the targets, you don&apos;t pay. Zero risk to try.",
       icon: "✅"
     }
   ];
@@ -30,7 +30,7 @@ export default function RiskMitigation() {
             Addressing Your Concerns Head-On
           </h2>
           <p className="mt-4 text-xl text-navy-600 max-w-3xl mx-auto">
-            We know change is risky. Here's how we protect your business.
+            We know change is risky. Here&apos;s how we protect your business.
           </p>
         </div>
         
@@ -53,9 +53,9 @@ export default function RiskMitigation() {
             Our Guarantee
           </h3>
           <p className="text-lg text-navy-700 mb-6">
-            If we don't deliver measurable results in 90 days, we'll work for free until we do.
+            If we don&apos;t deliver measurable results in 90 days, we&apos;ll work for free until we do.
             <br />
-            That's how confident we are in this approach.
+            That&apos;s how confident we are in this approach.
           </p>
           <div className="flex flex-wrap justify-center gap-8 text-left">
             <div className="flex items-center gap-2">

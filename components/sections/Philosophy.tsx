@@ -9,11 +9,11 @@ export default function Philosophy() {
           While Silicon Valley startups burn through millions chasing the next shiny object, 
           established companies with proven business models are quietly dominating their markets. 
           <br /><br />
-          <span className="text-white font-semibold">Your "boring" business has what they don't:</span> 
+          <span className="text-white font-semibold">Your &ldquo;boring&rdquo; business has what they don&apos;t:</span> 
           Real customers. Real revenue. Real relationships.
           <br /><br />
           Now imagine adding AI to that foundation. Not to replace what works, 
-          but to amplify it. That's how the boring eat the bold.
+          but to amplify it. That&apos;s how the boring eat the bold.
         </p>
         <div className="grid md:grid-cols-3 gap-8 text-left max-w-3xl mx-auto">
           <div>

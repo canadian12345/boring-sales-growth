@@ -51,7 +51,7 @@ export default function ExecutiveSolutions() {
         
         <div className="mt-16 text-center">
           <p className="text-lg text-navy-700 mb-8">
-            This isn't about technology. It's about giving your team superpowers.
+            This isn&apos;t about technology. It&apos;s about giving your team superpowers.
           </p>
           <a
             href="#opportunity"

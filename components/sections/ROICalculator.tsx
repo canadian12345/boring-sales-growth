@@ -112,7 +112,7 @@ export default function ROICalculator() {
             href="#opportunity"
             className="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-white bg-green-500 rounded-md hover:bg-green-600 transition-colors"
           >
-            Let's Discuss Your Opportunity →
+            Let&apos;s Discuss Your Opportunity →
           </a>
         </div>
       </div>
