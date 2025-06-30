@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "BoringSalesGrowth - AI Sales Enablement for Traditional B2B Companies",
-  description: "Help your sales team close 40% more deals without hiring more people. Strategic AI implementation for manufacturing, distribution, and wholesale companies.",
+  title: "BoringSalesGrowth - The Boring Eat The Bold | AI Sales for Traditional B2B",
+  description: "Help your sales team close 40% more deals without hiring more people. Strategic AI implementation for manufacturing, distribution, and wholesale companies. The boring eat the bold.",
 };
 
 export default function RootLayout({

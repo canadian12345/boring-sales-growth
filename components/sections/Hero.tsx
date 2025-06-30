@@ -30,6 +30,9 @@ export default function Hero() {
           <p className="mt-8 text-sm text-navy-500">
             Trusted by 200+ business leaders seeing 40% revenue increases
           </p>
+          <p className="mt-4 text-lg font-semibold text-navy-700">
+            The Boring Eat The Bold™
+          </p>
         </div>
       </div>
     </section>
