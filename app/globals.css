@@ -1,26 +1,57 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
+@layer base {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --navy-50: #f0f4f8;
+    --navy-100: #d9e2ec;
+    --navy-200: #bcccdc;
+    --navy-300: #9fb3c8;
+    --navy-400: #829ab1;
+    --navy-500: #627d98;
+    --navy-600: #486581;
+    --navy-700: #334e68;
+    --navy-800: #243b53;
+    --navy-900: #102a43;
+    
+    --green-500: #17b897;
+    --green-600: #079a82;
+    
+    --background: #ffffff;
+    --foreground: var(--navy-900);
+    --muted: var(--navy-100);
+    --muted-foreground: var(--navy-600);
+    --accent: var(--green-500);
+    --accent-foreground: #ffffff;
   }
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.6;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.2;
+  font-weight: 700;
 }
