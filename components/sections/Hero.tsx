@@ -31,7 +31,7 @@ export default function Hero() {
             Trusted by 200+ business leaders seeing 40% revenue increases
           </p>
           <p className="mt-4 text-lg font-semibold text-navy-700">
-            The Boring Eat The Bold™
+            The Boring Eat The Bold™ - v2
           </p>
         </div>
       </div>
