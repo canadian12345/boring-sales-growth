@@ -1,7 +1,5 @@
 'use client';
 
-import Image from 'next/image';
-
 export default function Testimonials() {
   const testimonials = [
     {
@@ -86,7 +84,7 @@ export default function Testimonials() {
               </div>
 
               <blockquote className="text-navy-700 mb-6">
-                "{testimonial.quote}"
+                &quot;{testimonial.quote}&quot;
               </blockquote>
 
               <div className="bg-green-50 p-4 rounded-lg">
@@ -106,7 +104,7 @@ export default function Testimonials() {
 
         <div className="mt-12 text-center">
           <p className="text-lg text-navy-700 mb-6">
-            Want to verify these results? We'll connect you directly with any of these CEOs.
+            Want to verify these results? We&apos;ll connect you directly with any of these CEOs.
           </p>
           <div className="inline-flex items-center gap-8">
             <div className="text-center">

@@ -51,8 +51,8 @@ export default function BusinessProblems() {
       <div className="container">
         <div className="text-center mb-16">
           <h2 className="text-navy-900 mb-4">
-            The Problem Isn't Your Sales Process.
-            <span className="block">It's That Your Best People Are Stuck in Spreadsheets.</span>
+            The Problem Isn&apos;t Your Sales Process.
+            <span className="block">It&apos;s That Your Best People Are Stuck in Spreadsheets.</span>
           </h2>
           <p className="text-xl text-navy-600 max-w-3xl mx-auto">
             Your relationship-first approach works. But look at the reality:
@@ -100,7 +100,7 @@ export default function BusinessProblems() {
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-red-600 mt-1">✗</span>
-                  <span className="text-navy-700">Competitors capture your "too busy" opportunities</span>
+                  <span className="text-navy-700">Competitors capture your &quot;too busy&quot; opportunities</span>
                 </li>
               </ul>
             </div>
@@ -122,7 +122,7 @@ export default function BusinessProblems() {
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-green-600 mt-1">✓</span>
-                  <span className="text-navy-700">You become the "always responsive" vendor</span>
+                  <span className="text-navy-700">You become the &quot;always responsive&quot; vendor</span>
                 </li>
               </ul>
             </div>
@@ -130,7 +130,7 @@ export default function BusinessProblems() {
           
           <div className="bg-navy-900 text-white rounded-lg p-6 text-center">
             <p className="text-xl font-bold mb-2">
-              You don't need new salespeople.
+              You don&apos;t need new salespeople.
             </p>
             <p className="text-lg">
               You need to unleash the ones you have.

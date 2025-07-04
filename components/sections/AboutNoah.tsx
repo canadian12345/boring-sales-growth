@@ -12,7 +12,7 @@ export default function AboutNoah() {
           <div className="grid lg:grid-cols-3 gap-8 items-start">
             <div className="lg:col-span-2 space-y-6">
               <p className="text-lg leading-relaxed text-navy-100">
-                I help B2B companies grow without losing their soul. For 20 years, I've worked 
+                I help B2B companies grow without losing their soul. For 20 years, I&apos;ve worked 
                 with relationship-driven businesses from $5M to $500M. When AI arrived, I saw 
                 two paths: Replace relationships with technology, or use technology to strengthen 
                 relationships.
@@ -21,7 +21,7 @@ export default function AboutNoah() {
               <div className="bg-green-900/20 border border-green-700/30 rounded-lg p-6">
                 <h4 className="font-bold text-green-400 mb-3">After 200+ implementations, the answer is clear:</h4>
                 <p className="text-navy-100">
-                  The winners aren't the most technical. They're the ones who use AI to do more 
+                  The winners aren&apos;t the most technical. They&apos;re the ones who use AI to do more 
                   of what already works. Your relationships are your moat. AI should make that 
                   moat wider, not fill it in.
                 </p>
@@ -35,8 +35,8 @@ export default function AboutNoah() {
               
               <div className="border-l-4 border-green-500 pl-6 py-2">
                 <p className="text-xl font-semibold text-white">
-                  "Technology serves relationships, not vice versa. Get this right and 
-                  you'll dominate. Get it wrong and you'll lose everything."
+                  &quot;Technology serves relationships, not vice versa. Get this right and 
+                  you&apos;ll dominate. Get it wrong and you&apos;ll lose everything.&quot;
                 </p>
                 <p className="text-sm text-navy-300 mt-2">— From my upcoming book on AI in B2B Sales</p>
               </div>

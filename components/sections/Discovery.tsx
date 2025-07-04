@@ -4,7 +4,7 @@ export default function Discovery() {
       <div className="container max-w-4xl">
         <div className="text-center mb-12">
           <h2 className="text-navy-900 mb-4">
-            Let's See If This Makes Sense For You
+            Let&apos;s See If This Makes Sense For You
           </h2>
           <p className="text-xl text-navy-600">
             No high-pressure sales tactics. Just an honest conversation about your challenges and whether we can help.
@@ -13,7 +13,7 @@ export default function Discovery() {
 
         <div className="grid lg:grid-cols-2 gap-8">
           <div className="bg-white rounded-2xl p-8">
-            <h3 className="text-xl font-bold text-navy-900 mb-6">What We'll Discuss</h3>
+            <h3 className="text-xl font-bold text-navy-900 mb-6">What We&apos;ll Discuss</h3>
             
             <div className="space-y-4">
               <div className="flex items-start gap-3">
@@ -23,7 +23,7 @@ export default function Discovery() {
                 <div>
                   <p className="font-semibold text-navy-900">Your Current Sales Process</p>
                   <p className="text-sm text-navy-600">
-                    What's working, what's not, and where AI could help without disrupting what works
+                    What&apos;s working, what&apos;s not, and where AI could help without disrupting what works
                   </p>
                 </div>
               </div>
@@ -35,7 +35,7 @@ export default function Discovery() {
                 <div>
                   <p className="font-semibold text-navy-900">Your Competition</p>
                   <p className="text-sm text-navy-600">
-                    Who you're losing deals to and whether they're using AI (spoiler: they probably are)
+                    Who you&apos;re losing deals to and whether they&apos;re using AI (spoiler: they probably are)
                   </p>
                 </div>
               </div>
@@ -47,7 +47,7 @@ export default function Discovery() {
                 <div>
                   <p className="font-semibold text-navy-900">Realistic Next Steps</p>
                   <p className="text-sm text-navy-600">
-                    If it makes sense, we'll outline a pilot program. If not, we'll tell you straight
+                    If it makes sense, we&apos;ll outline a pilot program. If not, we&apos;ll tell you straight
                   </p>
                 </div>
               </div>
@@ -55,8 +55,8 @@ export default function Discovery() {
             
             <div className="mt-8 p-4 bg-green-50 rounded-lg">
               <p className="text-sm text-green-900">
-                <strong>Our Promise:</strong> If we don't think we can deliver at least 3X ROI 
-                within 90 days, we'll tell you not to hire us.
+                <strong>Our Promise:</strong> If we don&apos;t think we can deliver at least 3X ROI 
+                within 90 days, we&apos;ll tell you not to hire us.
               </p>
             </div>
           </div>

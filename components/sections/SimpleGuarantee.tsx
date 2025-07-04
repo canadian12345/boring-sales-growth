@@ -9,9 +9,9 @@ export default function SimpleGuarantee() {
           
           <div className="bg-white rounded-xl shadow-lg p-8">
             <p className="text-xl text-navy-700 mb-6">
-              "If we can't show you a clear path to 3X ROI in our first conversation, 
-              we'll tell you. If we don't deliver measurable results in 90 days, 
-              we work for free until we do."
+              &quot;If we can&apos;t show you a clear path to 3X ROI in our first conversation, 
+              we&apos;ll tell you. If we don&apos;t deliver measurable results in 90 days, 
+              we work for free until we do.&quot;
             </p>
             
             <div className="border-t border-navy-200 pt-6 mt-6">
@@ -37,7 +37,7 @@ export default function SimpleGuarantee() {
           
           <div className="mt-8">
             <a href="#discovery" className="btn-primary text-lg px-8 py-4">
-              Let's See If You're A Fit
+              Let&apos;s See If You&apos;re A Fit
               <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
               </svg>

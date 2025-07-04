@@ -19,7 +19,7 @@ export default function Hero() {
             </h1>
             
             <p className="text-xl text-navy-700 mb-8">
-              Every AI vendor wants to "transform" your sales process. We just want to give your 
+              Every AI vendor wants to &quot;transform&quot; your sales process. We just want to give your 
               team their time back. Join 200+ B2B companies who chose amplification over 
               transformation—and grew 40% without losing their soul.
             </p>
@@ -65,7 +65,7 @@ export default function Hero() {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-tr from-navy-100/20 to-green-100/20 rounded-3xl transform rotate-3"></div>
               <div className="relative bg-white rounded-3xl shadow-xl p-6 space-y-6">
-                <h4 className="font-bold text-navy-900 text-center mb-4">Keep What Works. Automate What Doesn't.</h4>
+                <h4 className="font-bold text-navy-900 text-center mb-4">Keep What Works. Automate What Doesn&apos;t.</h4>
                 
                 <div className="bg-green-50 border border-green-200 rounded-lg p-4">
                   <h5 className="font-semibold text-green-900 mb-3">What AI Handles:</h5>

@@ -30,8 +30,8 @@ export default function CostOfWaiting() {
             <div className="bg-navy-50 rounded-lg p-6">
               <h4 className="font-bold text-navy-900 mb-4">The Opportunity:</h4>
               <p className="text-navy-700 mb-4">
-                Right now, AI is your competitive edge. In 18 months, it's mandatory. 
-                The question isn't whether to adopt AI—it's whether you'll lead the 
+                Right now, AI is your competitive edge. In 18 months, it&apos;s mandatory. 
+                The question isn&apos;t whether to adopt AI—it&apos;s whether you&apos;ll lead the 
                 change or scramble to catch up.
               </p>
               <p className="text-lg font-semibold text-green-600">
@@ -78,7 +78,7 @@ export default function CostOfWaiting() {
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-red-600 text-xl">✗</span>
-                <span className="text-navy-700">Customers asking "what took so long?"</span>
+                <span className="text-navy-700">Customers asking &quot;what took so long?&quot;</span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-red-600 text-xl">✗</span>
@@ -91,7 +91,7 @@ export default function CostOfWaiting() {
         <div className="mt-16 text-center">
           <div className="bg-navy-50 rounded-xl p-8 max-w-2xl mx-auto">
             <p className="text-2xl font-bold text-navy-900 mb-6">
-              You're not behind. But the window is closing.
+              You&apos;re not behind. But the window is closing.
             </p>
             
             <a href="#discovery" className="btn-primary text-lg px-8 py-4">
@@ -101,7 +101,7 @@ export default function CostOfWaiting() {
               </svg>
             </a>
             <p className="text-sm text-navy-600 mt-4">
-              Join the 15% who will teach the 85% how it's done
+              Join the 15% who will teach the 85% how it&apos;s done
             </p>
           </div>
         </div>

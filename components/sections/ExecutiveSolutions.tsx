@@ -11,9 +11,9 @@ export default function ExecutiveSolutions() {
         <div className="bg-white rounded-xl shadow-lg p-8 mb-12">
           <div className="grid md:grid-cols-2 gap-8">
             <div>
-              <h4 className="font-bold text-navy-900 mb-4">Your Rep's Typical Morning:</h4>
+              <h4 className="font-bold text-navy-900 mb-4">Your Rep&apos;s Typical Morning:</h4>
               <ul className="space-y-2 text-sm text-navy-700">
-                <li>⏰ <span className="font-medium">8:00 - 8:45:</span> Update yesterday's calls in CRM</li>
+                <li>⏰ <span className="font-medium">8:00 - 8:45:</span> Update yesterday&apos;s calls in CRM</li>
                 <li>⏰ <span className="font-medium">8:45 - 9:15:</span> Figure out who to follow up with</li>
                 <li>⏰ <span className="font-medium">9:15 - 10:15:</span> Write follow-up emails</li>
                 <li>⏰ <span className="font-medium">10:15 - 11:00:</span> Research prospects</li>
@@ -30,14 +30,14 @@ export default function ExecutiveSolutions() {
                 <li>✓ Quotes auto-generated (5 min review)</li>
               </ul>
               <div className="mt-4 pt-4 border-t border-navy-200">
-                <p className="font-medium">⏰ <span className="text-green-600">8:00 - 8:15:</span> Review and approve AI's work</p>
+                <p className="font-medium">⏰ <span className="text-green-600">8:00 - 8:15:</span> Review and approve AI&apos;s work</p>
                 <p className="font-medium">⏰ <span className="text-green-600">8:15 - 12:00:</span> Actually talk to customers</p>
               </div>
             </div>
           </div>
           <div className="mt-6 p-4 bg-green-50 rounded-lg text-center">
             <p className="text-lg font-bold text-green-800">
-              That's 3 hours 45 minutes back. Every single day.
+              That&apos;s 3 hours 45 minutes back. Every single day.
             </p>
           </div>
         </div>
@@ -48,7 +48,7 @@ export default function ExecutiveSolutions() {
           <div className="space-y-6">
             <div className="border-l-4 border-green-500 pl-6">
               <h4 className="font-bold text-navy-900 mb-2">Week 1: One Button</h4>
-              <p className="text-navy-700">Add ONE button to your CRM. "Generate Follow-up." That's it.</p>
+              <p className="text-navy-700">Add ONE button to your CRM. &quot;Generate Follow-up.&quot; That&apos;s it.</p>
               <p className="text-sm text-green-600 mt-2">Result: Rep saves 45 min/day. Closes extra deal from AI reminder.</p>
             </div>
             
@@ -73,7 +73,7 @@ export default function ExecutiveSolutions() {
         </div>
 
         <div className="bg-navy-900 text-white rounded-xl p-8 mb-12">
-          <h3 className="text-2xl font-bold mb-6">The "Amplify Don't Replace" Difference:</h3>
+          <h3 className="text-2xl font-bold mb-6">The &quot;Amplify Don&apos;t Replace&quot; Difference:</h3>
           <div className="grid md:grid-cols-2 gap-8">
             <div>
               <h4 className="font-bold text-red-400 mb-3">What Others Do (Fails):</h4>
@@ -99,7 +99,7 @@ export default function ExecutiveSolutions() {
           <div className="mt-6 pt-6 border-t border-navy-700">
             <p className="text-center text-lg">
               <span className="font-bold text-green-400">Bottom line:</span> Your reps sell 40% more because 
-              they're doing 90% less paperwork. That's it. That's the whole thing.
+              they&apos;re doing 90% less paperwork. That&apos;s it. That&apos;s the whole thing.
             </p>
           </div>
         </div>

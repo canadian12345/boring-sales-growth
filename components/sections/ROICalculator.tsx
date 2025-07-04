@@ -195,7 +195,7 @@ export default function ROICalculator() {
               <span className="text-green-600"> ${Math.round(parseFloat(roi.additionalRevenue.replace(/,/g, '')) / 12).toLocaleString()}/month</span>
             </div>
             <p className="text-lg text-navy-700 mb-6">
-              That's what waiting costs you. Every. Single. Month.
+              That&apos;s what waiting costs you. Every. Single. Month.
             </p>
             
             <div className="bg-navy-50 rounded-lg p-6 mb-6">
@@ -219,7 +219,7 @@ export default function ROICalculator() {
               </svg>
             </a>
             <p className="text-sm text-navy-500 mt-4">
-              15-minute call. We'll know in 5 if we're a fit.
+              15-minute call. We&apos;ll know in 5 if we&apos;re a fit.
             </p>
           </div>
         </div>
