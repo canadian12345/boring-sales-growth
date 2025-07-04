@@ -15,15 +15,23 @@
     --navy-800: #243b53;
     --navy-900: #102a43;
     
+    --green-50: #f0fcf9;
+    --green-100: #c6f7e9;
+    --green-200: #8eedd1;
+    --green-300: #5fe3c0;
+    --green-400: #2dcca7;
     --green-500: #17b897;
     --green-600: #079a82;
+    --green-700: #048271;
     
     --background: #ffffff;
+    --background-light: #fafbfc;
     --foreground: var(--navy-900);
     --muted: var(--navy-100);
     --muted-foreground: var(--navy-600);
     --accent: var(--green-500);
     --accent-foreground: #ffffff;
+    --border: var(--navy-100);
   }
 }
 
@@ -44,6 +52,8 @@ body {
   color: var(--foreground);
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 a {
@@ -54,14 +64,55 @@ a {
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.2;
   font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+h1 {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+}
+
+h2 {
+  font-size: clamp(2rem, 4vw, 3rem);
+}
+
+h3 {
+  font-size: clamp(1.5rem, 3vw, 2rem);
 }
 
 @layer components {
+  .container {
+    @apply mx-auto max-w-7xl px-4 sm:px-6 lg:px-8;
+  }
+  
+  .btn-primary {
+    @apply inline-flex items-center justify-center px-6 py-3 text-base font-semibold text-white bg-green-500 rounded-lg hover:bg-green-600 transition-all duration-200 shadow-sm hover:shadow-md;
+  }
+  
+  .btn-secondary {
+    @apply inline-flex items-center justify-center px-6 py-3 text-base font-semibold text-navy-700 bg-white border-2 border-navy-200 rounded-lg hover:bg-navy-50 hover:border-navy-300 transition-all duration-200;
+  }
+  
+  .card {
+    @apply bg-white rounded-xl border border-navy-100 shadow-sm hover:shadow-md transition-shadow duration-200 overflow-hidden;
+  }
+  
+  .section-padding {
+    @apply py-16 sm:py-20 lg:py-24;
+  }
+  
+  input[type="range"] {
+    @apply w-full h-2 bg-navy-100 rounded-lg appearance-none cursor-pointer;
+  }
+  
   input[type="range"]::-webkit-slider-thumb {
     @apply appearance-none w-6 h-6 bg-green-500 rounded-full cursor-pointer shadow-md hover:bg-green-600 transition-colors;
   }
   
   input[type="range"]::-moz-range-thumb {
     @apply appearance-none w-6 h-6 bg-green-500 rounded-full cursor-pointer shadow-md hover:bg-green-600 transition-colors border-0;
+  }
+  
+  .text-gradient {
+    @apply bg-gradient-to-r from-green-500 to-green-600 bg-clip-text text-transparent;
   }
 }
