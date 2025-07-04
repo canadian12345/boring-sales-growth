@@ -51,7 +51,7 @@ function Header() {
               Results
             </a>
             <a
-              href="#opportunity"
+              href="#discovery"
               className="ml-4 px-5 py-2.5 text-sm font-semibold text-white bg-green-500 rounded-lg hover:bg-green-600 transition-all duration-200 shadow-sm hover:shadow-md"
             >
               Book a Demo
@@ -96,7 +96,7 @@ function Footer() {
             <h4 className="font-semibold mb-4">Contact</h4>
             <p className="text-navy-200 mb-2">Ready to explore?</p>
             <a
-              href="#opportunity"
+              href="#discovery"
               className="inline-block px-6 py-2 bg-green-500 text-white rounded-md hover:bg-green-600 transition-colors font-semibold"
             >
               Schedule Briefing

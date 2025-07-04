@@ -52,7 +52,7 @@ export default function FinalCTA() {
 
         <div className="space-y-4">
           <a
-            href="https://calendly.com/noah-fleming/ai-strategy"
+            href="https://tidycal.com/noah3/boring-sales-growth"
             className="inline-flex items-center justify-center px-10 py-5 text-lg font-semibold text-navy-900 bg-white rounded-md hover:bg-gray-100 transition-colors shadow-xl"
           >
             Schedule Your Executive Briefing →
