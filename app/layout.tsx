@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Script from "next/script";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -18,10 +17,6 @@ export default function RootLayout({
         <Header />
         {children}
         <Footer />
-        <Script 
-          src="https://asset-tidycal.b-cdn.net/js/embed.js" 
-          strategy="afterInteractive"
-        />
       </body>
     </html>
   );

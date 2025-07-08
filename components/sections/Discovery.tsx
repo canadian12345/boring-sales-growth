@@ -76,20 +76,19 @@ export default function Discovery() {
               </p>
             </div>
             
-            {/* TidyCal Embed */}
-            <div className="tidycal-embed" data-path="noah3/boring-sales-growth"></div>
-            
-            {/* Fallback link */}
-            <div className="mt-4 text-center">
-              <p className="text-sm text-navy-600">Having trouble? 
-                <a 
-                  href="https://tidycal.com/noah3/boring-sales-growth" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="text-green-600 hover:text-green-700 ml-1"
-                >
-                  Open calendar in new window
-                </a>
+            {/* Book a Call Button */}
+            <div className="space-y-4">
+              <a
+                href="https://tidycal.com/noah3/boring-sales-growth"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block w-full text-center px-8 py-4 bg-green-500 text-white font-semibold rounded-lg hover:bg-green-600 transition-colors shadow-md hover:shadow-lg"
+              >
+                Schedule Your Discovery Call →
+              </a>
+              
+              <p className="text-center text-sm text-navy-600">
+                Opens in a new window. You&apos;ll see available times immediately.
               </p>
             </div>
             
