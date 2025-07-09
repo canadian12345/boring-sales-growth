@@ -4,32 +4,32 @@ export default function SimpleGuarantee() {
       <div className="mx-auto max-w-3xl">
         <div className="text-center">
           <h2 className="text-3xl sm:text-4xl font-black uppercase tracking-tight mb-8">
-            OUR PROMISE IS SIMPLE
+            A HANDSHAKE GUARANTEE
           </h2>
           
           <div className="bg-white text-black border-4 border-white p-8">
             <p className="text-xl font-mono mb-6">
-              &quot;If we can&apos;t show you a clear path to 3X ROI in our first conversation, 
-              we&apos;ll tell you. If we don&apos;t deliver measurable results in 90 days, 
-              we work for free until we do.&quot;
+              &quot;If I can&apos;t show you how to grow without losing your soul, 
+              I&apos;ll tell you straight. If we don&apos;t preserve what makes you special 
+              while growing revenue, I work for free until we do.&quot;
             </p>
             
             <div className="border-t-4 border-black pt-6 mt-6">
               <p className="font-bold font-mono uppercase mb-4">
-                Why we can promise this:
+                Why I can promise this:
               </p>
               <div className="space-y-2 text-left max-w-md mx-auto">
                 <div className="flex items-center gap-3">
                   <span className="font-mono">→</span>
-                  <span className="font-mono text-sm">Proven track record across industries</span>
+                  <span className="font-mono text-sm">20 years keeping souls intact</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <span className="font-mono">→</span>
-                  <span className="font-mono text-sm">Same proven playbook every time</span>
+                  <span className="font-mono text-sm">Boring growth that actually lasts</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <span className="font-mono">→</span>
-                  <span className="font-mono text-sm">We only take on sure wins</span>
+                  <span className="font-mono text-sm">I only work with kindred souls</span>
                 </div>
               </div>
             </div>
@@ -37,7 +37,7 @@ export default function SimpleGuarantee() {
           
           <div className="mt-8">
             <a href="#discovery" className="inline-flex items-center justify-center px-8 py-4 text-lg font-bold font-mono uppercase text-black bg-white hover:bg-gray-100 transition-colors">
-              LET&apos;S SEE IF YOU&apos;RE A FIT
+              LET&apos;S TALK SOUL TO SOUL
               <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
               </svg>

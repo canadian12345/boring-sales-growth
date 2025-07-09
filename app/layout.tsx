@@ -8,8 +8,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "BoringSalesGrowth - AI That Amplifies Your Sales Team, Not Replace Them",
-  description: "Your competitors are using AI to steal your customers. We help traditional B2B companies increase sales 40% without losing relationships. Proven with 200+ manufacturers, distributors, and service companies.",
+  title: "BoringSalesGrowth - Keep Your Relationships. Amplify Your Results.",
+  description: "Grow revenue without losing your soul. We don't transform relationship-driven businesses—we amplify them. 40% growth while your handshake still means something. For B2B companies who refuse to choose between human connection and business results.",
 };
 
 export default function RootLayout({
@@ -34,9 +34,12 @@ function Header() {
       <div className="container">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
-            <span className="text-2xl font-black tracking-tight">
-              BORING<span className="text-gray-500">SALES</span>
-            </span>
+            <div>
+              <span className="text-2xl font-black tracking-tight">
+                BORING<span className="text-gray-500">SALES</span>
+              </span>
+              <p className="text-xs font-mono uppercase hidden lg:block">GROWTH WITHOUT LOSING YOUR SOUL</p>
+            </div>
           </div>
           <nav className="hidden md:flex items-center gap-8">
             <a href="#problems" className="text-sm font-bold hover:underline">

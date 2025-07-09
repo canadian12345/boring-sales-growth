@@ -4,7 +4,7 @@ export default function CostOfWaiting() {
       <div className="mx-auto max-w-7xl">
         <div className="text-center mb-12">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-mono font-bold uppercase tracking-tight text-black mb-4">
-            THE 18-MONTH AI ADOPTION WINDOW
+            THE COST OF LETTING YOUR SOUL DIE SLOWLY
           </h2>
         </div>
         
@@ -30,13 +30,12 @@ export default function CostOfWaiting() {
             <div className="bg-gray-100 border-4 border-black p-6">
               <h4 className="font-mono font-bold uppercase text-black mb-4">THE OPPORTUNITY:</h4>
               <p className="font-mono uppercase text-black mb-4">
-                RIGHT NOW, AI IS YOUR COMPETITIVE EDGE. IN 18 MONTHS, IT&apos;S MANDATORY. 
-                THE QUESTION ISN&apos;T WHETHER TO ADOPT AI—IT&apos;S WHETHER YOU&apos;LL LEAD THE 
-                CHANGE OR SCRAMBLE TO CATCH UP.
+                RIGHT NOW, YOU CAN GROW WITHOUT LOSING YOUR SOUL. IN 18 MONTHS, 
+                YOU&apos;LL BE FORCED TO CHOOSE: DISRUPT EVERYTHING OR DIE TRYING.
               </p>
               <p className="text-lg font-mono font-bold uppercase text-black">
-                EVERY DAY YOU WAIT, SOMEONE ELSE DISCOVERS THEY CAN 3X THEIR CUSTOMER 
-                TOUCHPOINTS WITHOUT 3X THE HEADCOUNT. WHY LET THEM HAVE THAT ADVANTAGE?
+                EVERY DAY YOU WAIT, ANOTHER HANDSHAKE BUSINESS DISCOVERS THEY CAN 
+                HAVE MORE COFFEE MEETINGS, NOT FEWER. WHY LET YOUR RELATIONSHIPS FADE?
               </p>
             </div>
           </div>
@@ -44,45 +43,45 @@ export default function CostOfWaiting() {
 
         <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
           <div className="bg-white border-4 border-black p-8">
-            <h3 className="text-xl font-mono font-bold uppercase text-black mb-4">EARLY MOVERS GET:</h3>
+            <h3 className="text-xl font-mono font-bold uppercase text-black mb-4">SOULS WHO MOVE NOW GET:</h3>
             <ul className="space-y-3">
               <li className="flex items-start gap-3">
                 <span className="font-mono font-bold text-black text-xl">✓</span>
-                <span className="font-mono uppercase text-black">FIRST PICK OF AI-SAVVY TALENT</span>
+                <span className="font-mono uppercase text-black">TIME TO IMPLEMENT WITHOUT DISRUPTION</span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="font-mono font-bold text-black text-xl">✓</span>
-                <span className="font-mono uppercase text-black">TIME TO PERFECT THEIR APPROACH</span>
+                <span className="font-mono uppercase text-black">KEEP YOUR HANDSHAKE CULTURE</span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="font-mono font-bold text-black text-xl">✓</span>
-                <span className="font-mono uppercase text-black">CUSTOMERS WHO SEE THEM AS INNOVATIVE</span>
+                <span className="font-mono uppercase text-black">CLIENTS WHO LOVE YOUR PERSONAL TOUCH</span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="font-mono font-bold text-black text-xl">✓</span>
-                <span className="font-mono uppercase text-black">18 MONTHS OF COMPOUND ADVANTAGE</span>
+                <span className="font-mono uppercase text-black">BORING GROWTH THAT LASTS FOREVER</span>
               </li>
             </ul>
           </div>
           
           <div className="bg-gray-100 border-4 border-black p-8">
-            <h3 className="text-xl font-mono font-bold uppercase text-black mb-4">LATE ADOPTERS GET:</h3>
+            <h3 className="text-xl font-mono font-bold uppercase text-black mb-4">SOULS WHO WAIT GET:</h3>
             <ul className="space-y-3">
               <li className="flex items-start gap-3">
                 <span className="font-mono font-bold text-black text-xl">✗</span>
-                <span className="font-mono uppercase text-black">WHATEVER TALENT IS LEFT</span>
+                <span className="font-mono uppercase text-black">FORCED TO DISRUPT EVERYTHING</span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="font-mono font-bold text-black text-xl">✗</span>
-                <span className="font-mono uppercase text-black">RUSHED IMPLEMENTATIONS</span>
+                <span className="font-mono uppercase text-black">LOSE WHAT MADE THEM SPECIAL</span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="font-mono font-bold text-black text-xl">✗</span>
-                <span className="font-mono uppercase text-black">CUSTOMERS ASKING &quot;WHAT TOOK SO LONG?&quot;</span>
+                <span className="font-mono uppercase text-black">CLIENTS ASKING &quot;WHAT HAPPENED TO YOU?&quot;</span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="font-mono font-bold text-black text-xl">✗</span>
-                <span className="font-mono uppercase text-black">AN EXPENSIVE GAME OF CATCH-UP</span>
+                <span className="font-mono uppercase text-black">SOUL-CRUSHING TRANSFORMATION</span>
               </li>
             </ul>
           </div>
@@ -91,17 +90,17 @@ export default function CostOfWaiting() {
         <div className="mt-16 text-center">
           <div className="bg-black text-white p-8 max-w-2xl mx-auto">
             <p className="text-2xl font-mono font-bold uppercase mb-6">
-              YOU&apos;RE NOT BEHIND. BUT THE WINDOW IS CLOSING.
+              YOUR SOUL IS WORTH SAVING. BUT NOT FOREVER.
             </p>
             
             <a href="#discovery" className="inline-flex items-center justify-center px-8 py-4 text-lg font-mono font-bold uppercase bg-white text-black border-4 border-white hover:bg-black hover:text-white hover:border-white transition-colors">
-              LOCK IN YOUR ADVANTAGE
+              KEEP YOUR SOUL, GROW YOUR BUSINESS
               <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
               </svg>
             </a>
             <p className="text-sm font-mono uppercase mt-4">
-              JOIN THE 15% WHO WILL TEACH THE 85% HOW IT&apos;S DONE
+              FOR BUSINESSES THAT REFUSE TO LOSE THEIR SOUL
             </p>
           </div>
         </div>

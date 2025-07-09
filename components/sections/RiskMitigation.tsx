@@ -1,23 +1,23 @@
 export default function RiskMitigation() {
   const risks = [
     {
-      concern: "WHAT IF IT DISRUPTS OUR EXISTING RELATIONSHIPS?",
-      mitigation: "AI WORKS BEHIND THE SCENES. YOUR TEAM MAINTAINS FULL CONTROL OF ALL CUSTOMER INTERACTIONS. WE ENHANCE, NEVER REPLACE, THE HUMAN TOUCH.",
+      concern: "WHAT IF WE LOSE OUR SOUL IN THE PROCESS?",
+      mitigation: "AI NEVER TOUCHES YOUR HANDSHAKE MOMENTS. IT HANDLES SPREADSHEETS WHILE YOU HANDLE SOULS. YOUR PERSONAL TOUCH STAYS PERSONAL, JUST REACHES MORE PEOPLE.",
       icon: "01"
     },
     {
-      concern: "HOW DO WE IMPLEMENT WITHOUT DISRUPTING OPERATIONS?",
-      mitigation: "GRADUAL ROLLOUT STARTING WITH ONE TEAM. PROVE RESULTS, THEN SCALE. NO 'BIG BANG' IMPLEMENTATIONS THAT RISK YOUR BUSINESS.",
+      concern: "WILL THIS CHANGE WHO WE ARE?",
+      mitigation: "ZERO DISRUPTION TO YOUR CULTURE. WE ADD TOOLS THAT FIT YOUR WAY, NOT FORCE NEW WAYS. BORING IMPLEMENTATION FOR BORING GROWTH.",
       icon: "02"
     },
     {
-      concern: "WILL OUR SALES TEAM RESIST THE CHANGE?",
-      mitigation: "WE MAKE THEIR JOBS EASIER, NOT HARDER. LESS ADMIN WORK, MORE SELLING. TEAMS TYPICALLY ADOPT WITHIN 2 WEEKS WHEN THEY SEE THE BENEFITS.",
+      concern: "WHAT IF OUR OLD-SCHOOL TEAM REJECTS IT?",
+      mitigation: "THEY WON'T. BECAUSE WE'RE GIVING THEM BACK WHAT THEY JOINED FOR - TIME WITH PEOPLE. EVEN YOUR 67-YEAR-OLD REP WILL LOVE MORE COFFEE MEETINGS.",
       icon: "03"
     },
     {
-      concern: "WHAT IF IT DOESN&apos;T WORK FOR OUR INDUSTRY?",
-      mitigation: "30-DAY PILOT PROGRAM WITH SUCCESS METRICS DEFINED UPFRONT. IF WE DON&apos;T HIT THE TARGETS, YOU DON&apos;T PAY. ZERO RISK TO TRY.",
+      concern: "WHAT IF BORING GROWTH ISN&apos;T ENOUGH?",
+      mitigation: "BORING GROWTH COMPOUNDS. WHILE OTHERS DISRUPT AND FAIL, YOU'LL GROW STEADILY WITH SOUL INTACT. THAT'S HOW GENERATIONAL BUSINESSES ARE BUILT.",
       icon: "04"
     }
   ];
@@ -27,10 +27,10 @@ export default function RiskMitigation() {
       <div className="mx-auto max-w-7xl">
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-mono font-bold uppercase tracking-tight text-black">
-            ADDRESSING YOUR CONCERNS HEAD-ON
+            PROTECTING WHAT MATTERS MOST: YOUR SOUL
           </h2>
           <p className="mt-4 text-xl font-mono uppercase text-black max-w-3xl mx-auto">
-            WE KNOW CHANGE IS RISKY. HERE&apos;S HOW WE PROTECT YOUR BUSINESS.
+            EVERY FEAR IS VALID. HERE&apos;S HOW WE KEEP YOUR SOUL INTACT.
           </p>
         </div>
         
@@ -50,12 +50,12 @@ export default function RiskMitigation() {
         
         <div className="mt-16 bg-black text-white p-8 text-center">
           <h3 className="text-2xl font-mono font-bold uppercase mb-4">
-            OUR GUARANTEE
+            MY SOUL-KEEPING PROMISE
           </h3>
           <p className="text-lg font-mono uppercase mb-6">
-            IF WE DON&apos;T DELIVER MEASURABLE RESULTS IN 90 DAYS, WE&apos;LL WORK FOR FREE UNTIL WE DO.
+            IF YOU LOSE EVEN A PIECE OF YOUR SOUL, I&apos;VE FAILED.
             <br />
-            THAT&apos;S HOW CONFIDENT WE ARE IN THIS APPROACH.
+            GROWTH WITHOUT SOUL ISN&apos;T GROWTH - IT&apos;S DEATH BY A THOUSAND CUTS.
           </p>
           <div className="flex flex-wrap justify-center gap-8 text-left">
             <div className="flex items-center gap-2">

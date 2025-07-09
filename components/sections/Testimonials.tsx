@@ -8,7 +8,7 @@ export default function Testimonials() {
       title: "VP Sales, Tech Distribution",
       company: "Austin • 89 employees • $34M revenue",
       image: "/testimonials/sarah-chen.jpg",
-      quote: "Our young team was tech-savvy but drowning in admin. AI freed up 20 hours per week per rep. They're building stronger relationships now because they actually have time to listen. Revenue up 47% with the same headcount.",
+      quote: "I was losing my soul in spreadsheets. Now I'm back to what I love - actually talking to people. AI handles the boring stuff while I have real conversations. My wife says I'm myself again. Revenue's up too, but that's not why this matters.",
       results: {
         metric: "47% revenue growth",
         timeframe: "Same headcount",
@@ -21,7 +21,7 @@ export default function Testimonials() {
       title: "Owner, Industrial Supply Co",
       company: "Cleveland • 127 employees • $18M revenue",
       image: "/testimonials/mike-williams.jpg",
-      quote: "I've built this business on handshakes for 30 years. AI doesn't change that - it just makes sure we never drop the ball on follow-through. My reps still build relationships, they just do it 3x more efficiently now.",
+      quote: "30 years of handshake deals. Was terrified AI would kill that. Instead, it gave us more time for handshakes. My old-school reps love it because they're back to doing what made us special - building relationships that last generations.",
       results: {
         metric: "3x more customer touches",
         timeframe: "Per rep per day",
@@ -34,7 +34,7 @@ export default function Testimonials() {
       title: "Sales Director, B2B Services",
       company: "Phoenix • 43 employees • $8.5M revenue",
       image: "/testimonials/jennifer-martinez.jpg",
-      quote: "My diverse team (ages 24-67) all adopted this in one week. Why? Because it makes their actual job easier, not harder. The 20-somethings love the efficiency, the veterans love keeping their process. Everyone wins.",
+      quote: "My 67-year-old top rep said 'Finally, I can sell like it's 1985 again - all relationships, no paperwork.' My millennials are having coffee meetings instead of updating CRMs. We're all doing business with soul again.",
       results: {
         metric: "100% adoption",
         timeframe: "One week",
@@ -48,10 +48,10 @@ export default function Testimonials() {
       <div className="mx-auto max-w-7xl">
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl font-black uppercase tracking-tight text-black mb-4">
-            WORKS FOR ANY TEAM
+            PEOPLE WHO KEPT THEIR SOULS
           </h2>
           <p className="text-lg font-mono text-gray-600 max-w-3xl mx-auto">
-            FROM TECH-SAVVY MILLENNIALS TO RELATIONSHIP VETERANS. IF YOU BELIEVE BUSINESS IS PERSONAL, THIS IS FOR YOU.
+            REAL STORIES FROM BUSINESSES THAT CHOSE BORING GROWTH OVER DISRUPTION. RELATIONSHIPS INTACT.
           </p>
         </div>
 
@@ -90,7 +90,7 @@ export default function Testimonials() {
 
         <div className="mt-16 text-center">
           <p className="text-lg font-mono text-black mb-8 uppercase">
-            Want to verify these results? We&apos;ll connect you directly with any of these CEOs.
+            These aren&apos;t just clients. They&apos;re friends. Happy to introduce you.
           </p>
           <div className="inline-flex items-center gap-12">
             <div className="text-center">

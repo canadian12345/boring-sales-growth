@@ -35,10 +35,10 @@ export default function ROICalculator() {
   const roi = calculateROI();
   
   const getSliderLabel = () => {
-    if (improvementRate <= 20) return "CONSERVATIVE";
-    if (improvementRate <= 40) return "TYPICAL RESULTS";
-    if (improvementRate <= 60) return "TOP 20%";
-    return "BEST CASE";
+    if (improvementRate <= 20) return "PLAYING IT SAFE";
+    if (improvementRate <= 40) return "WHAT MOST SEE";
+    if (improvementRate <= 60) return "SOUL FULLY ALIVE";
+    return "MAXIMUM AMPLIFICATION";
   };
 
   return (
@@ -46,17 +46,17 @@ export default function ROICalculator() {
       <div className="container">
         <div className="mb-16">
           <h2 className="text-black mb-4">
-            ROI CALCULATOR
+            RELATIONSHIP ROI CALCULATOR
           </h2>
           <p className="text-xl font-mono uppercase">
-            AVERAGE CLIENT ROI: 23X YEAR 1. WORST EVER: 3X. YOUR NUMBERS:
+            CALCULATE HOW MANY MORE HANDSHAKES YOU&apos;LL HAVE TIME FOR:
           </p>
         </div>
         
         <div className="border-4 border-black bg-white">
           <div className="grid lg:grid-cols-2">
             <div className="p-8 lg:p-12 border-r-4 border-black">
-              <h3 className="text-2xl font-black uppercase mb-8">YOUR METRICS</h3>
+              <h3 className="text-2xl font-black uppercase mb-8">YOUR CURRENT REALITY</h3>
               
               <div className="space-y-6">
                 <div>
@@ -118,7 +118,7 @@ export default function ROICalculator() {
                 
                 <div className="pt-4">
                   <label className="block text-xs font-bold uppercase tracking-wider mb-4">
-                    EXPECTED IMPROVEMENT: <span className="text-lg">{getSliderLabel()}</span>
+                    RELATIONSHIP AMPLIFICATION LEVEL: <span className="text-lg">{getSliderLabel()}</span>
                   </label>
                   <input
                     type="range"
@@ -139,23 +139,23 @@ export default function ROICalculator() {
             </div>
             
             <div className="bg-black text-white p-8 lg:p-12">
-              <h3 className="text-2xl font-black uppercase mb-2">YOUR NUMBERS (CONSERVATIVE)</h3>
-              <p className="text-sm font-mono uppercase mb-6">BASED ON REAL B2B TRANSFORMATIONS</p>
+              <h3 className="text-2xl font-black uppercase mb-2">YOUR SOUL-PRESERVING GROWTH</h3>
+              <p className="text-sm font-mono uppercase mb-6">BASED ON COMPANIES WHO KEPT THEIR VALUES</p>
               
               <div className="space-y-4">
                 <div className="border-2 border-white p-4">
-                  <p className="text-xs font-bold uppercase mb-1">YEAR 1 ADDITIONAL REVENUE</p>
+                  <p className="text-xs font-bold uppercase mb-1">REVENUE WITHOUT LOSING YOUR SOUL</p>
                   <p className="text-5xl font-black">+${roi.additionalRevenue}</p>
                 </div>
                 
                 <div className="border border-gray-600 p-3">
-                  <p className="text-xs font-mono uppercase mb-1">PER REP IMPROVEMENT</p>
+                  <p className="text-xs font-mono uppercase mb-1">MORE RELATIONSHIP TIME PER REP</p>
                   <p className="text-3xl font-bold">+${roi.revenuePerRep}</p>
                 </div>
                 
                 <div className="grid grid-cols-2 gap-3">
                   <div className="border border-gray-600 p-3">
-                    <p className="text-xs font-mono uppercase mb-1">NEW DEALS</p>
+                    <p className="text-xs font-mono uppercase mb-1">MORE HANDSHAKES</p>
                     <p className="text-2xl font-bold">+{roi.additionalDeals}/YR</p>
                   </div>
                   
@@ -170,14 +170,14 @@ export default function ROICalculator() {
                   <p className="text-7xl font-black">{roi.roiMultiple}X</p>
                   <p className="text-sm font-mono uppercase mt-2">
                     {parseFloat(roi.roiMultiple) >= 10 ? 
-                      "MONEY LEFT ON TABLE" : 
-                      "EVERY MONTH COSTS THIS"}
+                      "RELATIONSHIPS WAITING TO HAPPEN" : 
+                      "CONNECTIONS LOST FOREVER"}
                   </p>
                 </div>
                 
                 <div className="border-t border-gray-600 pt-4">
                   <p className="text-xs font-mono uppercase">
-                    * ASSUMES ZERO IMPROVEMENT IN CLOSE RATES, DEAL SIZE, OR CYCLE TIME. JUST TIME SAVINGS.
+                    * YOUR VALUES STAY INTACT. YOUR HANDSHAKE STILL MEANS SOMETHING. YOU STAY YOU.
                   </p>
                 </div>
               </div>
@@ -192,28 +192,28 @@ export default function ROICalculator() {
               <span className="block text-5xl mt-2">${Math.round(parseFloat(roi.additionalRevenue.replace(/,/g, '')) / 12).toLocaleString()}/MONTH</span>
             </div>
             <p className="text-xl font-mono uppercase mt-4 mb-6">
-              THAT&apos;S WHAT WAITING COSTS. EVERY. SINGLE. MONTH.
+              THAT&apos;S HOW MANY RELATIONSHIPS DIE WHILE YOU WAIT.
             </p>
             
             <div className="border-2 border-black p-6 mb-6">
-              <p className="font-black uppercase mb-4">TWO WAYS THIS GOES:</p>
+              <p className="font-black uppercase mb-4">TWO PATHS FOR YOUR SOUL:</p>
               <div className="grid md:grid-cols-2 gap-4 text-left">
                 <div className="border border-black p-4">
-                  <p className="font-bold uppercase">OPTION A:</p>
-                  <p className="text-sm font-mono uppercase mt-2">KEEP READING CASE STUDIES FOR 6 MORE MONTHS</p>
+                  <p className="font-bold uppercase">PATH A:</p>
+                  <p className="text-sm font-mono uppercase mt-2">LET YOUR SOUL DIE SLOWLY IN SPREADSHEETS</p>
                 </div>
                 <div className="bg-black text-white p-4">
-                  <p className="font-bold uppercase">OPTION B:</p>
-                  <p className="text-sm font-mono uppercase mt-2">LOCK IN ${Math.round(parseFloat(roi.additionalRevenue.replace(/,/g, '')) / 12).toLocaleString()}/MO STARTING IN 30 DAYS</p>
+                  <p className="font-bold uppercase">PATH B:</p>
+                  <p className="text-sm font-mono uppercase mt-2">AMPLIFY RELATIONSHIPS. PRESERVE YOUR SOUL. GROW BORING.</p>
                 </div>
               </div>
             </div>
             
             <a href="#discovery" className="inline-block px-8 py-4 bg-black text-white font-bold uppercase hover:bg-gray-900 border border-black">
-              I CHOOSE OPTION B →
+              I CHOOSE MY SOUL →
             </a>
             <p className="text-sm font-mono uppercase mt-4">
-              15-MINUTE CALL. WE&apos;LL KNOW IN 5 IF WE&apos;RE A FIT.
+              15 MINUTES. WE&apos;LL KNOW IF OUR SOULS ALIGN.
             </p>
           </div>
         </div>
