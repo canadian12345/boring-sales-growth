@@ -1,8 +1,8 @@
 export default function RiskMitigation() {
   const risks = [
     {
-      concern: "WHAT IF WE LOSE OUR SOUL IN THE PROCESS?",
-      mitigation: "AI NEVER TOUCHES YOUR HANDSHAKE MOMENTS. IT HANDLES SPREADSHEETS WHILE YOU HANDLE SOULS. YOUR PERSONAL TOUCH STAYS PERSONAL, JUST REACHES MORE PEOPLE.",
+      concern: "WHAT IF WE LOSE OUR CULTURE IN THE PROCESS?",
+      mitigation: "AI NEVER TOUCHES YOUR HANDSHAKE MOMENTS. IT HANDLES SPREADSHEETS WHILE YOU HANDLE RELATIONSHIPS. YOUR PERSONAL TOUCH STAYS PERSONAL, JUST REACHES MORE PEOPLE.",
       icon: "01"
     },
     {
@@ -17,7 +17,7 @@ export default function RiskMitigation() {
     },
     {
       concern: "WHAT IF BORING GROWTH ISN&apos;T ENOUGH?",
-      mitigation: "BORING GROWTH COMPOUNDS. WHILE OTHERS DISRUPT AND FAIL, YOU'LL GROW STEADILY WITH SOUL INTACT. THAT'S HOW GENERATIONAL BUSINESSES ARE BUILT.",
+      mitigation: "BORING GROWTH COMPOUNDS. WHILE OTHERS DISRUPT AND FAIL, YOU'LL GROW STEADILY WITH VALUES INTACT. THAT'S HOW GENERATIONAL BUSINESSES ARE BUILT.",
       icon: "04"
     }
   ];
@@ -27,10 +27,10 @@ export default function RiskMitigation() {
       <div className="mx-auto max-w-7xl">
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-mono font-bold uppercase tracking-tight text-black">
-            PROTECTING WHAT MATTERS MOST: YOUR SOUL
+            PROTECTING WHAT MATTERS MOST: YOUR CULTURE
           </h2>
           <p className="mt-4 text-xl font-mono uppercase text-black max-w-3xl mx-auto">
-            EVERY FEAR IS VALID. HERE&apos;S HOW WE KEEP YOUR SOUL INTACT.
+            EVERY FEAR IS VALID. HERE&apos;S HOW WE KEEP YOUR VALUES INTACT.
           </p>
         </div>
         
@@ -50,12 +50,12 @@ export default function RiskMitigation() {
         
         <div className="mt-16 bg-black text-white p-8 text-center">
           <h3 className="text-2xl font-mono font-bold uppercase mb-4">
-            MY SOUL-KEEPING PROMISE
+            MY CULTURE-FIRST PROMISE
           </h3>
           <p className="text-lg font-mono uppercase mb-6">
-            IF YOU LOSE EVEN A PIECE OF YOUR SOUL, I&apos;VE FAILED.
+            IF YOU LOSE EVEN A PIECE OF YOUR CULTURE, I&apos;VE FAILED.
             <br />
-            GROWTH WITHOUT SOUL ISN&apos;T GROWTH - IT&apos;S DEATH BY A THOUSAND CUTS.
+            GROWTH WITHOUT VALUES ISN&apos;T GROWTH - IT&apos;S DEATH BY A THOUSAND CUTS.
           </p>
           <div className="flex flex-wrap justify-center gap-8 text-left">
             <div className="flex items-center gap-2">

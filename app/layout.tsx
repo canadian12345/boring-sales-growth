@@ -8,8 +8,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "BoringSalesGrowth - Keep Your Relationships. Amplify Your Results.",
-  description: "Grow revenue without losing your soul. We don't transform relationship-driven businesses—we amplify them. 40% growth while your handshake still means something. For B2B companies who refuse to choose between human connection and business results.",
+  title: "BoringSalesGrowth - AI for Traditional B2B Companies",
+  description: "Grow 40% without disrupting what works. We help relationship-driven B2B companies compete with AI-powered competitors by handling the repetitive work that kills sales momentum. No transformation. Just results.",
 };
 
 export default function RootLayout({
@@ -38,7 +38,7 @@ function Header() {
               <span className="text-2xl font-black tracking-tight">
                 BORING<span className="text-gray-500">SALES</span>
               </span>
-              <p className="text-xs font-mono uppercase hidden lg:block">GROWTH WITHOUT LOSING YOUR SOUL</p>
+              <p className="text-xs font-mono uppercase hidden lg:block">AI THAT PRESERVES WHAT WORKS</p>
             </div>
           </div>
           <nav className="hidden md:flex items-center gap-8">

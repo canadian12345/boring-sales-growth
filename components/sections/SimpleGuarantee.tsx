@@ -9,7 +9,7 @@ export default function SimpleGuarantee() {
           
           <div className="bg-white text-black border-4 border-white p-8">
             <p className="text-xl font-mono mb-6">
-              &quot;If I can&apos;t show you how to grow without losing your soul, 
+              &quot;If I can&apos;t show you how to grow without losing your culture, 
               I&apos;ll tell you straight. If we don&apos;t preserve what makes you special 
               while growing revenue, I work for free until we do.&quot;
             </p>
@@ -21,7 +21,7 @@ export default function SimpleGuarantee() {
               <div className="space-y-2 text-left max-w-md mx-auto">
                 <div className="flex items-center gap-3">
                   <span className="font-mono">→</span>
-                  <span className="font-mono text-sm">20 years keeping souls intact</span>
+                  <span className="font-mono text-sm">20 years preserving company cultures</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <span className="font-mono">→</span>
@@ -29,7 +29,7 @@ export default function SimpleGuarantee() {
                 </div>
                 <div className="flex items-center gap-3">
                   <span className="font-mono">→</span>
-                  <span className="font-mono text-sm">I only work with kindred souls</span>
+                  <span className="font-mono text-sm">I only work with relationship-driven companies</span>
                 </div>
               </div>
             </div>
@@ -37,7 +37,7 @@ export default function SimpleGuarantee() {
           
           <div className="mt-8">
             <a href="#discovery" className="inline-flex items-center justify-center px-8 py-4 text-lg font-bold font-mono uppercase text-black bg-white hover:bg-gray-100 transition-colors">
-              LET&apos;S TALK SOUL TO SOUL
+              LET&apos;S HAVE A REAL CONVERSATION
               <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
               </svg>

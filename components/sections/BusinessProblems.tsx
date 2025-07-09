@@ -48,7 +48,7 @@ export default function BusinessProblems() {
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-mono font-bold uppercase tracking-tight text-black mb-4">
             YOUR HANDSHAKE DEALS STILL WORK.
-            <span className="block">BUT YOUR SOUL IS DYING IN THE SPREADSHEETS.</span>
+            <span className="block">BUT YOUR RELATIONSHIPS ARE DROWNING IN ADMIN.</span>
           </h2>
           <p className="text-lg font-mono uppercase text-black max-w-3xl mx-auto">
             YOU BUILT THIS BUSINESS ON PERSONAL RELATIONSHIPS. SEE WHAT&apos;S STEALING THAT TIME:
@@ -71,7 +71,7 @@ export default function BusinessProblems() {
         <div className="bg-white border-4 border-black p-8 md:p-12">
           <div className="text-center mb-8">
             <h3 className="text-2xl font-mono font-bold uppercase text-black mb-4">
-              EVERY HOUR IN SYSTEMS IS AN HOUR AWAY FROM SOULS
+              EVERY HOUR IN SYSTEMS IS AN HOUR AWAY FROM CLIENTS
             </h3>
             <p className="text-lg font-mono uppercase text-black">
               HERE&apos;S WHAT&apos;S REALLY AT STAKE:
@@ -80,7 +80,7 @@ export default function BusinessProblems() {
           
           <div className="grid md:grid-cols-2 gap-8 mb-8">
             <div className="bg-gray-100 border-4 border-black p-6">
-              <h4 className="font-mono font-bold uppercase text-black mb-4">LOSING YOUR SOUL (NOW):</h4>
+              <h4 className="font-mono font-bold uppercase text-black mb-4">LOSING YOUR EDGE (NOW):</h4>
               <ul className="space-y-3 text-sm">
                 <li className="flex items-start gap-2">
                   <span className="font-mono font-bold text-black mt-1">✗</span>
@@ -102,7 +102,7 @@ export default function BusinessProblems() {
             </div>
             
             <div className="bg-white border-4 border-black p-6">
-              <h4 className="font-mono font-bold uppercase text-black mb-4">SOUL INTACT (WITH AI):</h4>
+              <h4 className="font-mono font-bold uppercase text-black mb-4">RELATIONSHIP-FIRST (WITH AI):</h4>
               <ul className="space-y-3 text-sm">
                 <li className="flex items-start gap-2">
                   <span className="font-mono font-bold text-black mt-1">✓</span>
@@ -126,7 +126,7 @@ export default function BusinessProblems() {
           
           <div className="bg-black text-white p-6 text-center">
             <p className="text-xl font-mono font-bold uppercase mb-2">
-              YOUR PEOPLE HAVE SOULS, NOT SPREADSHEETS.
+              YOUR PEOPLE BUILD RELATIONSHIPS, NOT SPREADSHEETS.
             </p>
             <p className="text-lg font-mono uppercase">
               LET&apos;S GIVE THEM BACK THEIR PURPOSE.

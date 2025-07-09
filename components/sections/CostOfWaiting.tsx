@@ -4,7 +4,7 @@ export default function CostOfWaiting() {
       <div className="mx-auto max-w-7xl">
         <div className="text-center mb-12">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-mono font-bold uppercase tracking-tight text-black mb-4">
-            THE COST OF LETTING YOUR SOUL DIE SLOWLY
+            THE COST OF LETTING YOUR RELATIONSHIPS FADE
           </h2>
         </div>
         
@@ -30,8 +30,8 @@ export default function CostOfWaiting() {
             <div className="bg-gray-100 border-4 border-black p-6">
               <h4 className="font-mono font-bold uppercase text-black mb-4">THE OPPORTUNITY:</h4>
               <p className="font-mono uppercase text-black mb-4">
-                RIGHT NOW, YOU CAN GROW WITHOUT LOSING YOUR SOUL. IN 18 MONTHS, 
-                YOU&apos;LL BE FORCED TO CHOOSE: DISRUPT EVERYTHING OR DIE TRYING.
+                RIGHT NOW, YOU CAN GROW WITHOUT LOSING YOUR CULTURE. IN 18 MONTHS, 
+                YOU&apos;LL BE FORCED TO CHOOSE: DISRUPT EVERYTHING OR FALL BEHIND.
               </p>
               <p className="text-lg font-mono font-bold uppercase text-black">
                 EVERY DAY YOU WAIT, ANOTHER HANDSHAKE BUSINESS DISCOVERS THEY CAN 
@@ -43,7 +43,7 @@ export default function CostOfWaiting() {
 
         <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
           <div className="bg-white border-4 border-black p-8">
-            <h3 className="text-xl font-mono font-bold uppercase text-black mb-4">SOULS WHO MOVE NOW GET:</h3>
+            <h3 className="text-xl font-mono font-bold uppercase text-black mb-4">COMPANIES WHO MOVE NOW GET:</h3>
             <ul className="space-y-3">
               <li className="flex items-start gap-3">
                 <span className="font-mono font-bold text-black text-xl">✓</span>
@@ -51,7 +51,7 @@ export default function CostOfWaiting() {
               </li>
               <li className="flex items-start gap-3">
                 <span className="font-mono font-bold text-black text-xl">✓</span>
-                <span className="font-mono uppercase text-black">KEEP YOUR HANDSHAKE CULTURE</span>
+                <span className="font-mono uppercase text-black">PRESERVE YOUR HANDSHAKE CULTURE</span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="font-mono font-bold text-black text-xl">✓</span>
@@ -65,7 +65,7 @@ export default function CostOfWaiting() {
           </div>
           
           <div className="bg-gray-100 border-4 border-black p-8">
-            <h3 className="text-xl font-mono font-bold uppercase text-black mb-4">SOULS WHO WAIT GET:</h3>
+            <h3 className="text-xl font-mono font-bold uppercase text-black mb-4">COMPANIES WHO WAIT GET:</h3>
             <ul className="space-y-3">
               <li className="flex items-start gap-3">
                 <span className="font-mono font-bold text-black text-xl">✗</span>
@@ -81,7 +81,7 @@ export default function CostOfWaiting() {
               </li>
               <li className="flex items-start gap-3">
                 <span className="font-mono font-bold text-black text-xl">✗</span>
-                <span className="font-mono uppercase text-black">SOUL-CRUSHING TRANSFORMATION</span>
+                <span className="font-mono uppercase text-black">CULTURE-DESTROYING TRANSFORMATION</span>
               </li>
             </ul>
           </div>
@@ -90,17 +90,17 @@ export default function CostOfWaiting() {
         <div className="mt-16 text-center">
           <div className="bg-black text-white p-8 max-w-2xl mx-auto">
             <p className="text-2xl font-mono font-bold uppercase mb-6">
-              YOUR SOUL IS WORTH SAVING. BUT NOT FOREVER.
+              YOUR RELATIONSHIPS ARE WORTH SAVING. BUT TIME IS LIMITED.
             </p>
             
             <a href="#discovery" className="inline-flex items-center justify-center px-8 py-4 text-lg font-mono font-bold uppercase bg-white text-black border-4 border-white hover:bg-black hover:text-white hover:border-white transition-colors">
-              KEEP YOUR SOUL, GROW YOUR BUSINESS
+              KEEP YOUR VALUES, GROW YOUR BUSINESS
               <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
               </svg>
             </a>
             <p className="text-sm font-mono uppercase mt-4">
-              FOR BUSINESSES THAT REFUSE TO LOSE THEIR SOUL
+              FOR BUSINESSES THAT REFUSE TO LOSE THEIR IDENTITY
             </p>
           </div>
         </div>

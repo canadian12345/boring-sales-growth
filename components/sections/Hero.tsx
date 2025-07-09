@@ -6,97 +6,92 @@ export default function Hero() {
         {/* Asymmetric grid - 8/4 instead of 7/5 */}
         <div className="grid lg:grid-cols-12 gap-8 lg:gap-16">
           <div className="lg:col-span-8">
-            {/* The holy shit number */}
+            {/* The proof */}
             <div className="mb-8">
-              <p className="text-sm font-mono text-gray-600 mb-2">ACTUAL CLIENT RESULT:</p>
+              <p className="text-sm font-mono text-gray-600 mb-2">MIDWEST MANUFACTURER:</p>
               <p className="text-6xl lg:text-7xl font-black tracking-tighter">$2.4M</p>
-              <p className="text-lg font-medium mt-2">Without losing a single handshake deal</p>
+              <p className="text-lg font-medium mt-2">40% revenue growth. Zero culture change.</p>
             </div>
             
             <h1 className="text-black mb-6">
-              Keep Your Relationships.<br/>
-              Amplify Your Results.
-              <span className="block mt-2">Grow Without Losing Your Soul.</span>
+              Your Competitors Are Using AI.<br/>
+              You&apos;re Losing Deals.
+              <span className="block mt-2">We Fix That. Quietly.</span>
             </h1>
             
             <p className="text-xl text-gray-700 mb-12 max-w-2xl">
-              Your handshake deals still matter. The trust you&apos;ve built is sacred. We don&apos;t transform 
-              relationship-driven businesses—we amplify them. 40% growth while staying 100% you.
+              Traditional B2B companies come to us when they&apos;re tired of losing to AI-powered competitors. 
+              We help them grow 40% by handling the repetitive work that&apos;s killing their sales momentum. 
+              No disruption. No drama. Just results.
             </p>
             
-            {/* ASCII-style diagram */}
+            {/* The simple truth */}
             <div className="bg-gray-50 border border-black p-6 mb-12 font-mono text-sm">
               <pre className="overflow-x-auto">
-{`BEFORE                     AI HANDLES              RESULT
+{`YOUR TEAM NOW              AI HANDLES              THEY GET BACK
 ━━━━━━━━━━━━━             ━━━━━━━━━━━             ━━━━━━━━━━━━
-Relationships dying   →    Admin busywork    →    Deeper connections
-Personal touch lost   →    Data entry        →    More conversations  
-Trust declining       →    Follow-up tasks   →    Soul preserved`}
+3hrs/day on admin    →    Follow-ups         →    3hrs for selling
+15 touchpoints       →    CRM updates        →    Real conversations  
+50% lead response    →    Scheduling         →    95% response rate`}
               </pre>
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
               <a href="#discovery" className="btn-primary">
-                PRESERVE YOUR PERSONAL TOUCH →
+                SEE IF YOU QUALIFY →
               </a>
-              <a href="#testimonials" className="btn-secondary">
-                SEE WHO KEPT THEIR SOUL
+              <a href="#roi" className="btn-secondary">
+                CALCULATE YOUR GROWTH
               </a>
             </div>
             
             <p className="text-sm text-gray-600 mt-8 font-mono">
-              * Your values stay intact
-              * Relationships get stronger, not automated
-              * Boring growth that actually lasts
+              * Average client: 40% growth in 12 months
+              * Your team stays the same, just more effective
+              * Month-to-month. Cancel anytime.
             </p>
           </div>
           
           <div className="lg:col-span-4">
-            {/* Stark black and white design */}
+            {/* The truth about AI */}
             <div className="border-2 border-black bg-white p-6">
-              <h4 className="font-black text-lg mb-6">AI AMPLIFIES. HUMANS CONNECT.</h4>
+              <h4 className="font-black text-lg mb-6">THE BORING TRUTH</h4>
               
               <div className="mb-6">
                 <div className="bg-black text-white p-3 mb-3">
-                  <h5 className="font-bold text-sm mb-2">ROBOTS DO:</h5>
+                  <h5 className="font-bold text-sm">AI DOES THE BORING:</h5>
                 </div>
                 <ul className="space-y-1 text-sm font-mono pl-4">
-                  <li>→ The noise that drowns relationships</li>
-                  <li>→ Tasks that steal connection time</li>
-                  <li>→ Admin that kills momentum</li>
-                  <li>→ Busywork that blocks growth</li>
-                  <li>→ Everything that isn&apos;t human</li>
+                  <li>→ Data entry nobody wants to do</li>
+                  <li>→ Follow-ups that slip through cracks</li>
+                  <li>→ Reports that waste Friday afternoons</li>
+                  <li>→ Scheduling that takes 12 emails</li>
+                  <li>→ Everything that isn&apos;t selling</li>
                 </ul>
               </div>
               
               <div className="mb-6">
                 <div className="border-2 border-black p-3 mb-3">
-                  <h5 className="font-bold text-sm mb-2">HUMANS DO:</h5>
+                  <h5 className="font-bold text-sm">HUMANS DO THE HUMAN:</h5>
                 </div>
                 <ul className="space-y-1 text-sm font-mono pl-4">
-                  <li>→ The handshake moments</li>
-                  <li>→ Trust-building conversations</li>
+                  <li>→ Understanding customer problems</li>
+                  <li>→ Building trust over time</li>
+                  <li>→ Negotiating complex deals</li>
                   <li>→ Reading between the lines</li>
-                  <li>→ Understanding unspoken needs</li>
-                  <li>→ Everything that makes you, you</li>
+                  <li>→ Actually closing business</li>
                 </ul>
               </div>
               
               <div className="bg-black text-white p-4 text-center">
-                <p className="font-black">RELATIONSHIPS AT SCALE</p>
+                <p className="font-black">RESULT: 40% GROWTH</p>
               </div>
             </div>
 
-            {/* Hand-drawn element */}
+            {/* Simple proof */}
             <div className="mt-8 text-center">
-              <svg width="200" height="60" className="inline-block">
-                <path d="M 10 30 Q 50 10 100 30 T 190 30" 
-                      stroke="black" 
-                      strokeWidth="3" 
-                      fill="none"
-                      strokeDasharray="5,5"/>
-                <text x="100" y="50" textAnchor="middle" className="font-bold text-sm">SOUL INTACT</text>
-              </svg>
+              <p className="text-sm font-bold uppercase">200+ B2B COMPANIES</p>
+              <p className="text-xs font-mono uppercase mt-1">BORING GROWTH SINCE 2019</p>
             </div>
           </div>
         </div>

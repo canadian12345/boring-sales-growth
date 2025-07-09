@@ -12,14 +12,14 @@ export default function AboutNoah() {
           <div className="grid lg:grid-cols-3 gap-8 items-start">
             <div className="lg:col-span-2 space-y-6">
               <p className="text-lg font-mono leading-relaxed text-black">
-                I&apos;ve watched too many good businesses lose their soul chasing growth. 
-                For 20 years, I&apos;ve helped handshake companies stay handshake companies 
+                I&apos;ve watched too many good businesses lose their identity chasing growth. 
+                For 20 years, I&apos;ve helped relationship-driven companies stay relationship-driven 
                 while growing steadily. AI threatened to change that - until I realized 
-                it could amplify souls instead of replacing them.
+                it could strengthen cultures instead of replacing them.
               </p>
               
               <div className="bg-black text-white p-6">
-                <h4 className="font-bold font-mono uppercase mb-3">What I&apos;ve learned keeping souls intact:</h4>
+                <h4 className="font-bold font-mono uppercase mb-3">What I&apos;ve learned preserving company cultures:</h4>
                 <p className="font-mono text-sm">
                   The best growth is boring growth. It&apos;s doing more handshake deals, 
                   having more coffee meetings, remembering more birthdays. AI just 
@@ -28,7 +28,7 @@ export default function AboutNoah() {
               </div>
               
               <p className="text-lg font-mono leading-relaxed text-black">
-                Your soul is in those personal touches - the remembered names, the 
+                Your competitive edge is in those personal touches - the remembered names, the 
                 handwritten notes, the genuine care. <span className="font-black uppercase">THAT&apos;S YOUR MOAT.</span> 
                 AI should give you more time for those moments, not automate them away.
               </p>
@@ -36,7 +36,7 @@ export default function AboutNoah() {
               <div className="border-l-4 border-black pl-6 py-2">
                 <p className="text-xl font-bold font-mono text-black">
                   &quot;The moment you automate the handshake is the moment you lose 
-                  your soul. Everything else? Fair game.&quot;
+                  what makes you unique. Everything else? Fair game.&quot;
                 </p>
                 <p className="text-sm font-mono text-gray-600 mt-2">— My philosophy after 20 years in B2B</p>
               </div>
@@ -52,7 +52,7 @@ export default function AboutNoah() {
                   </div>
                   <div className="flex items-start gap-3">
                     <span className="font-mono flex-shrink-0">→</span>
-                    <span className="font-mono text-sm">Zero souls lost to tech</span>
+                    <span className="font-mono text-sm">Zero cultures lost to tech</span>
                   </div>
                   <div className="flex items-start gap-3">
                     <span className="font-mono flex-shrink-0">→</span>
@@ -68,7 +68,7 @@ export default function AboutNoah() {
                   </div>
                 </div>
                 <div className="mt-6 pt-4 border-t-4 border-white">
-                  <p className="text-sm font-bold font-mono uppercase">I work with 5 souls at a time</p>
+                  <p className="text-sm font-bold font-mono uppercase">I work with 5 companies at a time</p>
                   <p className="text-xs font-mono">Quality over quantity, always</p>
                 </div>
               </div>
@@ -76,12 +76,12 @@ export default function AboutNoah() {
           </div>
           
           <div className="mt-12 p-6 bg-gray-100 border-4 border-black">
-            <h4 className="font-black uppercase mb-4 text-center">THE SOUL EQUATION:</h4>
+            <h4 className="font-black uppercase mb-4 text-center">THE RELATIONSHIP EQUATION:</h4>
             <div className="grid md:grid-cols-3 gap-6 text-center">
               <div>
                 <p className="text-xl font-bold font-mono uppercase mb-1">Time in systems</p>
                 <p className="text-3xl font-black">-65%</p>
-                <p className="font-mono text-sm">Less soul-crushing work</p>
+                <p className="font-mono text-sm">Less admin work</p>
               </div>
               <div>
                 <p className="text-xl font-bold font-mono uppercase mb-1">Time with people</p>
@@ -100,11 +100,11 @@ export default function AboutNoah() {
         <div className="mt-12 text-center">
           <div className="bg-white border-4 border-black p-8 max-w-2xl mx-auto">
             <p className="text-2xl font-black uppercase mb-6">
-              TWO PATHS, ONE SOUL:
+              TWO PATHS, ONE CHOICE:
             </p>
             <div className="grid md:grid-cols-2 gap-6 mb-8 text-left">
               <div className="bg-gray-100 border-4 border-black p-4">
-                <h4 className="font-bold font-mono uppercase mb-2">Lose Your Soul</h4>
+                <h4 className="font-bold font-mono uppercase mb-2">Lose Your Identity</h4>
                 <ul className="text-sm font-mono space-y-1">
                   <li>→ Chase disruption</li>
                   <li>→ Automate everything</li>
@@ -113,7 +113,7 @@ export default function AboutNoah() {
                 </ul>
               </div>
               <div className="bg-black text-white p-4">
-                <h4 className="font-bold font-mono uppercase mb-2">Keep Your Soul</h4>
+                <h4 className="font-bold font-mono uppercase mb-2">Keep Your Culture</h4>
                 <ul className="text-sm font-mono space-y-1">
                   <li>→ Boring growth that lasts</li>
                   <li>→ More handshake moments</li>
@@ -126,7 +126,7 @@ export default function AboutNoah() {
               href="#discovery"
               className="inline-flex items-center justify-center px-8 py-4 text-lg font-bold font-mono uppercase text-white bg-black hover:bg-gray-900 transition-colors"
             >
-              LET&apos;S GROW WITH SOUL INTACT
+              LET&apos;S GROW WITH VALUES INTACT
               <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
               </svg>

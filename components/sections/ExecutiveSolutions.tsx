@@ -4,14 +4,14 @@ export default function ExecutiveSolutions() {
       <div className="mx-auto max-w-4xl">
         <div className="text-center mb-12">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-mono font-bold uppercase tracking-tight text-black mb-4">
-            BORING GROWTH THAT KEEPS YOUR SOUL INTACT
+            BORING GROWTH THAT KEEPS YOUR CULTURE INTACT
           </h2>
         </div>
         
         <div className="bg-gray-100 border-4 border-black p-8 mb-12">
           <div className="grid md:grid-cols-2 gap-8">
             <div>
-              <h4 className="font-mono font-bold uppercase text-black mb-4">YOUR REP&apos;S MORNING (LOSING SOUL):</h4>
+              <h4 className="font-mono font-bold uppercase text-black mb-4">YOUR REP&apos;S MORNING (LOSING TIME):</h4>
               <ul className="space-y-2 text-sm">
                 <li className="font-mono uppercase text-black">⏰ <span className="font-bold">8:00 - 8:45:</span> TYPING INSTEAD OF TALKING</li>
                 <li className="font-mono uppercase text-black">⏰ <span className="font-bold">8:45 - 9:15:</span> SEARCHING INSTEAD OF CONNECTING</li>
@@ -21,7 +21,7 @@ export default function ExecutiveSolutions() {
               </ul>
             </div>
             <div>
-              <h4 className="font-mono font-bold uppercase text-black mb-4">WITH AI (SOUL RESTORED):</h4>
+              <h4 className="font-mono font-bold uppercase text-black mb-4">WITH AI (TIME RECLAIMED):</h4>
               <ul className="space-y-2 text-sm">
                 <li className="font-mono uppercase text-black">✓ ADMIN HANDLED WHILE YOU SLEEP</li>
                 <li className="font-mono uppercase text-black">✓ WARM RELATIONSHIPS FLAGGED</li>
@@ -55,7 +55,7 @@ export default function ExecutiveSolutions() {
             <div className="border-l-4 border-black pl-6">
               <h4 className="font-mono font-bold uppercase text-black mb-2">WEEK 2-4: TRUST BUILDS</h4>
               <p className="font-mono uppercase text-black">TEAM ASKS: &quot;CAN IT HELP WITH...?&quot; WE ADD WHAT THEY WANT.</p>
-              <p className="text-sm font-mono uppercase text-black mt-2">RESULT: MORE COFFEE MEETINGS. DEEPER CONVERSATIONS. SOUL RETURNS.</p>
+              <p className="text-sm font-mono uppercase text-black mt-2">RESULT: MORE COFFEE MEETINGS. DEEPER CONVERSATIONS. RELATIONSHIPS THRIVE.</p>
             </div>
             
             <div className="border-l-4 border-black pl-6">
@@ -76,17 +76,17 @@ export default function ExecutiveSolutions() {
           <h3 className="text-2xl font-mono font-bold uppercase mb-6">AMPLIFY NOT REPLACE:</h3>
           <div className="grid md:grid-cols-2 gap-8">
             <div>
-              <h4 className="font-mono font-bold uppercase mb-3">SOUL-KILLING AI (AVOID):</h4>
+              <h4 className="font-mono font-bold uppercase mb-3">RELATIONSHIP-KILLING AI (AVOID):</h4>
               <ul className="space-y-2">
                 <li className="font-mono uppercase">✗ REPLACES YOUR PERSONAL TOUCH</li>
                 <li className="font-mono uppercase">✗ AUTOMATES HANDSHAKE MOMENTS</li>
-                <li className="font-mono uppercase">✗ FORCES NEW WAYS ON OLD SOULS</li>
+                <li className="font-mono uppercase">✗ FORCES NEW WAYS ON VETERAN TEAMS</li>
                 <li className="font-mono uppercase">✗ MAKES TEAM FEEL REPLACEABLE</li>
                 <li className="font-mono uppercase">✗ TURNS YOU INTO JUST ANOTHER TECH CO</li>
               </ul>
             </div>
             <div>
-              <h4 className="font-mono font-bold uppercase mb-3">SOUL-KEEPING AI (US):</h4>
+              <h4 className="font-mono font-bold uppercase mb-3">RELATIONSHIP-FIRST AI (US):</h4>
               <ul className="space-y-2">
                 <li className="font-mono uppercase">✓ AI DOES PAPERWORK, YOU DO PEOPLE</li>
                 <li className="font-mono uppercase">✓ ENHANCES YOUR PERSONAL TOUCH</li>
@@ -99,7 +99,7 @@ export default function ExecutiveSolutions() {
           <div className="mt-6 pt-6 border-t-4 border-white">
             <p className="text-center text-lg font-mono uppercase">
               <span className="font-bold">THE TRUTH:</span> BORING GROWTH THAT LASTS COMES FROM 
-              DOING MORE OF WHAT ALREADY WORKS. WITH YOUR SOUL INTACT.
+              DOING MORE OF WHAT ALREADY WORKS. WITH YOUR VALUES INTACT.
             </p>
           </div>
         </div>

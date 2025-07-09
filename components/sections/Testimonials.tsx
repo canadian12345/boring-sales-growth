@@ -8,7 +8,7 @@ export default function Testimonials() {
       title: "VP Sales, Tech Distribution",
       company: "Austin • 89 employees • $34M revenue",
       image: "/testimonials/sarah-chen.jpg",
-      quote: "I was losing my soul in spreadsheets. Now I'm back to what I love - actually talking to people. AI handles the boring stuff while I have real conversations. My wife says I'm myself again. Revenue's up too, but that's not why this matters.",
+      quote: "I was drowning in spreadsheets. Now I'm back to what I love - actually talking to people. AI handles the boring stuff while I have real conversations. My team feels energized again. Revenue's up too, but the real win is we're building relationships again.",
       results: {
         metric: "47% revenue growth",
         timeframe: "Same headcount",
@@ -34,7 +34,7 @@ export default function Testimonials() {
       title: "Sales Director, B2B Services",
       company: "Phoenix • 43 employees • $8.5M revenue",
       image: "/testimonials/jennifer-martinez.jpg",
-      quote: "My 67-year-old top rep said 'Finally, I can sell like it's 1985 again - all relationships, no paperwork.' My millennials are having coffee meetings instead of updating CRMs. We're all doing business with soul again.",
+      quote: "My 67-year-old top rep said 'Finally, I can sell like it's 1985 again - all relationships, no paperwork.' My millennials are having coffee meetings instead of updating CRMs. We're all focused on what matters - people.",
       results: {
         metric: "100% adoption",
         timeframe: "One week",
@@ -48,7 +48,7 @@ export default function Testimonials() {
       <div className="mx-auto max-w-7xl">
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl font-black uppercase tracking-tight text-black mb-4">
-            PEOPLE WHO KEPT THEIR SOULS
+            COMPANIES THAT KEPT THEIR VALUES
           </h2>
           <p className="text-lg font-mono text-gray-600 max-w-3xl mx-auto">
             REAL STORIES FROM BUSINESSES THAT CHOSE BORING GROWTH OVER DISRUPTION. RELATIONSHIPS INTACT.

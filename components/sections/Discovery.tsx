@@ -4,10 +4,10 @@ export default function Discovery() {
       <div className="mx-auto max-w-5xl">
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl font-black uppercase tracking-tight text-black mb-4">
-            LET&apos;S SEE IF OUR SOULS ALIGN
+            LET&apos;S SEE IF OUR VALUES ALIGN
           </h2>
           <p className="text-lg font-mono text-gray-600 uppercase">
-            No sales pitch. Just two people who believe business has a soul.
+            No sales pitch. Just two people who believe relationships drive business.
           </p>
         </div>
 
@@ -33,7 +33,7 @@ export default function Discovery() {
                   <span className="font-mono font-bold text-white">2</span>
                 </div>
                 <div>
-                  <p className="font-bold font-mono text-black uppercase">Your Soul&apos;s Health</p>
+                  <p className="font-bold font-mono text-black uppercase">Your Team&apos;s Morale</p>
                   <p className="text-sm font-mono text-gray-700 mt-1">
                     Where admin is killing relationships and how we&apos;ll fix it without disruption
                   </p>
@@ -47,7 +47,7 @@ export default function Discovery() {
                 <div>
                   <p className="font-bold font-mono text-black uppercase">A Handshake Deal</p>
                   <p className="text-sm font-mono text-gray-700 mt-1">
-                    If we&apos;re kindred souls, we&apos;ll start small. If not, we&apos;ll stay friends
+                    If our values align, we&apos;ll start small. If not, we&apos;ll stay friends
                   </p>
                 </div>
               </div>
@@ -55,7 +55,7 @@ export default function Discovery() {
             
             <div className="mt-8 p-4 bg-black text-white">
               <p className="text-sm font-mono">
-                <strong>MY PROMISE:</strong> If I can&apos;t help you grow with soul intact, 
+                <strong>MY PROMISE:</strong> If I can&apos;t help you grow with culture intact, 
                 I&apos;ll tell you straight. No BS, just truth.
               </p>
             </div>
@@ -97,7 +97,7 @@ export default function Discovery() {
         <div className="mt-16 grid md:grid-cols-3 gap-8 text-center">
           <div className="border-4 border-black p-6">
             <div className="text-3xl font-black text-black mb-2">100%</div>
-            <p className="text-sm font-mono text-gray-600 uppercase">Souls kept intact</p>
+            <p className="text-sm font-mono text-gray-600 uppercase">Cultures preserved</p>
           </div>
           <div className="border-4 border-black p-6">
             <div className="text-3xl font-black text-black mb-2">0</div>
