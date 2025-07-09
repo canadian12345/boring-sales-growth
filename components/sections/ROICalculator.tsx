@@ -35,75 +35,73 @@ export default function ROICalculator() {
   const roi = calculateROI();
   
   const getSliderLabel = () => {
-    if (improvementRate <= 20) return "Playing It Safe";
-    if (improvementRate <= 40) return "What Most See";
-    if (improvementRate <= 60) return "Top 20% Results";
-    return "Best We've Done";
+    if (improvementRate <= 20) return "CONSERVATIVE";
+    if (improvementRate <= 40) return "TYPICAL RESULTS";
+    if (improvementRate <= 60) return "TOP 20%";
+    return "BEST CASE";
   };
 
   return (
-    <section id="roi" className="section-padding bg-gradient-to-br from-green-50 via-white to-navy-50">
+    <section id="roi" className="section-padding bg-gray-100 border-t-4 border-black">
       <div className="container">
-        <div className="text-center mb-16">
-          <h2 className="text-navy-900 mb-4">
-            Stop Guessing. Start Calculating.
+        <div className="mb-16">
+          <h2 className="text-black mb-4">
+            ROI CALCULATOR
           </h2>
-          <p className="text-xl text-navy-600 max-w-3xl mx-auto">
-            Average client ROI: <span className="font-bold text-green-600">23X in Year 1</span>. 
-            Worst performance ever: <span className="font-bold">3X</span>. 
-            Your numbers:
+          <p className="text-xl font-mono uppercase">
+            AVERAGE CLIENT ROI: 23X YEAR 1. WORST EVER: 3X. YOUR NUMBERS:
           </p>
         </div>
         
-        <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
+        <div className="border-4 border-black bg-white">
           <div className="grid lg:grid-cols-2">
-            <div className="p-8 lg:p-12">
-              <h3 className="text-xl font-bold text-navy-900 mb-8">Your Business Metrics</h3>
+            <div className="p-8 lg:p-12 border-r-4 border-black">
+              <h3 className="text-2xl font-black uppercase mb-8">YOUR METRICS</h3>
               
               <div className="space-y-6">
                 <div>
-                  <label className="block text-sm font-medium text-navy-700 mb-2">
-                    Current Annual Revenue
+                  <label className="block text-xs font-bold uppercase tracking-wider mb-2">
+                    CURRENT ANNUAL REVENUE
                   </label>
                   <div className="relative">
-                    <span className="absolute left-4 top-1/2 transform -translate-y-1/2 text-navy-500 text-sm">$</span>
+                    <span className="absolute left-4 top-1/2 transform -translate-y-1/2 font-mono">$</span>
                     <input
                       type="number"
                       value={currentRevenue}
                       onChange={(e) => setCurrentRevenue(e.target.value)}
                       onFocus={() => setActiveInput('revenue')}
                       onBlur={() => setActiveInput('')}
-                      className="w-full pl-10 pr-4 py-3 text-lg border-2 border-navy-200 rounded-lg focus:ring-0 focus:border-green-500 transition-colors"
+                      className="w-full pl-10 pr-4 py-3 text-lg font-mono border-2 border-black focus:outline-none focus:ring-2 focus:ring-black"
                     />
                   </div>
                   {activeInput === 'revenue' && (
-                    <p className="text-xs text-navy-500 mt-1">Your total sales last year</p>
+                    <p className="text-xs font-mono uppercase mt-1">YOUR TOTAL SALES LAST YEAR</p>
                   )}
                 </div>
                 
                 <div>
-                  <label className="block text-sm font-medium text-navy-700 mb-2">
-                    Average Deal Size
+                  <label className="block text-xs font-bold uppercase tracking-wider mb-2">
+                    AVERAGE DEAL SIZE
                   </label>
                   <div className="relative">
-                    <span className="absolute left-4 top-1/2 transform -translate-y-1/2 text-navy-500 text-sm">$</span>
+                    <span className="absolute left-4 top-1/2 transform -translate-y-1/2 font-mono">$</span>
                     <input
                       type="number"
                       value={avgDealSize}
                       onChange={(e) => setAvgDealSize(e.target.value)}
                       onFocus={() => setActiveInput('deal')}
                       onBlur={() => setActiveInput('')}
-                      className="w-full pl-10 pr-4 py-3 text-lg border-2 border-navy-200 rounded-lg focus:ring-0 focus:border-green-500 transition-colors"
+                      className="w-full pl-10 pr-4 py-3 text-lg font-mono border-2 border-black focus:outline-none focus:ring-2 focus:ring-black"
                     />
                   </div>
                   {activeInput === 'deal' && (
-                    <p className="text-xs text-navy-500 mt-1">Typical contract value</p>
+                    <p className="text-xs font-mono uppercase mt-1">TYPICAL CONTRACT VALUE</p>
                   )}
                 </div>
                 
                 <div>
-                  <label className="block text-sm font-medium text-navy-700 mb-2">
-                    Sales Team Size
+                  <label className="block text-xs font-bold uppercase tracking-wider mb-2">
+                    SALES TEAM SIZE
                   </label>
                   <input
                     type="number"
@@ -111,16 +109,16 @@ export default function ROICalculator() {
                     onChange={(e) => setSalesTeamSize(e.target.value)}
                     onFocus={() => setActiveInput('team')}
                     onBlur={() => setActiveInput('')}
-                    className="w-full px-4 py-3 text-lg border-2 border-navy-200 rounded-lg focus:ring-0 focus:border-green-500 transition-colors"
+                    className="w-full px-4 py-3 text-lg font-mono border-2 border-black focus:outline-none focus:ring-2 focus:ring-black"
                   />
                   {activeInput === 'team' && (
-                    <p className="text-xs text-navy-500 mt-1">Number of sales reps</p>
+                    <p className="text-xs font-mono uppercase mt-1">NUMBER OF SALES REPS</p>
                   )}
                 </div>
                 
                 <div className="pt-4">
-                  <label className="block text-sm font-medium text-navy-700 mb-4">
-                    Expected Improvement: <span className="text-green-600 font-bold">{getSliderLabel()}</span>
+                  <label className="block text-xs font-bold uppercase tracking-wider mb-4">
+                    EXPECTED IMPROVEMENT: <span className="text-lg">{getSliderLabel()}</span>
                   </label>
                   <input
                     type="range"
@@ -129,58 +127,57 @@ export default function ROICalculator() {
                     step="10"
                     value={improvementRate}
                     onChange={(e) => setImprovementRate(parseInt(e.target.value))}
-                    className="w-full"
+                    className="w-full accent-black"
                   />
-                  <div className="flex justify-between text-xs text-navy-500 mt-2">
-                    <span>Conservative</span>
-                    <span className="font-semibold text-green-600">{improvementRate}%</span>
-                    <span>Aggressive</span>
+                  <div className="flex justify-between text-xs font-mono uppercase mt-2">
+                    <span>10%</span>
+                    <span className="font-bold text-lg">{improvementRate}%</span>
+                    <span>100%</span>
                   </div>
                 </div>
               </div>
             </div>
             
-            <div className="bg-gradient-to-br from-navy-900 to-navy-800 p-8 lg:p-12 text-white">
-              <h3 className="text-xl font-bold mb-2">Your Numbers (Conservative):</h3>
-              <p className="text-sm text-navy-300 mb-6">Based on real-world B2B transformations</p>
+            <div className="bg-black text-white p-8 lg:p-12">
+              <h3 className="text-2xl font-black uppercase mb-2">YOUR NUMBERS (CONSERVATIVE)</h3>
+              <p className="text-sm font-mono uppercase mb-6">BASED ON REAL B2B TRANSFORMATIONS</p>
               
               <div className="space-y-4">
-                <div className="bg-green-500/20 border border-green-400/30 rounded-lg p-4">
-                  <p className="text-green-400 text-sm mb-1">Year 1 Additional Revenue</p>
-                  <p className="text-4xl font-bold">+${roi.additionalRevenue}</p>
+                <div className="border-2 border-white p-4">
+                  <p className="text-xs font-bold uppercase mb-1">YEAR 1 ADDITIONAL REVENUE</p>
+                  <p className="text-5xl font-black">+${roi.additionalRevenue}</p>
                 </div>
                 
-                <div className="bg-white/10 rounded-lg p-3">
-                  <p className="text-navy-300 text-sm mb-1">Per Rep Improvement</p>
-                  <p className="text-2xl font-bold">+${roi.revenuePerRep}</p>
+                <div className="border border-gray-600 p-3">
+                  <p className="text-xs font-mono uppercase mb-1">PER REP IMPROVEMENT</p>
+                  <p className="text-3xl font-bold">+${roi.revenuePerRep}</p>
                 </div>
                 
                 <div className="grid grid-cols-2 gap-3">
-                  <div className="bg-white/10 rounded-lg p-3">
-                    <p className="text-navy-300 text-xs mb-1">New Deals</p>
-                    <p className="text-xl font-bold">+{roi.additionalDeals}/yr</p>
+                  <div className="border border-gray-600 p-3">
+                    <p className="text-xs font-mono uppercase mb-1">NEW DEALS</p>
+                    <p className="text-2xl font-bold">+{roi.additionalDeals}/YR</p>
                   </div>
                   
-                  <div className="bg-white/10 rounded-lg p-3">
-                    <p className="text-navy-300 text-xs mb-1">Break Even</p>
-                    <p className="text-xl font-bold">{roi.timeToPayback} months</p>
+                  <div className="border border-gray-600 p-3">
+                    <p className="text-xs font-mono uppercase mb-1">BREAK EVEN</p>
+                    <p className="text-2xl font-bold">{roi.timeToPayback} MO</p>
                   </div>
                 </div>
                 
-                <div className="bg-yellow-400 text-navy-900 rounded-lg p-6 text-center">
-                  <p className="text-xs font-medium mb-1">YOUR ROI</p>
-                  <p className="text-6xl font-black">{roi.roiMultiple}X</p>
-                  <p className="text-sm font-bold mt-2">
+                <div className="bg-white text-black p-6 text-center">
+                  <p className="text-xs font-bold uppercase mb-1">YOUR ROI</p>
+                  <p className="text-7xl font-black">{roi.roiMultiple}X</p>
+                  <p className="text-sm font-mono uppercase mt-2">
                     {parseFloat(roi.roiMultiple) >= 10 ? 
-                      "You're leaving money on the table" : 
-                      "Every month you wait costs this much"}
+                      "MONEY LEFT ON TABLE" : 
+                      "EVERY MONTH COSTS THIS"}
                   </p>
                 </div>
                 
-                <div className="border-t border-navy-700 pt-4">
-                  <p className="text-sm text-navy-300">
-                    <span className="text-green-400 font-bold">Remember:</span> This assumes 
-                    zero improvement in close rates, deal size, or cycle time. Just time savings.
+                <div className="border-t border-gray-600 pt-4">
+                  <p className="text-xs font-mono uppercase">
+                    * ASSUMES ZERO IMPROVEMENT IN CLOSE RATES, DEAL SIZE, OR CYCLE TIME. JUST TIME SAVINGS.
                   </p>
                 </div>
               </div>
@@ -189,37 +186,34 @@ export default function ROICalculator() {
         </div>
         
         <div className="mt-12">
-          <div className="bg-white rounded-xl shadow-xl p-8 max-w-3xl mx-auto text-center">
-            <div className="text-4xl font-bold text-navy-900 mb-2">
-              ${roi.additionalRevenue} ÷ 12 months = 
-              <span className="text-green-600"> ${Math.round(parseFloat(roi.additionalRevenue.replace(/,/g, '')) / 12).toLocaleString()}/month</span>
+          <div className="border-4 border-black bg-white p-8 max-w-3xl mx-auto text-center">
+            <div className="text-4xl font-black mb-2">
+              ${roi.additionalRevenue} ÷ 12 = 
+              <span className="block text-5xl mt-2">${Math.round(parseFloat(roi.additionalRevenue.replace(/,/g, '')) / 12).toLocaleString()}/MONTH</span>
             </div>
-            <p className="text-lg text-navy-700 mb-6">
-              That&apos;s what waiting costs you. Every. Single. Month.
+            <p className="text-xl font-mono uppercase mt-4 mb-6">
+              THAT'S WHAT WAITING COSTS. EVERY. SINGLE. MONTH.
             </p>
             
-            <div className="bg-navy-50 rounded-lg p-6 mb-6">
-              <p className="font-bold text-navy-900 mb-2">Two ways this goes:</p>
+            <div className="border-2 border-black p-6 mb-6">
+              <p className="font-black uppercase mb-4">TWO WAYS THIS GOES:</p>
               <div className="grid md:grid-cols-2 gap-4 text-left">
-                <div>
-                  <p className="font-semibold text-red-600">Option A:</p>
-                  <p className="text-sm text-navy-700">Keep reading case studies for 6 more months</p>
+                <div className="border border-black p-4">
+                  <p className="font-bold uppercase">OPTION A:</p>
+                  <p className="text-sm font-mono uppercase mt-2">KEEP READING CASE STUDIES FOR 6 MORE MONTHS</p>
                 </div>
-                <div>
-                  <p className="font-semibold text-green-600">Option B:</p>
-                  <p className="text-sm text-navy-700">Lock in ${Math.round(parseFloat(roi.additionalRevenue.replace(/,/g, '')) / 12).toLocaleString()}/mo starting in 30 days</p>
+                <div className="bg-black text-white p-4">
+                  <p className="font-bold uppercase">OPTION B:</p>
+                  <p className="text-sm font-mono uppercase mt-2">LOCK IN ${Math.round(parseFloat(roi.additionalRevenue.replace(/,/g, '')) / 12).toLocaleString()}/MO STARTING IN 30 DAYS</p>
                 </div>
               </div>
             </div>
             
-            <a href="#discovery" className="btn-primary text-lg px-8 py-4">
-              I Choose Option B
-              <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
-              </svg>
+            <a href="#discovery" className="inline-block px-8 py-4 bg-black text-white font-bold uppercase hover:bg-gray-900 border border-black">
+              I CHOOSE OPTION B →
             </a>
-            <p className="text-sm text-navy-500 mt-4">
-              15-minute call. We&apos;ll know in 5 if we&apos;re a fit.
+            <p className="text-sm font-mono uppercase mt-4">
+              15-MINUTE CALL. WE'LL KNOW IN 5 IF WE'RE A FIT.
             </p>
           </div>
         </div>

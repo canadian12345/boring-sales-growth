@@ -44,43 +44,43 @@ export default function Testimonials() {
   ];
 
   return (
-    <section className="section-padding bg-white">
-      <div className="container">
-        <div className="text-center mb-12">
-          <h2 className="text-navy-900 mb-4">
-            Works for Any Team That Values Relationships
+    <section className="py-24 px-4 sm:px-6 lg:px-8 bg-white">
+      <div className="mx-auto max-w-7xl">
+        <div className="text-center mb-16">
+          <h2 className="text-4xl sm:text-5xl font-black uppercase tracking-tight text-black mb-4">
+            WORKS FOR ANY TEAM
           </h2>
-          <p className="text-xl text-navy-600 max-w-3xl mx-auto">
-            From tech-savvy millennials to relationship veterans. If you believe business is personal, this is for you.
+          <p className="text-lg font-mono text-gray-600 max-w-3xl mx-auto">
+            FROM TECH-SAVVY MILLENNIALS TO RELATIONSHIP VETERANS. IF YOU BELIEVE BUSINESS IS PERSONAL, THIS IS FOR YOU.
           </p>
         </div>
 
         <div className="grid lg:grid-cols-3 gap-8">
           {testimonials.map((testimonial, index) => (
-            <div key={index} className="card p-8 hover:shadow-lg transition-all">
+            <div key={index} className="border-4 border-black bg-white p-8 hover:bg-gray-50 transition-colors">
               <div className="flex items-start gap-4 mb-6">
-                <div className="w-16 h-16 bg-navy-200 rounded-full flex items-center justify-center text-2xl font-bold text-navy-700">
+                <div className="w-16 h-16 bg-black flex items-center justify-center text-2xl font-bold text-white font-mono">
                   {testimonial.name.charAt(0)}
                 </div>
                 <div className="flex-1">
-                  <h3 className="font-bold text-navy-900">{testimonial.name}, {testimonial.age}</h3>
-                  <p className="text-sm text-navy-600">{testimonial.title}</p>
-                  <p className="text-xs text-navy-500 mt-1">{testimonial.company}</p>
+                  <h3 className="font-bold text-black uppercase font-mono">{testimonial.name}, {testimonial.age}</h3>
+                  <p className="text-sm font-mono text-gray-600">{testimonial.title}</p>
+                  <p className="text-xs font-mono text-gray-500 mt-1">{testimonial.company}</p>
                 </div>
               </div>
 
-              <blockquote className="text-navy-700 mb-6">
+              <blockquote className="font-mono text-sm text-black mb-6 leading-relaxed">
                 &quot;{testimonial.quote}&quot;
               </blockquote>
 
-              <div className="bg-green-50 p-4 rounded-lg">
-                <div className="text-3xl font-bold text-green-600 mb-1">
+              <div className="border-4 border-black bg-gray-100 p-4">
+                <div className="text-3xl font-black uppercase text-black mb-1">
                   {testimonial.results.metric}
                 </div>
-                <p className="text-sm text-green-700 font-medium">
+                <p className="text-sm font-mono font-bold text-black uppercase">
                   {testimonial.results.timeframe}
                 </p>
-                <p className="text-xs text-navy-600 mt-2">
+                <p className="text-xs font-mono text-gray-600 mt-2">
                   {testimonial.results.specifics}
                 </p>
               </div>
@@ -88,22 +88,22 @@ export default function Testimonials() {
           ))}
         </div>
 
-        <div className="mt-12 text-center">
-          <p className="text-lg text-navy-700 mb-6">
+        <div className="mt-16 text-center">
+          <p className="text-lg font-mono text-black mb-8 uppercase">
             Want to verify these results? We&apos;ll connect you directly with any of these CEOs.
           </p>
-          <div className="inline-flex items-center gap-8">
+          <div className="inline-flex items-center gap-12">
             <div className="text-center">
-              <div className="text-4xl font-bold text-navy-900">$4.2M</div>
-              <p className="text-sm text-navy-600">Additional revenue last month</p>
+              <div className="text-4xl font-black uppercase text-black">$4.2M</div>
+              <p className="text-sm font-mono text-gray-600 uppercase">Additional revenue last month</p>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-navy-900">16 min</div>
-              <p className="text-sm text-navy-600">Average time to first win</p>
+              <div className="text-4xl font-black uppercase text-black">16 MIN</div>
+              <p className="text-sm font-mono text-gray-600 uppercase">Average time to first win</p>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-navy-900">100%</div>
-              <p className="text-sm text-navy-600">Money-back guarantee</p>
+              <div className="text-4xl font-black uppercase text-black">100%</div>
+              <p className="text-sm font-mono text-gray-600 uppercase">Money-back guarantee</p>
             </div>
           </div>
         </div>

@@ -1,80 +1,80 @@
 export default function RiskMitigation() {
   const risks = [
     {
-      concern: "What if it disrupts our existing relationships?",
-      mitigation: "AI works behind the scenes. Your team maintains full control of all customer interactions. We enhance, never replace, the human touch.",
-      icon: "🛡️"
+      concern: "WHAT IF IT DISRUPTS OUR EXISTING RELATIONSHIPS?",
+      mitigation: "AI WORKS BEHIND THE SCENES. YOUR TEAM MAINTAINS FULL CONTROL OF ALL CUSTOMER INTERACTIONS. WE ENHANCE, NEVER REPLACE, THE HUMAN TOUCH.",
+      icon: "01"
     },
     {
-      concern: "How do we implement without disrupting operations?",
-      mitigation: "Gradual rollout starting with one team. Prove results, then scale. No 'big bang' implementations that risk your business.",
-      icon: "📊"
+      concern: "HOW DO WE IMPLEMENT WITHOUT DISRUPTING OPERATIONS?",
+      mitigation: "GRADUAL ROLLOUT STARTING WITH ONE TEAM. PROVE RESULTS, THEN SCALE. NO 'BIG BANG' IMPLEMENTATIONS THAT RISK YOUR BUSINESS.",
+      icon: "02"
     },
     {
-      concern: "Will our sales team resist the change?",
-      mitigation: "We make their jobs easier, not harder. Less admin work, more selling. Teams typically adopt within 2 weeks when they see the benefits.",
-      icon: "👥"
+      concern: "WILL OUR SALES TEAM RESIST THE CHANGE?",
+      mitigation: "WE MAKE THEIR JOBS EASIER, NOT HARDER. LESS ADMIN WORK, MORE SELLING. TEAMS TYPICALLY ADOPT WITHIN 2 WEEKS WHEN THEY SEE THE BENEFITS.",
+      icon: "03"
     },
     {
-      concern: "What if it doesn&apos;t work for our industry?",
-      mitigation: "30-day pilot program with success metrics defined upfront. If we don&apos;t hit the targets, you don&apos;t pay. Zero risk to try.",
-      icon: "✅"
+      concern: "WHAT IF IT DOESN'T WORK FOR OUR INDUSTRY?",
+      mitigation: "30-DAY PILOT PROGRAM WITH SUCCESS METRICS DEFINED UPFRONT. IF WE DON'T HIT THE TARGETS, YOU DON'T PAY. ZERO RISK TO TRY.",
+      icon: "04"
     }
   ];
 
   return (
-    <section id="risk" className="py-24 px-4 sm:px-6 lg:px-8 bg-navy-50">
+    <section id="risk" className="py-24 px-4 sm:px-6 lg:px-8 bg-white">
       <div className="mx-auto max-w-7xl">
         <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl font-bold text-navy-900">
-            Addressing Your Concerns Head-On
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-mono font-bold uppercase tracking-tight text-black">
+            ADDRESSING YOUR CONCERNS HEAD-ON
           </h2>
-          <p className="mt-4 text-xl text-navy-600 max-w-3xl mx-auto">
-            We know change is risky. Here&apos;s how we protect your business.
+          <p className="mt-4 text-xl font-mono uppercase text-black max-w-3xl mx-auto">
+            WE KNOW CHANGE IS RISKY. HERE'S HOW WE PROTECT YOUR BUSINESS.
           </p>
         </div>
         
         <div className="grid md:grid-cols-2 gap-8">
           {risks.map((risk, index) => (
-            <div key={index} className="bg-white rounded-lg p-8 shadow-sm">
+            <div key={index} className="bg-gray-100 border-4 border-black p-8">
               <div className="flex items-start gap-4">
-                <div className="text-3xl flex-shrink-0">{risk.icon}</div>
+                <div className="text-3xl font-mono font-bold flex-shrink-0 bg-black text-white w-16 h-16 flex items-center justify-center">{risk.icon}</div>
                 <div>
-                  <h3 className="text-lg font-bold text-navy-900 mb-2">{risk.concern}</h3>
-                  <p className="text-navy-700">{risk.mitigation}</p>
+                  <h3 className="text-lg font-mono font-bold uppercase text-black mb-2">{risk.concern}</h3>
+                  <p className="font-mono uppercase text-black text-sm">{risk.mitigation}</p>
                 </div>
               </div>
             </div>
           ))}
         </div>
         
-        <div className="mt-16 bg-green-50 rounded-lg p-8 text-center">
-          <h3 className="text-2xl font-bold text-navy-900 mb-4">
-            Our Guarantee
+        <div className="mt-16 bg-black text-white p-8 text-center">
+          <h3 className="text-2xl font-mono font-bold uppercase mb-4">
+            OUR GUARANTEE
           </h3>
-          <p className="text-lg text-navy-700 mb-6">
-            If we don&apos;t deliver measurable results in 90 days, we&apos;ll work for free until we do.
+          <p className="text-lg font-mono uppercase mb-6">
+            IF WE DON'T DELIVER MEASURABLE RESULTS IN 90 DAYS, WE'LL WORK FOR FREE UNTIL WE DO.
             <br />
-            That&apos;s how confident we are in this approach.
+            THAT'S HOW CONFIDENT WE ARE IN THIS APPROACH.
           </p>
           <div className="flex flex-wrap justify-center gap-8 text-left">
             <div className="flex items-center gap-2">
-              <svg className="w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20">
+              <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
                 <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
               </svg>
-              <span className="text-navy-700">No long-term contracts</span>
+              <span className="font-mono uppercase">NO LONG-TERM CONTRACTS</span>
             </div>
             <div className="flex items-center gap-2">
-              <svg className="w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20">
+              <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
                 <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
               </svg>
-              <span className="text-navy-700">Cancel anytime</span>
+              <span className="font-mono uppercase">CANCEL ANYTIME</span>
             </div>
             <div className="flex items-center gap-2">
-              <svg className="w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20">
+              <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
                 <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
               </svg>
-              <span className="text-navy-700">Your data stays yours</span>
+              <span className="font-mono uppercase">YOUR DATA STAYS YOURS</span>
             </div>
           </div>
         </div>

@@ -27,47 +27,45 @@ export default function CaseStudies() {
   ];
 
   return (
-    <section id="case-studies" className="py-24 px-4 sm:px-6 lg:px-8 bg-white">
+    <section id="case-studies" className="py-24 px-4 sm:px-6 lg:px-8 bg-gray-100">
       <div className="mx-auto max-w-7xl">
         <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl font-bold text-navy-900 mb-4">
-            Real Results from Companies Like Yours
+          <h2 className="text-4xl sm:text-5xl font-black uppercase tracking-tight text-black mb-4">
+            REAL RESULTS
           </h2>
-          <p className="text-xl text-navy-600 max-w-3xl mx-auto">
-            These aren&apos;t tech startups. They&apos;re traditional B2B companies that discovered how to compete without losing their soul.
+          <p className="text-lg font-mono text-gray-700 max-w-3xl mx-auto uppercase">
+            These aren&apos;t tech startups. They&apos;re traditional B2B companies that discovered how to compete.
           </p>
         </div>
         
         <div className="grid lg:grid-cols-3 gap-8">
           {studies.map((study, index) => (
-            <div key={index} className="bg-navy-50 rounded-xl p-8 hover:shadow-xl transition-shadow">
+            <div key={index} className="bg-white border-4 border-black p-8 hover:bg-gray-50 transition-colors">
               <div className="mb-6">
                 <div className="flex items-center justify-between mb-2">
-                  <h3 className="font-bold text-lg text-navy-900">{study.company}</h3>
-                  <span className="text-sm text-navy-600 bg-white px-3 py-1 rounded-full">{study.industry}</span>
+                  <h3 className="font-black text-lg uppercase text-black">{study.company}</h3>
+                  <span className="text-xs font-mono font-bold text-white bg-black px-3 py-1 uppercase">{study.industry}</span>
                 </div>
               </div>
               
-              <blockquote className="mb-6">
-                <p className="text-navy-700 italic leading-relaxed">
+              <blockquote className="mb-6 border-l-4 border-black pl-4">
+                <p className="font-mono text-sm text-black leading-relaxed">
                   &ldquo;{study.quote}&rdquo;
                 </p>
               </blockquote>
               
               <div className="mb-6">
-                <p className="font-semibold text-navy-900">{study.author}</p>
-                <p className="text-sm text-navy-600">{study.title}</p>
+                <p className="font-bold font-mono text-black uppercase">{study.author}</p>
+                <p className="text-sm font-mono text-gray-600">{study.title}</p>
               </div>
               
-              <div className="border-t border-navy-200 pt-6">
-                <p className="font-semibold text-navy-900 mb-3">Key Results:</p>
+              <div className="border-t-4 border-black pt-6">
+                <p className="font-bold font-mono text-black mb-3 uppercase">Key Results:</p>
                 <ul className="space-y-2">
                   {study.results.map((result, idx) => (
                     <li key={idx} className="flex items-start gap-2">
-                      <svg className="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                      </svg>
-                      <span className="text-sm text-navy-700">{result}</span>
+                      <span className="font-mono font-bold text-black">→</span>
+                      <span className="text-sm font-mono text-black">{result}</span>
                     </li>
                   ))}
                 </ul>
@@ -76,26 +74,26 @@ export default function CaseStudies() {
           ))}
         </div>
         
-        <div className="mt-16 text-center bg-green-50 rounded-xl p-8">
-          <p className="text-2xl font-bold text-navy-900 mb-4">
-            Typical Results From Our Proven Approach
+        <div className="mt-16 text-center bg-black text-white p-8">
+          <p className="text-2xl font-black uppercase mb-8">
+            TYPICAL RESULTS FROM OUR PROVEN APPROACH
           </p>
           <div className="grid md:grid-cols-4 gap-6 max-w-4xl mx-auto">
             <div>
-              <p className="text-4xl font-bold text-green-500">40%</p>
-              <p className="text-navy-700">Revenue Increase</p>
+              <p className="text-4xl font-black">40%</p>
+              <p className="font-mono text-sm uppercase">Revenue Increase</p>
             </div>
             <div>
-              <p className="text-4xl font-bold text-green-500">90</p>
-              <p className="text-navy-700">Days to ROI</p>
+              <p className="text-4xl font-black">90</p>
+              <p className="font-mono text-sm uppercase">Days to ROI</p>
             </div>
             <div>
-              <p className="text-4xl font-bold text-green-500">65%</p>
-              <p className="text-navy-700">Time Saved on Admin</p>
+              <p className="text-4xl font-black">65%</p>
+              <p className="font-mono text-sm uppercase">Time Saved</p>
             </div>
             <div>
-              <p className="text-4xl font-bold text-green-500">0</p>
-              <p className="text-navy-700">Relationships Lost</p>
+              <p className="text-4xl font-black">0</p>
+              <p className="font-mono text-sm uppercase">Relationships Lost</p>
             </div>
           </div>
         </div>
