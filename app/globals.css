@@ -68,11 +68,11 @@ h3 {
   }
   
   .btn-primary {
-    @apply inline-flex items-center justify-center px-8 py-4 text-base font-bold text-white bg-black border border-black hover:bg-gray-900 transition-colors duration-150;
+    @apply inline-flex items-center justify-center px-6 sm:px-8 py-3 sm:py-4 text-sm sm:text-base font-bold text-white bg-black border border-black hover:bg-gray-900 transition-colors duration-150 min-h-[44px];
   }
   
   .btn-secondary {
-    @apply inline-flex items-center justify-center px-8 py-4 text-base font-bold text-black bg-white border border-black hover:bg-gray-50 transition-colors duration-150;
+    @apply inline-flex items-center justify-center px-6 sm:px-8 py-3 sm:py-4 text-sm sm:text-base font-bold text-black bg-white border border-black hover:bg-gray-50 transition-colors duration-150 min-h-[44px];
   }
   
   .card {

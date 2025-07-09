@@ -18,7 +18,7 @@ export default function CostOfWaiting() {
             <div className="grid md:grid-cols-3 gap-6 mb-8">
               <div className="text-center">
                 <p className="text-4xl font-mono font-bold text-black mb-2">73%</p>
-                <p className="text-sm font-mono uppercase text-black">LOSE TOP PERFORMERS AFTER "TRANSFORMATION"</p>
+                <p className="text-sm font-mono uppercase text-black">LOSE TOP PERFORMERS AFTER &quot;TRANSFORMATION&quot;</p>
               </div>
               <div className="text-center">
                 <p className="text-4xl font-mono font-bold text-black mb-2">82%</p>
