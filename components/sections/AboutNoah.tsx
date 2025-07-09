@@ -19,7 +19,7 @@ export default function AboutNoah() {
               </p>
               
               <div className="bg-green-900/20 border border-green-700/30 rounded-lg p-6">
-                <h4 className="font-bold text-green-400 mb-3">After 200+ implementations, the answer is clear:</h4>
+                <h4 className="font-bold text-green-400 mb-3">After years of helping B2B companies implement AI, the answer is clear:</h4>
                 <p className="text-navy-100">
                   The winners aren&apos;t the most technical. They&apos;re the ones who use AI to do more 
                   of what already works. Your relationships are your moat. AI should make that 
@@ -48,7 +48,7 @@ export default function AboutNoah() {
                 <div className="space-y-3">
                   <div className="flex items-start gap-3">
                     <span className="text-green-400 flex-shrink-0">✓</span>
-                    <span className="text-navy-100">200+ AI implementations</span>
+                    <span className="text-navy-100">Decades of B2B sales transformation experience</span>
                   </div>
                   <div className="flex items-start gap-3">
                     <span className="text-green-400 flex-shrink-0">✓</span>

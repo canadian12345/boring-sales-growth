@@ -91,20 +91,13 @@ export default function Discovery() {
                 Opens in a new window. You&apos;ll see available times immediately.
               </p>
             </div>
-            
-            <div className="mt-6 text-center">
-              <p className="text-sm text-navy-600 mb-2">Prefer to talk now?</p>
-              <a href="tel:+14805551234" className="text-green-600 font-semibold hover:text-green-700">
-                Call (480) 555-1234
-              </a>
-            </div>
           </div>
         </div>
         
         <div className="mt-12 grid md:grid-cols-3 gap-6 text-center">
           <div>
-            <div className="text-3xl font-bold text-navy-900 mb-2">200+</div>
-            <p className="text-sm text-navy-600">B2B companies served</p>
+            <div className="text-3xl font-bold text-navy-900 mb-2">20+</div>
+            <p className="text-sm text-navy-600">Years helping B2B grow</p>
           </div>
           <div>
             <div className="text-3xl font-bold text-navy-900 mb-2">92%</div>

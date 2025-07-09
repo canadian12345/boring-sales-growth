@@ -32,7 +32,7 @@ export default function FinalCTA() {
               <span className="text-3xl font-bold text-green-400">3.</span>
               <div>
                 <h3 className="font-bold text-white text-lg mb-2">Get it right the first time</h3>
-                <p className="text-navy-200">Use the proven &ldquo;Amplify Don&apos;t Replace&rdquo; method that&apos;s worked for 200+ companies</p>
+                <p className="text-navy-200">Use the proven &ldquo;Amplify Don&apos;t Replace&rdquo; method refined over decades of B2B experience</p>
               </div>
             </div>
           </div>

@@ -21,7 +21,7 @@ export default function SimpleGuarantee() {
               <div className="space-y-2 text-left max-w-md mx-auto">
                 <div className="flex items-center gap-3">
                   <span className="text-green-600">✓</span>
-                  <span className="text-navy-700">200+ successful implementations</span>
+                  <span className="text-navy-700">Proven track record across industries</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <span className="text-green-600">✓</span>

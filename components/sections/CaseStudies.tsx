@@ -78,7 +78,7 @@ export default function CaseStudies() {
         
         <div className="mt-16 text-center bg-green-50 rounded-xl p-8">
           <p className="text-2xl font-bold text-navy-900 mb-4">
-            Average Results Across 200+ Implementations
+            Typical Results From Our Proven Approach
           </p>
           <div className="grid md:grid-cols-4 gap-6 max-w-4xl mx-auto">
             <div>

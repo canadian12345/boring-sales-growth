@@ -1,99 +1,102 @@
 export default function Hero() {
   return (
-    <section className="relative overflow-hidden bg-white py-16 px-4 sm:px-6 lg:px-8">
-      {/* Top Promise Bar */}
-      <div className="bg-navy-900 text-white py-3 -mx-4 sm:-mx-6 lg:-mx-8 mb-12">
-        <div className="container text-center">
-          <p className="font-medium">
-            Join 200+ B2B companies using AI to strengthen relationships while automating everything else
-          </p>
-        </div>
-      </div>
+    <section className="relative bg-white pt-8 pb-16 px-4 sm:px-6 lg:px-8">
 
       <div className="container">
-        <div className="grid lg:grid-cols-12 gap-12 items-center">
-          <div className="lg:col-span-7">
-            <h1 className="text-navy-900 mb-6">
-              Stop Choosing Between Relationships and Efficiency.
-              <span className="block text-green-600">Have Both.</span>
+        {/* Asymmetric grid - 8/4 instead of 7/5 */}
+        <div className="grid lg:grid-cols-12 gap-8 lg:gap-16">
+          <div className="lg:col-span-8">
+            {/* The holy shit number */}
+            <div className="mb-8">
+              <p className="text-sm font-mono text-gray-600 mb-2">ACTUAL CLIENT RESULT:</p>
+              <p className="text-6xl lg:text-7xl font-black tracking-tighter">$2.4M</p>
+              <p className="text-lg font-medium mt-2">Additional revenue from 3 hours saved daily</p>
+            </div>
+            
+            <h1 className="text-black mb-6">
+              Stop Choosing Between<br/>
+              Relationships and Efficiency.
+              <span className="block mt-2">Have Both.</span>
             </h1>
             
-            <p className="text-xl text-navy-700 mb-8">
+            <p className="text-xl text-gray-700 mb-12 max-w-2xl">
               Every AI vendor wants to &quot;transform&quot; your sales process. We just want to give your 
-              team their time back. Join 200+ B2B companies who chose amplification over 
-              transformation—and grew 40% without losing their soul.
+              team their time back. No buzzwords. No disruption. Just 40% growth.
             </p>
             
-            <div className="bg-navy-50 rounded-lg p-6 mb-8">
-              <h3 className="font-bold text-navy-900 mb-4">The Simple Math:</h3>
-              <div className="flex items-center gap-3 text-lg">
-                <div className="text-center">
-                  <p className="text-3xl font-bold text-red-600">65%</p>
-                  <p className="text-sm text-navy-600">time on admin</p>
-                </div>
-                <span className="text-2xl text-navy-400">→</span>
-                <div className="text-center">
-                  <p className="text-3xl font-bold text-green-600">3hrs</p>
-                  <p className="text-sm text-navy-600">back daily</p>
-                </div>
-                <span className="text-2xl text-navy-400">→</span>
-                <div className="text-center">
-                  <p className="text-3xl font-bold text-green-600">40%</p>
-                  <p className="text-sm text-navy-600">growth</p>
-                </div>
-              </div>
+            {/* ASCII-style diagram */}
+            <div className="bg-gray-50 border border-black p-6 mb-12 font-mono text-sm">
+              <pre className="overflow-x-auto">
+{`CURRENT STATE              AI HANDLES              YOU GET BACK
+━━━━━━━━━━━━━             ━━━━━━━━━━━             ━━━━━━━━━━━━
+65% admin work     →      Follow-ups       →      3 hours/day
+15 touches/deal    →      CRM updates      →      for selling
+50% response rate  →      Scheduling       →      40% growth`}
+              </pre>
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
               <a href="#roi" className="btn-primary">
-                Calculate Your ROI
-                <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                </svg>
+                CALCULATE YOUR ROI →
               </a>
               <a href="#solutions" className="btn-secondary">
-                See How It Works
+                SEE HOW IT WORKS
               </a>
             </div>
             
-            <p className="text-sm text-navy-600 mt-6 font-medium">
-              AI that amplifies what already works • 90 days to measurable results
+            <p className="text-sm text-gray-600 mt-8 font-mono">
+              * AI that amplifies what already works
+              * 90 days to measurable results
+              * No contracts, cancel anytime
             </p>
           </div>
           
-          <div className="lg:col-span-5">
-            <div className="relative">
-              <div className="absolute inset-0 bg-gradient-to-tr from-navy-100/20 to-green-100/20 rounded-3xl transform rotate-3"></div>
-              <div className="relative bg-white rounded-3xl shadow-xl p-6 space-y-6">
-                <h4 className="font-bold text-navy-900 text-center mb-4">Keep What Works. Automate What Doesn&apos;t.</h4>
-                
-                <div className="bg-green-50 border border-green-200 rounded-lg p-4">
-                  <h5 className="font-semibold text-green-900 mb-3">What AI Handles:</h5>
-                  <ul className="space-y-2 text-sm text-green-800">
-                    <li>• Follow-up sequences (never miss another)</li>
-                    <li>• CRM updates (automatic and accurate)</li>
-                    <li>• Meeting scheduling (no more email tag)</li>
-                    <li>• Lead prioritization (focus on hot ones)</li>
-                    <li>• Proposal generation (first drafts in minutes)</li>
-                  </ul>
+          <div className="lg:col-span-4">
+            {/* Stark black and white design */}
+            <div className="border-2 border-black bg-white p-6">
+              <h4 className="font-black text-lg mb-6">THE DIVISION OF LABOR</h4>
+              
+              <div className="mb-6">
+                <div className="bg-black text-white p-3 mb-3">
+                  <h5 className="font-bold text-sm mb-2">ROBOTS DO:</h5>
                 </div>
-                
-                <div className="bg-navy-50 border border-navy-200 rounded-lg p-4">
-                  <h5 className="font-semibold text-navy-900 mb-3">What Humans Handle:</h5>
-                  <ul className="space-y-2 text-sm text-navy-800">
-                    <li>• Understanding customer needs</li>
-                    <li>• Building trust over time</li>
-                    <li>• Reading the room</li>
-                    <li>• Creative problem-solving</li>
-                    <li>• Closing the deal</li>
-                  </ul>
-                </div>
-                
-                <div className="bg-yellow-400 text-navy-900 rounded-lg p-4 text-center">
-                  <p className="font-bold text-lg">The Result:</p>
-                  <p className="text-sm">Relationships at Scale</p>
-                </div>
+                <ul className="space-y-1 text-sm font-mono pl-4">
+                  <li>→ Follow-up sequences</li>
+                  <li>→ CRM data entry</li>
+                  <li>→ Meeting scheduling</li>
+                  <li>→ Lead scoring</li>
+                  <li>→ First drafts</li>
+                </ul>
               </div>
+              
+              <div className="mb-6">
+                <div className="border-2 border-black p-3 mb-3">
+                  <h5 className="font-bold text-sm mb-2">HUMANS DO:</h5>
+                </div>
+                <ul className="space-y-1 text-sm font-mono pl-4">
+                  <li>→ Listen & understand</li>
+                  <li>→ Build trust</li>
+                  <li>→ Read the room</li>
+                  <li>→ Solve problems</li>
+                  <li>→ Close deals</li>
+                </ul>
+              </div>
+              
+              <div className="bg-black text-white p-4 text-center">
+                <p className="font-black">RESULT: 40% GROWTH</p>
+              </div>
+            </div>
+
+            {/* Hand-drawn element */}
+            <div className="mt-8 text-center">
+              <svg width="200" height="60" className="inline-block">
+                <path d="M 10 30 Q 50 10 100 30 T 190 30" 
+                      stroke="black" 
+                      strokeWidth="3" 
+                      fill="none"
+                      strokeDasharray="5,5"/>
+                <text x="100" y="50" textAnchor="middle" className="font-bold text-sm">IT ACTUALLY WORKS</text>
+              </svg>
             </div>
           </div>
         </div>

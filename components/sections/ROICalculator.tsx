@@ -142,7 +142,7 @@ export default function ROICalculator() {
             
             <div className="bg-gradient-to-br from-navy-900 to-navy-800 p-8 lg:p-12 text-white">
               <h3 className="text-xl font-bold mb-2">Your Numbers (Conservative):</h3>
-              <p className="text-sm text-navy-300 mb-6">Based on 200+ actual implementations</p>
+              <p className="text-sm text-navy-300 mb-6">Based on real-world B2B transformations</p>
               
               <div className="space-y-4">
                 <div className="bg-green-500/20 border border-green-400/30 rounded-lg p-4">
