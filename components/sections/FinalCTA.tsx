@@ -11,8 +11,8 @@ export default function FinalCTA() {
             <div className="flex items-start gap-4">
               <span className="text-3xl font-black">1.</span>
               <div>
-                <h3 className="font-bold text-lg mb-2 uppercase font-mono">Watch your relationships fade away</h3>
-                <p className="font-mono text-sm">More spreadsheets, fewer handshakes, until you&apos;re just another vendor</p>
+                <h3 className="font-bold text-lg mb-2 uppercase font-mono">Let generic automation kill your culture</h3>
+                <p className="font-mono text-sm">Watch your identity disappear as you become another faceless tech company</p>
               </div>
             </div>
           </div>
@@ -21,8 +21,8 @@ export default function FinalCTA() {
             <div className="flex items-start gap-4">
               <span className="text-3xl font-black">2.</span>
               <div>
-                <h3 className="font-bold text-lg mb-2 uppercase font-mono">Chase disruption, lose yourself</h3>
-                <p className="font-mono text-sm">Transform everything, wonder why your best people and clients leave</p>
+                <h3 className="font-bold text-lg mb-2 uppercase font-mono">"Transform" until no one recognizes you</h3>
+                <p className="font-mono text-sm">Sacrifice your soul for efficiency, become what you swore you&apos;d never be</p>
               </div>
             </div>
           </div>
@@ -31,8 +31,8 @@ export default function FinalCTA() {
             <div className="flex items-start gap-4">
               <span className="text-3xl font-black">3.</span>
               <div>
-                <h3 className="font-bold text-lg mb-2 uppercase font-mono">Keep your culture, grow your business</h3>
-                <p className="font-mono text-sm">Boring growth that amplifies what makes you special. More handshakes, less hassle</p>
+                <h3 className="font-bold text-lg mb-2 uppercase font-mono">Preserve your identity, multiply your revenue</h3>
+                <p className="font-mono text-sm">Boring growth that makes you more of who you are, not less. Culture intact, revenue up.</p>
               </div>
             </div>
           </div>
@@ -40,13 +40,13 @@ export default function FinalCTA() {
 
         <div className="border-4 border-white p-8 mb-8">
           <p className="text-xl font-black uppercase mb-2">
-            I ONLY WORK WITH RELATIONSHIP-DRIVEN COMPANIES
+            I ONLY WORK WITH COMPANIES WHO REFUSE TO LOSE THEIR SOUL
           </p>
           <p className="text-lg font-mono mb-6">
-            5 businesses at a time. Because real relationships take real time.
+            5 businesses at a time. Because preserving culture takes real commitment.
           </p>
           <p className="font-mono text-sm">
-            If you believe relationships still matter in business, we should talk.
+            If your identity is non-negotiable, we should talk.
           </p>
         </div>
 
@@ -72,10 +72,10 @@ export default function FinalCTA() {
         
         <div className="mt-12 pt-8 border-t-4 border-white">
           <p className="text-lg font-black uppercase mb-4">
-            A HANDSHAKE PROMISE
+            YOUR CULTURE IS SACRED
           </p>
           <p className="font-mono text-sm max-w-2xl mx-auto">
-            If you don&apos;t grow with culture intact, I work for free. Because boring growth that loses your identity isn&apos;t growth at all.
+            I&apos;ve never had a client lose their identity. Not one. That&apos;s not luck—it&apos;s the entire point of boring growth.
           </p>
         </div>
       </div>

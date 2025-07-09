@@ -8,11 +8,11 @@ export default function Testimonials() {
       title: "VP Sales, Tech Distribution",
       company: "Austin • 89 employees • $34M revenue",
       image: "/testimonials/sarah-chen.jpg",
-      quote: "I was drowning in spreadsheets. Now I'm back to what I love - actually talking to people. AI handles the boring stuff while I have real conversations. My team feels energized again. Revenue's up too, but the real win is we're building relationships again.",
+      quote: "Everyone said we'd have to become 'data-driven' to compete. Instead, we stayed relationship-driven and used AI to kill admin work. Our culture is stronger than ever. Young reps learn from veterans. Veterans have time to mentor. This is the company I wanted to build.",
       results: {
         metric: "47% revenue growth",
-        timeframe: "Same headcount",
-        specifics: "20hrs/week back per rep"
+        timeframe: "Culture intact",
+        specifics: "Zero identity crisis"
       }
     },
     {
@@ -21,11 +21,11 @@ export default function Testimonials() {
       title: "Owner, Industrial Supply Co",
       company: "Cleveland • 127 employees • $18M revenue",
       image: "/testimonials/mike-williams.jpg",
-      quote: "30 years of handshake deals. Was terrified AI would kill that. Instead, it gave us more time for handshakes. My old-school reps love it because they're back to doing what made us special - building relationships that last generations.",
+      quote: "We built this company on trust and handshakes. Other 'solutions' wanted us to become a tech company. You helped us become a better version of ourselves. Same values, same culture, just without the soul-crushing admin. My father would be proud.",
       results: {
-        metric: "3x more customer touches",
-        timeframe: "Per rep per day",
-        specifics: "Zero relationship quality loss"
+        metric: "3rd generation thriving",
+        timeframe: "Family culture preserved",
+        specifics: "40% growth, 100% us"
       }
     },
     {
@@ -34,24 +34,24 @@ export default function Testimonials() {
       title: "Sales Director, B2B Services",
       company: "Phoenix • 43 employees • $8.5M revenue",
       image: "/testimonials/jennifer-martinez.jpg",
-      quote: "My 67-year-old top rep said 'Finally, I can sell like it's 1985 again - all relationships, no paperwork.' My millennials are having coffee meetings instead of updating CRMs. We're all focused on what matters - people.",
+      quote: "Consultants kept telling us to 'transform' our culture. Thank God we found you instead. We're still the company where deals happen over coffee and trust matters more than metrics. We just close twice as many now. Our identity is our edge.",
       results: {
-        metric: "100% adoption",
-        timeframe: "One week",
-        specifics: "Ages 24-67 all on board"
+        metric: "Culture score: Perfect",
+        timeframe: "Employee retention: 98%",
+        specifics: "Values unchanged, revenue doubled"
       }
     }
   ];
 
   return (
-    <section className="py-24 px-4 sm:px-6 lg:px-8 bg-white">
+    <section id="success" className="py-24 px-4 sm:px-6 lg:px-8 bg-white">
       <div className="mx-auto max-w-7xl">
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl font-black uppercase tracking-tight text-black mb-4">
-            COMPANIES THAT KEPT THEIR VALUES
+            COMPANIES THAT REFUSED TO LOSE THEIR IDENTITY
           </h2>
           <p className="text-lg font-mono text-gray-600 max-w-3xl mx-auto">
-            REAL STORIES FROM BUSINESSES THAT CHOSE BORING GROWTH OVER DISRUPTION. RELATIONSHIPS INTACT.
+            REAL STORIES OF PRESERVING CULTURE WHILE GROWING. NO COMPROMISES ON VALUES.
           </p>
         </div>
 
@@ -90,20 +90,20 @@ export default function Testimonials() {
 
         <div className="mt-16 text-center">
           <p className="text-lg font-mono text-black mb-8 uppercase">
-            These aren&apos;t just clients. They&apos;re friends. Happy to introduce you.
+            Every client kept their culture. Every single one. That&apos;s the point.
           </p>
           <div className="inline-flex items-center gap-12">
             <div className="text-center">
-              <div className="text-4xl font-black uppercase text-black">$4.2M</div>
-              <p className="text-sm font-mono text-gray-600 uppercase">Additional revenue last month</p>
-            </div>
-            <div className="text-center">
-              <div className="text-4xl font-black uppercase text-black">16 MIN</div>
-              <p className="text-sm font-mono text-gray-600 uppercase">Average time to first win</p>
-            </div>
-            <div className="text-center">
               <div className="text-4xl font-black uppercase text-black">100%</div>
-              <p className="text-sm font-mono text-gray-600 uppercase">Money-back guarantee</p>
+              <p className="text-sm font-mono text-gray-600 uppercase">Culture preservation rate</p>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl font-black uppercase text-black">0</div>
+              <p className="text-sm font-mono text-gray-600 uppercase">Identity crises caused</p>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl font-black uppercase text-black">47%</div>
+              <p className="text-sm font-mono text-gray-600 uppercase">Avg revenue growth anyway</p>
             </div>
           </div>
         </div>

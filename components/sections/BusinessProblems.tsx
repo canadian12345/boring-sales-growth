@@ -1,145 +1,119 @@
 export default function BusinessProblems() {
-  const timeTheft = [
-    {
-      icon: (
-        <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
-        </svg>
-      ),
-      title: "3HRS UPDATING SYSTEMS",
-      description: "INSTEAD OF COFFEE WITH CLIENTS",
-      stat: "3HRS"
-    },
-    {
-      icon: (
-        <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-        </svg>
-      ),
-      title: "90MIN CHASING REPLIES",
-      description: "MISSING REAL CONVERSATIONS",
-      stat: "90MIN"
-    },
-    {
-      icon: (
-        <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-        </svg>
-      ),
-      title: "2HRS ON PAPERWORK",
-      description: "WHILE RELATIONSHIPS GROW COLD",
-      stat: "2HRS"
-    },
-    {
-      icon: (
-        <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-        </svg>
-      ),
-      title: "65% TIME AWAY",
-      description: "FROM YOUR PERSONAL TOUCH",
-      stat: "65%"
-    }
-  ];
-
   return (
-    <section id="problems" className="py-24 px-4 sm:px-6 lg:px-8 bg-gray-100">
-      <div className="mx-auto max-w-7xl">
-        <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-mono font-bold uppercase tracking-tight text-black mb-4">
-            YOUR HANDSHAKE DEALS STILL WORK.
-            <span className="block">BUT YOUR RELATIONSHIPS ARE DROWNING IN ADMIN.</span>
+    <section id="problems" className="section-padding bg-white border-t-4 border-black">
+      <div className="container">
+        <div className="max-w-3xl mx-auto text-center mb-16">
+          <h2 className="text-black mb-4">
+            THE AI INDUSTRY WANTS TO &apos;FIX&apos; WHAT MADE YOU SUCCESSFUL
           </h2>
-          <p className="text-lg font-mono uppercase text-black max-w-3xl mx-auto">
-            YOU BUILT THIS BUSINESS ON PERSONAL RELATIONSHIPS. SEE WHAT&apos;S STEALING THAT TIME:
+          <p className="text-xl font-mono uppercase">
+            EVERY CONSULTANT PROMISES TO TRANSFORM YOUR BUSINESS.<br/>
+            BUT YOUR RELATIONSHIPS AREN&apos;T BROKEN. YOUR CULTURE ISN&apos;T OUTDATED.<br/>
+            THE PRESSURE TO AUTOMATE EVERYTHING? THAT&apos;S THE REAL PROBLEM.
           </p>
         </div>
-
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
-          {timeTheft.map((item, index) => (
-            <div key={index} className="bg-white border-4 border-black p-6 hover:bg-gray-100 transition-colors">
-              <div className="w-12 h-12 bg-black text-white flex items-center justify-center mb-4">
-                {item.icon}
-              </div>
-              <div className="text-3xl font-mono font-bold text-black mb-2">{item.stat}</div>
-              <h3 className="font-mono font-bold text-black text-sm mb-2">{item.title}</h3>
-              <p className="text-xs font-mono uppercase text-black">{item.description}</p>
-            </div>
-          ))}
+        
+        {/* The pressure points */}
+        <div className="grid md:grid-cols-2 gap-8 mb-16">
+          <div className="border-4 border-black p-8 bg-gray-100">
+            <h3 className="text-2xl font-black mb-4 uppercase">THE PRESSURE IS EVERYWHERE:</h3>
+            <ul className="space-y-3 font-mono text-sm">
+              <li className="flex items-start">
+                <span className="mr-2">→</span>
+                <span>"You need to automate your entire sales process"</span>
+              </li>
+              <li className="flex items-start">
+                <span className="mr-2">→</span>
+                <span>"Optimize all customer interactions with AI"</span>
+              </li>
+              <li className="flex items-start">
+                <span className="mr-2">→</span>
+                <span>"Transform your business or become obsolete"</span>
+              </li>
+              <li className="flex items-start">
+                <span className="mr-2">→</span>
+                <span>"Everyone else is doing it—you&apos;re falling behind"</span>
+              </li>
+              <li className="flex items-start">
+                <span className="mr-2">→</span>
+                <span>"Personal relationships don&apos;t scale anymore"</span>
+              </li>
+            </ul>
+          </div>
+          
+          <div className="border-4 border-black p-8 bg-white">
+            <h3 className="text-2xl font-black mb-4 uppercase">THE REAL RISKS:</h3>
+            <ul className="space-y-3 font-mono text-sm">
+              <li className="flex items-start">
+                <span className="mr-2">✗</span>
+                <span>Lose the personal touch that built this business</span>
+              </li>
+              <li className="flex items-start">
+                <span className="mr-2">✗</span>
+                <span>Become just another vendor in a crowded market</span>
+              </li>
+              <li className="flex items-start">
+                <span className="mr-2">✗</span>
+                <span>Watch your best people leave for meaningful work</span>
+              </li>
+              <li className="flex items-start">
+                <span className="mr-2">✗</span>
+                <span>Sacrifice competitive advantage for efficiency</span>
+              </li>
+              <li className="flex items-start">
+                <span className="mr-2">✗</span>
+                <span>Lose the culture that made you who you are</span>
+              </li>
+            </ul>
+          </div>
         </div>
 
-        <div className="bg-white border-4 border-black p-8 md:p-12">
-          <div className="text-center mb-8">
-            <h3 className="text-2xl font-mono font-bold uppercase text-black mb-4">
-              EVERY HOUR IN SYSTEMS IS AN HOUR AWAY FROM CLIENTS
-            </h3>
-            <p className="text-lg font-mono uppercase text-black">
-              HERE&apos;S WHAT&apos;S REALLY AT STAKE:
+        {/* The hidden truth */}
+        <div className="bg-black text-white p-12 mb-16">
+          <div className="max-w-2xl mx-auto text-center">
+            <h3 className="text-3xl font-black mb-6">YOUR INSTINCT TO RESIST IS RIGHT</h3>
+            <p className="text-lg font-mono mb-8">
+              THE RELATIONSHIPS THAT BUILT YOUR SUCCESS AREN&apos;T PROBLEMS TO BE SOLVED.<br/>
+              THEY&apos;RE ADVANTAGES TO BE PRESERVED.
             </p>
-          </div>
-          
-          <div className="grid md:grid-cols-2 gap-8 mb-8">
-            <div className="bg-gray-100 border-4 border-black p-6">
-              <h4 className="font-mono font-bold uppercase text-black mb-4">LOSING YOUR EDGE (NOW):</h4>
-              <ul className="space-y-3 text-sm">
-                <li className="flex items-start gap-2">
-                  <span className="font-mono font-bold text-black mt-1">✗</span>
-                  <span className="font-mono uppercase text-black">HANDSHAKE PARTNERS FEEL FORGOTTEN</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="font-mono font-bold text-black mt-1">✗</span>
-                  <span className="font-mono uppercase text-black">YOUR PERSONAL TOUCH GETS DILUTED</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="font-mono font-bold text-black mt-1">✗</span>
-                  <span className="font-mono uppercase text-black">TEAM FORGETS WHY THEY JOINED YOU</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="font-mono font-bold text-black mt-1">✗</span>
-                  <span className="font-mono uppercase text-black">BECOMING JUST ANOTHER VENDOR</span>
-                </li>
-              </ul>
-            </div>
-            
-            <div className="bg-white border-4 border-black p-6">
-              <h4 className="font-mono font-bold uppercase text-black mb-4">RELATIONSHIP-FIRST (WITH AI):</h4>
-              <ul className="space-y-3 text-sm">
-                <li className="flex items-start gap-2">
-                  <span className="font-mono font-bold text-black mt-1">✓</span>
-                  <span className="font-mono uppercase text-black">MORE TIME FOR REAL CONVERSATIONS</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="font-mono font-bold text-black mt-1">✓</span>
-                  <span className="font-mono uppercase text-black">PERSONAL TOUCH AT SCALE</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="font-mono font-bold text-black mt-1">✓</span>
-                  <span className="font-mono uppercase text-black">TEAM DOES WHAT THEY LOVE AGAIN</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="font-mono font-bold text-black mt-1">✓</span>
-                  <span className="font-mono uppercase text-black">RELATIONSHIPS THAT LAST GENERATIONS</span>
-                </li>
-              </ul>
-            </div>
-          </div>
-          
-          <div className="bg-black text-white p-6 text-center">
-            <p className="text-xl font-mono font-bold uppercase mb-2">
-              YOUR PEOPLE BUILD RELATIONSHIPS, NOT SPREADSHEETS.
-            </p>
-            <p className="text-lg font-mono uppercase">
-              LET&apos;S GIVE THEM BACK THEIR PURPOSE.
+            <p className="text-sm font-mono uppercase">
+              THE REAL RISK ISN&apos;T FALLING BEHIND.<br/>
+              IT&apos;S LOSING WHAT MADE YOU SPECIAL IN THE FIRST PLACE.
             </p>
           </div>
         </div>
 
-        <div className="text-center mt-12">
-          <a href="#solutions" className="inline-flex items-center justify-center px-8 py-4 text-lg font-mono font-bold uppercase bg-black text-white border-4 border-black hover:bg-white hover:text-black transition-colors">
-            SEE THE SOLUTION
-            <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7 7" />
-            </svg>
+        {/* What they're not telling you */}
+        <div className="grid md:grid-cols-3 gap-6">
+          <div className="border-2 border-black p-6">
+            <h4 className="font-black mb-3 uppercase">THEY WON&apos;T TELL YOU:</h4>
+            <p className="text-sm font-mono">
+              Most companies that "transform" with AI lose what made customers choose them. 
+              They become efficient but forgettable.
+            </p>
+          </div>
+          <div className="border-2 border-black p-6">
+            <h4 className="font-black mb-3 uppercase">THEY WON&apos;T ADMIT:</h4>
+            <p className="text-sm font-mono">
+              The best performing B2B companies still win on relationships. 
+              They just automate the right things.
+            </p>
+          </div>
+          <div className="border-2 border-black p-6">
+            <h4 className="font-black mb-3 uppercase">THEY WON&apos;T DISCUSS:</h4>
+            <p className="text-sm font-mono">
+              Your culture and relationships are competitive moats. 
+              Once automated away, competitors can&apos;t copy them.
+            </p>
+          </div>
+        </div>
+
+        <div className="text-center mt-16">
+          <p className="text-lg font-mono mb-6 uppercase">
+            YOU DON&apos;T NEED TRANSFORMATION. YOU NEED PRESERVATION.
+          </p>
+          <a href="#guide" className="btn-primary">
+            SEE A BETTER WAY →
           </a>
         </div>
       </div>

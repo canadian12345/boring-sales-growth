@@ -4,14 +4,14 @@ export default function SimpleGuarantee() {
       <div className="mx-auto max-w-3xl">
         <div className="text-center">
           <h2 className="text-3xl sm:text-4xl font-black uppercase tracking-tight mb-8">
-            A HANDSHAKE GUARANTEE
+            THE CULTURE PRESERVATION GUARANTEE
           </h2>
           
           <div className="bg-white text-black border-4 border-white p-8">
             <p className="text-xl font-mono mb-6">
-              &quot;If I can&apos;t show you how to grow without losing your culture, 
-              I&apos;ll tell you straight. If we don&apos;t preserve what makes you special 
-              while growing revenue, I work for free until we do.&quot;
+              &quot;Your culture is sacred. If our work changes who you are, 
+              damages your relationships, or makes your best people leave, 
+              I&apos;ll work for free until we fix it. Your identity matters more than my paycheck.&quot;
             </p>
             
             <div className="border-t-4 border-black pt-6 mt-6">
@@ -21,15 +21,15 @@ export default function SimpleGuarantee() {
               <div className="space-y-2 text-left max-w-md mx-auto">
                 <div className="flex items-center gap-3">
                   <span className="font-mono">→</span>
-                  <span className="font-mono text-sm">20 years preserving company cultures</span>
+                  <span className="font-mono text-sm">100% culture preservation track record</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <span className="font-mono">→</span>
-                  <span className="font-mono text-sm">Boring growth that actually lasts</span>
+                  <span className="font-mono text-sm">Growth without identity crisis</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <span className="font-mono">→</span>
-                  <span className="font-mono text-sm">I only work with relationship-driven companies</span>
+                  <span className="font-mono text-sm">Your values are non-negotiable</span>
                 </div>
               </div>
             </div>

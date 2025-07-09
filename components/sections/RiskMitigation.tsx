@@ -2,22 +2,22 @@ export default function RiskMitigation() {
   const risks = [
     {
       concern: "WHAT IF WE LOSE OUR CULTURE IN THE PROCESS?",
-      mitigation: "AI NEVER TOUCHES YOUR HANDSHAKE MOMENTS. IT HANDLES SPREADSHEETS WHILE YOU HANDLE RELATIONSHIPS. YOUR PERSONAL TOUCH STAYS PERSONAL, JUST REACHES MORE PEOPLE.",
+      mitigation: "WE START BY UNDERSTANDING WHAT YOUR CULTURE MEANS TO YOU. THEN WE BUILD SOLUTIONS THAT ENHANCE IT, NOT REPLACE IT. YOUR INPUT GUIDES EVERY DECISION.",
       icon: "01"
     },
     {
       concern: "WILL THIS CHANGE WHO WE ARE?",
-      mitigation: "ZERO DISRUPTION TO YOUR CULTURE. WE ADD TOOLS THAT FIT YOUR WAY, NOT FORCE NEW WAYS. BORING IMPLEMENTATION FOR BORING GROWTH.",
+      mitigation: "THAT'S WHY WE DISCOVER FIRST. WE LEARN WHO YOU ARE, WHAT MATTERS TO YOU, AND BUILD AROUND THAT. CHANGE ONLY WHAT YOU WANT TO CHANGE.",
       icon: "02"
     },
     {
       concern: "WHAT IF OUR OLD-SCHOOL TEAM REJECTS IT?",
-      mitigation: "THEY WON'T. BECAUSE WE'RE GIVING THEM BACK WHAT THEY JOINED FOR - TIME WITH PEOPLE. EVEN YOUR 67-YEAR-OLD REP WILL LOVE MORE COFFEE MEETINGS.",
+      mitigation: "WE INVOLVE YOUR TEAM FROM DAY ONE. THEIR INPUT SHAPES THE SOLUTION. WHEN THEY HELP BUILD IT, THEY'LL EMBRACE IT. IT'S THEIR TOOL, NOT OURS.",
       icon: "03"
     },
     {
-      concern: "WHAT IF BORING GROWTH ISN&apos;T ENOUGH?",
-      mitigation: "BORING GROWTH COMPOUNDS. WHILE OTHERS DISRUPT AND FAIL, YOU'LL GROW STEADILY WITH VALUES INTACT. THAT'S HOW GENERATIONAL BUSINESSES ARE BUILT.",
+      concern: "WHAT IF THE GROWTH ISN&apos;T WHAT WE NEED?",
+      mitigation: "WE'LL DISCOVER WHAT GROWTH MEANS TO YOU. THEN BUILD TOWARD YOUR SPECIFIC GOALS. SUCCESS IS MEASURED BY YOUR STANDARDS, NOT INDUSTRY BENCHMARKS.",
       icon: "04"
     }
   ];
@@ -27,10 +27,10 @@ export default function RiskMitigation() {
       <div className="mx-auto max-w-7xl">
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-mono font-bold uppercase tracking-tight text-black">
-            PROTECTING WHAT MATTERS MOST: YOUR CULTURE
+            WE START BY UNDERSTANDING YOUR CONCERNS
           </h2>
           <p className="mt-4 text-xl font-mono uppercase text-black max-w-3xl mx-auto">
-            EVERY FEAR IS VALID. HERE&apos;S HOW WE KEEP YOUR VALUES INTACT.
+            EVERY BUSINESS HAS UNIQUE RISKS. WE DISCOVER AND ADDRESS YOURS.
           </p>
         </div>
         
@@ -50,31 +50,31 @@ export default function RiskMitigation() {
         
         <div className="mt-16 bg-black text-white p-8 text-center">
           <h3 className="text-2xl font-mono font-bold uppercase mb-4">
-            MY CULTURE-FIRST PROMISE
+            OUR DISCOVERY-FIRST PROMISE
           </h3>
           <p className="text-lg font-mono uppercase mb-6">
-            IF YOU LOSE EVEN A PIECE OF YOUR CULTURE, I&apos;VE FAILED.
+            WE DON&apos;T KNOW YOUR BUSINESS YET. THAT&apos;S THE POINT.
             <br />
-            GROWTH WITHOUT VALUES ISN&apos;T GROWTH - IT&apos;S DEATH BY A THOUSAND CUTS.
+            WE DISCOVER, YOU DECIDE, TOGETHER WE BUILD.
           </p>
           <div className="flex flex-wrap justify-center gap-8 text-left">
             <div className="flex items-center gap-2">
               <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
                 <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
               </svg>
-              <span className="font-mono uppercase">NO LONG-TERM CONTRACTS</span>
+              <span className="font-mono uppercase">START WITH DISCOVERY</span>
             </div>
             <div className="flex items-center gap-2">
               <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
                 <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
               </svg>
-              <span className="font-mono uppercase">CANCEL ANYTIME</span>
+              <span className="font-mono uppercase">YOUR PACE, YOUR TERMS</span>
             </div>
             <div className="flex items-center gap-2">
               <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
                 <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
               </svg>
-              <span className="font-mono uppercase">YOUR DATA STAYS YOURS</span>
+              <span className="font-mono uppercase">CUSTOM TO YOUR NEEDS</span>
             </div>
           </div>
         </div>
