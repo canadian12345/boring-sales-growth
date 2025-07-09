@@ -192,7 +192,7 @@ export default function ROICalculator() {
               <span className="block text-5xl mt-2">${Math.round(parseFloat(roi.additionalRevenue.replace(/,/g, '')) / 12).toLocaleString()}/MONTH</span>
             </div>
             <p className="text-xl font-mono uppercase mt-4 mb-6">
-              THAT'S WHAT WAITING COSTS. EVERY. SINGLE. MONTH.
+              THAT&apos;S WHAT WAITING COSTS. EVERY. SINGLE. MONTH.
             </p>
             
             <div className="border-2 border-black p-6 mb-6">
@@ -213,7 +213,7 @@ export default function ROICalculator() {
               I CHOOSE OPTION B →
             </a>
             <p className="text-sm font-mono uppercase mt-4">
-              15-MINUTE CALL. WE'LL KNOW IN 5 IF WE'RE A FIT.
+              15-MINUTE CALL. WE&apos;LL KNOW IN 5 IF WE&apos;RE A FIT.
             </p>
           </div>
         </div>

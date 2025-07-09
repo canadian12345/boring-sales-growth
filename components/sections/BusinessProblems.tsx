@@ -47,8 +47,8 @@ export default function BusinessProblems() {
       <div className="mx-auto max-w-7xl">
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-mono font-bold uppercase tracking-tight text-black mb-4">
-            THE PROBLEM ISN'T YOUR SALES PROCESS.
-            <span className="block">IT'S THAT YOUR BEST PEOPLE ARE STUCK IN SPREADSHEETS.</span>
+            THE PROBLEM ISN&apos;T YOUR SALES PROCESS.
+            <span className="block">IT&apos;S THAT YOUR BEST PEOPLE ARE STUCK IN SPREADSHEETS.</span>
           </h2>
           <p className="text-lg font-mono uppercase text-black max-w-3xl mx-auto">
             YOUR RELATIONSHIP-FIRST APPROACH WORKS. BUT LOOK AT THE REALITY:
@@ -96,7 +96,7 @@ export default function BusinessProblems() {
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="font-mono font-bold text-black mt-1">✗</span>
-                  <span className="font-mono uppercase text-black">COMPETITORS CAPTURE YOUR "TOO BUSY" OPPORTUNITIES</span>
+                  <span className="font-mono uppercase text-black">COMPETITORS CAPTURE YOUR &quot;TOO BUSY&quot; OPPORTUNITIES</span>
                 </li>
               </ul>
             </div>
@@ -118,7 +118,7 @@ export default function BusinessProblems() {
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="font-mono font-bold text-black mt-1">✓</span>
-                  <span className="font-mono uppercase text-black">YOU BECOME THE "ALWAYS RESPONSIVE" VENDOR</span>
+                  <span className="font-mono uppercase text-black">YOU BECOME THE &quot;ALWAYS RESPONSIVE&quot; VENDOR</span>
                 </li>
               </ul>
             </div>
@@ -126,7 +126,7 @@ export default function BusinessProblems() {
           
           <div className="bg-black text-white p-6 text-center">
             <p className="text-xl font-mono font-bold uppercase mb-2">
-              YOU DON'T NEED NEW SALESPEOPLE.
+              YOU DON&apos;T NEED NEW SALESPEOPLE.
             </p>
             <p className="text-lg font-mono uppercase">
               YOU NEED TO UNLEASH THE ONES YOU HAVE.

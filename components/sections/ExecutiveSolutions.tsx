@@ -11,9 +11,9 @@ export default function ExecutiveSolutions() {
         <div className="bg-gray-100 border-4 border-black p-8 mb-12">
           <div className="grid md:grid-cols-2 gap-8">
             <div>
-              <h4 className="font-mono font-bold uppercase text-black mb-4">YOUR REP'S TYPICAL MORNING:</h4>
+              <h4 className="font-mono font-bold uppercase text-black mb-4">YOUR REP&apos;S TYPICAL MORNING:</h4>
               <ul className="space-y-2 text-sm">
-                <li className="font-mono uppercase text-black">⏰ <span className="font-bold">8:00 - 8:45:</span> UPDATE YESTERDAY'S CALLS IN CRM</li>
+                <li className="font-mono uppercase text-black">⏰ <span className="font-bold">8:00 - 8:45:</span> UPDATE YESTERDAY&apos;S CALLS IN CRM</li>
                 <li className="font-mono uppercase text-black">⏰ <span className="font-bold">8:45 - 9:15:</span> FIGURE OUT WHO TO FOLLOW UP WITH</li>
                 <li className="font-mono uppercase text-black">⏰ <span className="font-bold">9:15 - 10:15:</span> WRITE FOLLOW-UP EMAILS</li>
                 <li className="font-mono uppercase text-black">⏰ <span className="font-bold">10:15 - 11:00:</span> RESEARCH PROSPECTS</li>
@@ -30,14 +30,14 @@ export default function ExecutiveSolutions() {
                 <li className="font-mono uppercase text-black">✓ QUOTES AUTO-GENERATED (5 MIN REVIEW)</li>
               </ul>
               <div className="mt-4 pt-4 border-t-4 border-black">
-                <p className="font-mono font-bold uppercase text-black">⏰ 8:00 - 8:15: REVIEW AND APPROVE AI'S WORK</p>
+                <p className="font-mono font-bold uppercase text-black">⏰ 8:00 - 8:15: REVIEW AND APPROVE AI&apos;S WORK</p>
                 <p className="font-mono font-bold uppercase text-black">⏰ 8:15 - 12:00: ACTUALLY TALK TO CUSTOMERS</p>
               </div>
             </div>
           </div>
           <div className="mt-6 p-4 bg-black text-white text-center">
             <p className="text-lg font-mono font-bold uppercase">
-              THAT'S 3 HOURS 45 MINUTES BACK. EVERY SINGLE DAY.
+              THAT&apos;S 3 HOURS 45 MINUTES BACK. EVERY SINGLE DAY.
             </p>
           </div>
         </div>
@@ -48,7 +48,7 @@ export default function ExecutiveSolutions() {
           <div className="space-y-6">
             <div className="border-l-4 border-black pl-6">
               <h4 className="font-mono font-bold uppercase text-black mb-2">WEEK 1: ONE BUTTON</h4>
-              <p className="font-mono uppercase text-black">ADD ONE BUTTON TO YOUR CRM. "GENERATE FOLLOW-UP." THAT'S IT.</p>
+              <p className="font-mono uppercase text-black">ADD ONE BUTTON TO YOUR CRM. &quot;GENERATE FOLLOW-UP.&quot; THAT&apos;S IT.</p>
               <p className="text-sm font-mono uppercase text-black mt-2">RESULT: REP SAVES 45 MIN/DAY. CLOSES EXTRA DEAL FROM AI REMINDER.</p>
             </div>
             
@@ -73,7 +73,7 @@ export default function ExecutiveSolutions() {
         </div>
 
         <div className="bg-black text-white p-8 mb-12">
-          <h3 className="text-2xl font-mono font-bold uppercase mb-6">THE "AMPLIFY DON'T REPLACE" DIFFERENCE:</h3>
+          <h3 className="text-2xl font-mono font-bold uppercase mb-6">THE &quot;AMPLIFY DON&apos;T REPLACE&quot; DIFFERENCE:</h3>
           <div className="grid md:grid-cols-2 gap-8">
             <div>
               <h4 className="font-mono font-bold uppercase mb-3">WHAT OTHERS DO (FAILS):</h4>
@@ -99,7 +99,7 @@ export default function ExecutiveSolutions() {
           <div className="mt-6 pt-6 border-t-4 border-white">
             <p className="text-center text-lg font-mono uppercase">
               <span className="font-bold">BOTTOM LINE:</span> YOUR REPS SELL 40% MORE BECAUSE 
-              THEY'RE DOING 90% LESS PAPERWORK. THAT'S IT. THAT'S THE WHOLE THING.
+              THEY&apos;RE DOING 90% LESS PAPERWORK. THAT&apos;S IT. THAT&apos;S THE WHOLE THING.
             </p>
           </div>
         </div>

@@ -30,8 +30,8 @@ export default function CostOfWaiting() {
             <div className="bg-gray-100 border-4 border-black p-6">
               <h4 className="font-mono font-bold uppercase text-black mb-4">THE OPPORTUNITY:</h4>
               <p className="font-mono uppercase text-black mb-4">
-                RIGHT NOW, AI IS YOUR COMPETITIVE EDGE. IN 18 MONTHS, IT'S MANDATORY. 
-                THE QUESTION ISN'T WHETHER TO ADOPT AI—IT'S WHETHER YOU'LL LEAD THE 
+                RIGHT NOW, AI IS YOUR COMPETITIVE EDGE. IN 18 MONTHS, IT&apos;S MANDATORY. 
+                THE QUESTION ISN&apos;T WHETHER TO ADOPT AI—IT&apos;S WHETHER YOU&apos;LL LEAD THE 
                 CHANGE OR SCRAMBLE TO CATCH UP.
               </p>
               <p className="text-lg font-mono font-bold uppercase text-black">
@@ -78,7 +78,7 @@ export default function CostOfWaiting() {
               </li>
               <li className="flex items-start gap-3">
                 <span className="font-mono font-bold text-black text-xl">✗</span>
-                <span className="font-mono uppercase text-black">CUSTOMERS ASKING "WHAT TOOK SO LONG?"</span>
+                <span className="font-mono uppercase text-black">CUSTOMERS ASKING &quot;WHAT TOOK SO LONG?&quot;</span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="font-mono font-bold text-black text-xl">✗</span>
@@ -91,7 +91,7 @@ export default function CostOfWaiting() {
         <div className="mt-16 text-center">
           <div className="bg-black text-white p-8 max-w-2xl mx-auto">
             <p className="text-2xl font-mono font-bold uppercase mb-6">
-              YOU'RE NOT BEHIND. BUT THE WINDOW IS CLOSING.
+              YOU&apos;RE NOT BEHIND. BUT THE WINDOW IS CLOSING.
             </p>
             
             <a href="#discovery" className="inline-flex items-center justify-center px-8 py-4 text-lg font-mono font-bold uppercase bg-white text-black border-4 border-white hover:bg-black hover:text-white hover:border-white transition-colors">
@@ -101,7 +101,7 @@ export default function CostOfWaiting() {
               </svg>
             </a>
             <p className="text-sm font-mono uppercase mt-4">
-              JOIN THE 15% WHO WILL TEACH THE 85% HOW IT'S DONE
+              JOIN THE 15% WHO WILL TEACH THE 85% HOW IT&apos;S DONE
             </p>
           </div>
         </div>
