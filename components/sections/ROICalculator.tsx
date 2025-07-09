@@ -7,7 +7,6 @@ export default function ROICalculator() {
   const [avgDealSize, setAvgDealSize] = useState('50000');
   const [salesTeamSize, setSalesTeamSize] = useState('10');
   const [improvementRate, setImprovementRate] = useState(40);
-  const [activeInput, setActiveInput] = useState('');
   
   const calculateROI = () => {
     const revenue = parseFloat(currentRevenue) || 0;
@@ -69,8 +68,6 @@ export default function ROICalculator() {
                       type="number"
                       value={currentRevenue}
                       onChange={(e) => setCurrentRevenue(e.target.value)}
-                      onFocus={() => setActiveInput('revenue')}
-                      onBlur={() => setActiveInput('')}
                       className="w-full pl-10 pr-4 py-3 text-lg font-mono border-2 border-black focus:outline-none focus:ring-2 focus:ring-black"
                     />
                   </div>
@@ -86,8 +83,6 @@ export default function ROICalculator() {
                       type="number"
                       value={avgDealSize}
                       onChange={(e) => setAvgDealSize(e.target.value)}
-                      onFocus={() => setActiveInput('deal')}
-                      onBlur={() => setActiveInput('')}
                       className="w-full pl-10 pr-4 py-3 text-lg font-mono border-2 border-black focus:outline-none focus:ring-2 focus:ring-black"
                     />
                   </div>
@@ -101,8 +96,6 @@ export default function ROICalculator() {
                     type="number"
                     value={salesTeamSize}
                     onChange={(e) => setSalesTeamSize(e.target.value)}
-                    onFocus={() => setActiveInput('team')}
-                    onBlur={() => setActiveInput('')}
                     className="w-full px-4 py-3 text-lg font-mono border-2 border-black focus:outline-none focus:ring-2 focus:ring-black"
                   />
                 </div>
