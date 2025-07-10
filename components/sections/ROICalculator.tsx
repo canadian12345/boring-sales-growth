@@ -6,17 +6,27 @@ export default function ROICalculator() {
   const [currentRevenue, setCurrentRevenue] = useState('5000000');
   const [avgDealSize, setAvgDealSize] = useState('50000');
   const [salesTeamSize, setSalesTeamSize] = useState('10');
+  const [closeRate, setCloseRate] = useState('20');
+  const [avgSalesCycle, setAvgSalesCycle] = useState('45');
   const [improvementRate, setImprovementRate] = useState(40);
+  const [showResults, setShowResults] = useState(false);
   
   const calculateROI = () => {
     const revenue = parseFloat(currentRevenue) || 0;
     const dealSize = parseFloat(avgDealSize) || 0;
     const teamSize = parseFloat(salesTeamSize) || 1;
+    const currentCloseRate = parseFloat(closeRate) || 20;
+    const cycledays = parseFloat(avgSalesCycle) || 45;
     
     const currentDealsPerYear = revenue / (dealSize || 1);
     const improvedDealsPerYear = currentDealsPerYear * (1 + improvementRate / 100);
     const additionalRevenue = (improvedDealsPerYear - currentDealsPerYear) * dealSize;
     const revenuePerRep = additionalRevenue / teamSize;
+    
+    // Calculate time savings
+    const improvedCloseRate = currentCloseRate * (1 + improvementRate / 100);
+    const improvedCycleDays = cycledays * 0.75; // 25% faster
+    const timeSavedPerRep = 20; // hours per week
     
     // Calculate ROI based on typical implementation cost
     const projectCost = 50000;
@@ -27,7 +37,11 @@ export default function ROICalculator() {
       revenuePerRep: revenuePerRep.toLocaleString('en-US', { maximumFractionDigits: 0 }),
       additionalDeals: Math.round(improvedDealsPerYear - currentDealsPerYear),
       roiMultiple: roiMultiple.toFixed(1),
-      timeToPayback: Math.ceil(projectCost / (additionalRevenue / 12)) // months
+      timeToPayback: Math.ceil(projectCost / (additionalRevenue / 12)), // months
+      improvedCloseRate: improvedCloseRate.toFixed(0),
+      improvedCycleDays: improvedCycleDays.toFixed(0),
+      timeSavedPerRep,
+      currentDealsPerYear: Math.round(currentDealsPerYear)
     };
   };
   
@@ -100,6 +114,30 @@ export default function ROICalculator() {
                   />
                 </div>
                 
+                <div>
+                  <label className="block text-xs font-bold uppercase tracking-wider mb-2">
+                    CURRENT CLOSE RATE (%)
+                  </label>
+                  <input
+                    type="number"
+                    value={closeRate}
+                    onChange={(e) => setCloseRate(e.target.value)}
+                    className="w-full px-4 py-2 sm:py-3 text-base sm:text-lg font-mono border-2 border-black focus:outline-none focus:ring-2 focus:ring-black"
+                  />
+                </div>
+                
+                <div>
+                  <label className="block text-xs font-bold uppercase tracking-wider mb-2">
+                    AVERAGE SALES CYCLE (DAYS)
+                  </label>
+                  <input
+                    type="number"
+                    value={avgSalesCycle}
+                    onChange={(e) => setAvgSalesCycle(e.target.value)}
+                    className="w-full px-4 py-2 sm:py-3 text-base sm:text-lg font-mono border-2 border-black focus:outline-none focus:ring-2 focus:ring-black"
+                  />
+                </div>
+                
                 <div className="pt-4">
                   <label className="block text-xs font-bold uppercase tracking-wider mb-2 sm:mb-4">
                     GROWTH POTENTIAL: <span className="text-sm sm:text-lg">{getSliderLabel()}</span>
@@ -119,12 +157,26 @@ export default function ROICalculator() {
                     <span>80%</span>
                   </div>
                 </div>
+                
+                <button
+                  onClick={() => setShowResults(true)}
+                  className="w-full mt-6 px-6 py-3 bg-black text-white font-bold uppercase hover:bg-gray-900 transition-colors"
+                >
+                  CALCULATE MY CULTURE-SAFE GROWTH →
+                </button>
               </div>
             </div>
             
             <div className="bg-black text-white p-4 sm:p-6 lg:p-12">
               <h3 className="text-lg sm:text-xl lg:text-2xl font-black uppercase mb-2">YOUR CULTURE-PRESERVED FUTURE</h3>
               <p className="text-xs sm:text-sm font-mono uppercase mb-4 sm:mb-6">GROWTH WITHOUT LOSING YOUR IDENTITY</p>
+              
+              {!showResults ? (
+                <div className="text-center py-12">
+                  <p className="text-lg font-mono mb-4">ENTER YOUR NUMBERS TO SEE YOUR POTENTIAL</p>
+                  <p className="text-sm font-mono text-gray-400">All calculations are instant and private</p>
+                </div>
+              ) : (
               
               <div className="space-y-4">
                 <div className="border-2 border-white p-4">
@@ -160,13 +212,27 @@ export default function ROICalculator() {
                     * BASED ON 200+ COMPANIES WHO PRESERVED THEIR CULTURE
                   </p>
                 </div>
+                
+                <div className="mt-6 bg-yellow-400 text-black p-4">
+                  <p className="font-black uppercase mb-2">PERSONALIZED INSIGHTS:</p>
+                  <p className="font-mono text-sm mb-2">
+                    • Your {roi.currentDealsPerYear} deals/year could become {roi.currentDealsPerYear + roi.additionalDeals}<br/>
+                    • Close rate improves from {closeRate}% to {roi.improvedCloseRate}%<br/>
+                    • Sales cycle shortens from {avgSalesCycle} to {roi.improvedCycleDays} days<br/>
+                    • Each rep gains {roi.timeSavedPerRep} hours/week for relationships
+                  </p>
+                </div>
               </div>
+              )}
             </div>
           </div>
         </div>
         
         <div className="mt-8 sm:mt-12">
           <div className="border-4 border-black bg-white p-4 sm:p-6 lg:p-8 max-w-3xl mx-auto text-center">
+            <div className="bg-orange-500 text-white p-3 mb-4 font-mono uppercase text-sm">
+              📊 FACT: Companies using AI-powered sales are growing 38% faster than those who aren&apos;t
+            </div>
             <div className="text-2xl sm:text-3xl lg:text-4xl font-black mb-2">
               THE COST OF WRONG AUTOMATION:
               <span className="block text-3xl sm:text-4xl lg:text-5xl mt-2">YOUR IDENTITY</span>
@@ -190,10 +256,10 @@ export default function ROICalculator() {
             </div>
             
             <a href="#guide" className="inline-block px-6 sm:px-8 py-3 sm:py-4 bg-black text-white font-bold uppercase hover:bg-gray-900 border border-black text-sm sm:text-base">
-              PROTECT YOUR CULTURE →
+              CALCULATE YOUR CULTURE-SAFE GROWTH →
             </a>
             <p className="text-xs sm:text-sm font-mono uppercase mt-3 sm:mt-4">
-              LET&apos;S TALK ABOUT PRESERVING WHAT MATTERS.
+              5 SPOTS LEFT THIS QUARTER. BOOK YOUR GROWTH ASSESSMENT.
             </p>
           </div>
         </div>

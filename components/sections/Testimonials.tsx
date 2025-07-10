@@ -8,7 +8,7 @@ export default function Testimonials() {
       title: "VP Sales, Tech Distribution",
       company: "Austin • 89 employees • $34M revenue",
       image: "/testimonials/sarah-chen.jpg",
-      quote: "Everyone said we'd have to become 'data-driven' to compete. Instead, we stayed relationship-driven and used AI to kill admin work. Our culture is stronger than ever. Young reps learn from veterans. Veterans have time to mentor. This is the company I wanted to build.",
+      quote: "Everyone said we'd have to 'go digital' to compete. We chose boring growth over bold transformation. Now we're 47% bigger with the same handshake culture. Young reps still learn from veterans. Veterans have time to mentor. Boring beats bold, every time.",
       results: {
         metric: "47% revenue growth",
         timeframe: "Culture intact",
@@ -21,7 +21,7 @@ export default function Testimonials() {
       title: "Owner, Industrial Supply Co",
       company: "Cleveland • 127 employees • $18M revenue",
       image: "/testimonials/mike-williams.jpg",
-      quote: "We built this company on trust and handshakes. Other 'solutions' wanted us to become a tech company. You helped us become a better version of ourselves. Same values, same culture, just without the soul-crushing admin. My father would be proud.",
+      quote: "We built this company on trust and handshakes. Other 'solutions' promised transformation. We chose boring consistency instead. 40% growth, zero drama, same values. My father taught me boring wins. He was right.",
       results: {
         metric: "3rd generation thriving",
         timeframe: "Family culture preserved",
@@ -34,7 +34,7 @@ export default function Testimonials() {
       title: "Sales Director, B2B Services",
       company: "Phoenix • 43 employees • $8.5M revenue",
       image: "/testimonials/jennifer-martinez.jpg",
-      quote: "Consultants kept telling us to 'transform' our culture. Thank God we found you instead. We're still the company where deals happen over coffee and trust matters more than metrics. We just close twice as many now. Our identity is our edge.",
+      quote: "Consultants promised 'bold transformation.' We said no thanks. Chose boring growth instead. Still close deals over coffee. Still value trust over tech. Just doubled revenue without the drama. Best. Decision. Ever.",
       results: {
         metric: "Culture score: Perfect",
         timeframe: "Employee retention: 98%",
@@ -48,10 +48,10 @@ export default function Testimonials() {
       <div className="mx-auto max-w-7xl">
         <div className="text-center mb-8 sm:mb-16">
           <h2 className="text-2xl sm:text-3xl lg:text-5xl font-black uppercase tracking-tight text-black mb-4">
-            COMPANIES THAT REFUSED TO LOSE THEIR IDENTITY
+            COMPANIES THAT CHOSE BORING OVER BOLD
           </h2>
           <p className="text-sm sm:text-base lg:text-lg font-mono text-gray-600 max-w-3xl mx-auto">
-            REAL STORIES OF PRESERVING CULTURE WHILE GROWING. NO COMPROMISES ON VALUES.
+            AND WON BIG. STEADY GROWTH. ZERO DRAMA. SAME VALUES.
           </p>
         </div>
 
@@ -89,10 +89,18 @@ export default function Testimonials() {
         </div>
 
         <div className="mt-8 sm:mt-16 text-center">
+          <div className="bg-black text-white p-4 mb-6 max-w-3xl mx-auto">
+            <p className="font-black uppercase text-sm sm:text-base mb-1">
+              ⏱️ TIME-SENSITIVE: Q3 2025 VALUE PRICING ENDS SEPTEMBER 30TH
+            </p>
+            <p className="font-mono text-xs sm:text-sm">
+              Investment structure changes in Q4. Lock in value-based pricing now.
+            </p>
+          </div>
           <p className="text-sm sm:text-base lg:text-lg font-mono text-black mb-6 sm:mb-8 uppercase">
-            Every client kept their culture. Every single one. That&apos;s the point.
+            They chose boring. They kept their culture. They grew anyway.
           </p>
-          <div className="grid grid-cols-3 gap-4 sm:gap-8 lg:gap-12 max-w-2xl mx-auto">
+          <div className="grid grid-cols-3 gap-4 sm:gap-8 lg:gap-12 max-w-2xl mx-auto mb-8 sm:mb-12">
             <div className="text-center">
               <div className="text-2xl sm:text-3xl lg:text-4xl font-black uppercase text-black">100%</div>
               <p className="text-xs sm:text-sm font-mono text-gray-600 uppercase">Culture preservation rate</p>
@@ -106,6 +114,9 @@ export default function Testimonials() {
               <p className="text-xs sm:text-sm font-mono text-gray-600 uppercase">Avg revenue growth anyway</p>
             </div>
           </div>
+          <a href="#discovery" className="btn-primary text-sm sm:text-base">
+            JOIN 200+ COMPANIES WHO GREW WITHOUT SELLING OUT →
+          </a>
         </div>
       </div>
     </section>

@@ -4,33 +4,44 @@ export default function AboutNoah() {
       <div className="mx-auto max-w-4xl">
         <div className="text-center mb-6 sm:mb-12">
           <h2 className="text-2xl sm:text-3xl lg:text-5xl font-black uppercase tracking-tight text-black mb-4">
-            WHY I BELIEVE IN BORING GROWTH
+            WHY BORING BEATS BUZZWORDS
           </h2>
         </div>
         
         <div className="border-4 border-black bg-white p-4 sm:p-6 lg:p-12">
           <div className="grid lg:grid-cols-3 gap-6 lg:gap-8 items-start">
             <div className="lg:col-span-2 space-y-4 sm:space-y-6">
-              <p className="text-sm sm:text-base lg:text-lg font-mono leading-relaxed text-black">
-                I&apos;ve watched too many good businesses lose their identity chasing growth. 
-                For 20 years, I&apos;ve helped relationship-driven companies stay relationship-driven 
-                while growing steadily. AI threatened to change that - until I realized 
-                it could strengthen cultures instead of replacing them.
+              <p className="text-sm sm:text-base lg:text-lg font-mono leading-relaxed text-black mb-4">
+                I&apos;ve watched too many good businesses lose their identity chasing growth.
               </p>
               
-              <div className="bg-black text-white p-4 sm:p-6">
-                <h4 className="font-bold font-mono uppercase mb-2 sm:mb-3 text-sm sm:text-base">What I&apos;ve learned preserving company cultures:</h4>
-                <p className="font-mono text-xs sm:text-sm">
-                  The best growth is boring growth. It&apos;s doing more handshake deals, 
-                  having more coffee meetings, remembering more birthdays. AI just 
-                  handles the paperwork so you can focus on people.
+              <div className="bg-yellow-100 border-l-4 border-yellow-600 p-4 mb-6">
+                <p className="font-black text-black">
+                  &ldquo;For 20 years, I&apos;ve helped relationship-driven companies stay relationship-driven 
+                  while growing steadily.&rdquo;
                 </p>
               </div>
               
               <p className="text-sm sm:text-base lg:text-lg font-mono leading-relaxed text-black">
-                Your competitive edge is in those personal touches - the remembered names, the 
-                handwritten notes, the genuine care. <span className="font-black uppercase">THAT&apos;S YOUR MOAT.</span> 
-                AI should give you more time for those moments, not automate them away.
+                AI threatened to change that - until I realized 
+                it could strengthen cultures instead of replacing them.
+              </p>
+              
+              <div className="bg-black text-white p-4 sm:p-6">
+                <h4 className="font-bold font-mono uppercase mb-2 sm:mb-3 text-sm sm:text-base">What I&apos;ve learned in 20 years:</h4>
+                <p className="font-mono text-xs sm:text-sm mb-3">
+                  The best growth is boring growth. Steady improvements, happy customers, 
+                  profitable quarters. No drama. No disruption. Just results that compound.
+                </p>
+                <p className="font-mono text-xs font-bold">
+                  BORING EATS THE BOLD. Every. Single. Time.
+                </p>
+              </div>
+              
+              <p className="text-sm sm:text-base lg:text-lg font-mono leading-relaxed text-black">
+                Your edge isn&apos;t technology - it&apos;s trust built over decades. 
+                <span className="font-black uppercase">THAT&apos;S YOUR MOAT.</span> 
+                Smart tools should multiply that advantage, not replace it.
               </p>
               
               <div className="border-l-4 border-black pl-4 sm:pl-6 py-2">
@@ -49,6 +60,10 @@ export default function AboutNoah() {
                   <div className="flex items-start gap-3">
                     <span className="font-mono flex-shrink-0">→</span>
                     <span className="font-mono text-xs sm:text-sm">500+ handshake deals preserved</span>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <span className="font-mono flex-shrink-0">→</span>
+                    <span className="font-mono text-xs sm:text-sm">47 multi-generation businesses helped</span>
                   </div>
                   <div className="flex items-start gap-3">
                     <span className="font-mono flex-shrink-0">→</span>
@@ -71,6 +86,18 @@ export default function AboutNoah() {
                   <p className="text-sm font-bold font-mono uppercase">I work with 5 companies at a time</p>
                   <p className="text-xs font-mono">Quality over quantity, always</p>
                 </div>
+              </div>
+              
+              <div className="mt-6 bg-gray-100 border-4 border-black p-4">
+                <h4 className="font-black uppercase mb-3">FAMILY BUSINESS EXPERT</h4>
+                <p className="font-mono text-sm mb-3">
+                  My grandfather ran a hardware store for 45 years. 
+                  My father sold industrial equipment on handshakes.
+                </p>
+                <p className="font-mono text-sm">
+                  I understand the weight of carrying on a legacy. 
+                  That&apos;s why I protect cultures, not disrupt them.
+                </p>
               </div>
             </div>
           </div>
@@ -126,13 +153,13 @@ export default function AboutNoah() {
               href="#discovery"
               className="inline-flex items-center justify-center px-6 sm:px-8 py-3 sm:py-4 text-sm sm:text-base lg:text-lg font-bold font-mono uppercase text-white bg-black hover:bg-gray-900 transition-colors"
             >
-              LET&apos;S GROW WITH VALUES INTACT
+              READY FOR 40% GROWTH? LET&apos;S TALK
               <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
               </svg>
             </a>
             <p className="text-sm font-mono text-gray-600 mt-4 uppercase">
-              For businesses built on handshakes and real relationships
+              3 spots left. First call determines fit.
             </p>
           </div>
         </div>

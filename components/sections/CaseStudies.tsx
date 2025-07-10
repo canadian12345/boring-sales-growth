@@ -6,7 +6,7 @@ export default function CaseStudies() {
       quote: "Our 62-year-old top salesperson said he'd never use 'computer stuff.' Now he closes 40% more deals because the AI remembers every customer detail for him. He calls it his 'secret weapon.'",
       author: "Jim Patterson",
       title: "CEO",
-      results: ["40% increase in deals closed", "Zero customer relationships lost", "3-month payback period"]
+      results: ["40% increase in deals closed", "Zero customer relationships lost", "6-month payback period"]
     },
     {
       company: "Continental Distribution Partners",
@@ -19,7 +19,7 @@ export default function CaseStudies() {
     {
       company: "Professional Services Group",
       industry: "B2B Services",
-      quote: "I was skeptical about AI in our relationship-based business. But when our follow-up rate went from 60% to 95% automatically, I became a believer. Revenue up 42% in 90 days.",
+      quote: "I was skeptical about AI in our relationship-based business. But when our follow-up rate went from 60% to 95% automatically, I became a believer. Revenue up 42% in 6 months.",
       author: "Michael Torres",
       title: "Owner",
       results: ["42% revenue growth", "95% follow-up rate", "35% shorter sales cycle"]
@@ -78,14 +78,14 @@ export default function CaseStudies() {
           <p className="text-lg sm:text-xl lg:text-2xl font-black uppercase mb-4 sm:mb-8">
             TYPICAL RESULTS FROM OUR PROVEN APPROACH
           </p>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 max-w-4xl mx-auto">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 max-w-4xl mx-auto mb-8">
             <div>
               <p className="text-2xl sm:text-3xl lg:text-4xl font-black">40%</p>
               <p className="font-mono text-xs sm:text-sm uppercase">Revenue Increase</p>
             </div>
             <div>
-              <p className="text-2xl sm:text-3xl lg:text-4xl font-black">90</p>
-              <p className="font-mono text-xs sm:text-sm uppercase">Days to ROI</p>
+              <p className="text-2xl sm:text-3xl lg:text-4xl font-black">6-8</p>
+              <p className="font-mono text-xs sm:text-sm uppercase">Months to Full ROI</p>
             </div>
             <div>
               <p className="text-2xl sm:text-3xl lg:text-4xl font-black">65%</p>
@@ -96,6 +96,12 @@ export default function CaseStudies() {
               <p className="font-mono text-xs sm:text-sm uppercase">Relationships Lost</p>
             </div>
           </div>
+          <a href="#roi" className="inline-block px-6 sm:px-8 py-3 sm:py-4 bg-white text-black font-bold uppercase hover:bg-gray-100 text-sm sm:text-base">
+            CALCULATE YOUR 6-MONTH ROI →
+          </a>
+          <p className="text-xs sm:text-sm font-mono uppercase mt-4">
+            See exactly what 40% growth means for your business
+          </p>
         </div>
       </div>
     </section>

@@ -20,15 +20,15 @@ export default function BusinessProblems() {
             <ul className="space-y-2 sm:space-y-3 font-mono text-xs sm:text-sm">
               <li className="flex items-start">
                 <span className="mr-2">→</span>
-                <span>&quot;You need to automate your entire sales process&quot;</span>
+                <span>&quot;You need to computerize your entire sales process&quot;</span>
               </li>
               <li className="flex items-start">
                 <span className="mr-2">→</span>
-                <span>&quot;Optimize all customer interactions with AI&quot;</span>
+                <span>&quot;Replace all customer conversations with AI&quot;</span>
               </li>
               <li className="flex items-start">
                 <span className="mr-2">→</span>
-                <span>&quot;Transform your business or become obsolete&quot;</span>
+                <span>&quot;Change everything or go out of business&quot;</span>
               </li>
               <li className="flex items-start">
                 <span className="mr-2">→</span>
@@ -69,13 +69,24 @@ export default function BusinessProblems() {
         </div>
 
         {/* The hidden truth */}
+        <div className="relative mb-8 sm:mb-16">
+          <div className="absolute inset-0 flex items-center">
+            <div className="w-full border-t-4 border-black"></div>
+          </div>
+          <div className="relative flex justify-center">
+            <span className="bg-white px-6 text-sm font-black uppercase">THE TRUTH THEY WON&apos;T TELL YOU</span>
+          </div>
+        </div>
+        
         <div className="bg-black text-white p-6 sm:p-8 lg:p-12 mb-8 sm:mb-16">
           <div className="max-w-2xl mx-auto text-center">
             <h3 className="text-xl sm:text-2xl lg:text-3xl font-black mb-4 sm:mb-6">YOUR INSTINCT TO RESIST IS RIGHT</h3>
-            <p className="text-sm sm:text-base lg:text-lg font-mono mb-4 sm:mb-8">
-              THE RELATIONSHIPS THAT BUILT YOUR SUCCESS AREN&apos;T PROBLEMS TO BE SOLVED.<br className="hidden sm:inline"/>
-              THEY&apos;RE ADVANTAGES TO BE PRESERVED.
-            </p>
+            <div className="bg-yellow-400 text-black p-4 mb-6">
+              <p className="text-lg sm:text-xl font-black">
+                &ldquo;THE RELATIONSHIPS THAT BUILT YOUR SUCCESS AREN&apos;T PROBLEMS TO BE SOLVED.
+                THEY&apos;RE ADVANTAGES TO BE PRESERVED.&rdquo;
+              </p>
+            </div>
             <p className="text-xs sm:text-sm font-mono uppercase">
               THE REAL RISK ISN&apos;T FALLING BEHIND.<br className="hidden sm:inline"/>
               IT&apos;S LOSING WHAT MADE YOU SPECIAL IN THE FIRST PLACE.
@@ -83,6 +94,14 @@ export default function BusinessProblems() {
           </div>
         </div>
 
+        {/* Urgency ticker */}
+        <div className="bg-yellow-300 border-4 border-black p-4 mb-8">
+          <div className="flex items-center justify-center gap-4 text-black font-mono uppercase text-xs sm:text-sm">
+            <span className="font-black">⏰ TIME SENSITIVE:</span>
+            <span>Every month you wait = 3.3% revenue lost to AI-powered competitors</span>
+          </div>
+        </div>
+        
         {/* What they're not telling you */}
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6">
           <div className="border-2 border-black p-4 sm:p-6">
@@ -110,10 +129,10 @@ export default function BusinessProblems() {
 
         <div className="text-center mt-8 sm:mt-16">
           <p className="text-base sm:text-lg font-mono mb-4 sm:mb-6 uppercase">
-            YOU DON&apos;T NEED TRANSFORMATION. YOU NEED PRESERVATION.
+            YOU DON&apos;T NEED TO CHANGE. YOU NEED TO GROW SMARTER.
           </p>
           <a href="#guide" className="btn-primary text-sm sm:text-base">
-            SEE A BETTER WAY →
+            STOP THE PRESSURE. KEEP YOUR EDGE →
           </a>
         </div>
       </div>

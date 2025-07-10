@@ -4,10 +4,10 @@ export default function Discovery() {
       <div className="mx-auto max-w-5xl">
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl font-black uppercase tracking-tight text-black mb-4">
-            LET&apos;S SEE IF OUR VALUES ALIGN
+            LET&apos;S TALK GROWTH
           </h2>
           <p className="text-lg font-mono text-gray-600 uppercase">
-            No sales pitch. Just two people who believe relationships drive business.
+            30 minutes. Your challenges. Real solutions. No BS.
           </p>
         </div>
 
@@ -21,9 +21,9 @@ export default function Discovery() {
                   <span className="font-mono font-bold text-white">1</span>
                 </div>
                 <div>
-                  <p className="font-bold font-mono text-black uppercase">What Makes You Special</p>
+                  <p className="font-bold font-mono text-black uppercase">Your Growth Blockers</p>
                   <p className="text-sm font-mono text-gray-700 mt-1">
-                    The handshake moments we&apos;ll protect while amplifying your reach
+                    What&apos;s stopping you from closing 40% more deals
                   </p>
                 </div>
               </div>
@@ -33,9 +33,9 @@ export default function Discovery() {
                   <span className="font-mono font-bold text-white">2</span>
                 </div>
                 <div>
-                  <p className="font-bold font-mono text-black uppercase">Your Team&apos;s Morale</p>
+                  <p className="font-bold font-mono text-black uppercase">Quick Wins Available</p>
                   <p className="text-sm font-mono text-gray-700 mt-1">
-                    Where admin is killing relationships and how we&apos;ll fix it without disruption
+                    Immediate improvements we can make in week one
                   </p>
                 </div>
               </div>
@@ -45,9 +45,9 @@ export default function Discovery() {
                   <span className="font-mono font-bold text-white">3</span>
                 </div>
                 <div>
-                  <p className="font-bold font-mono text-black uppercase">A Handshake Deal</p>
+                  <p className="font-bold font-mono text-black uppercase">Your Custom Roadmap</p>
                   <p className="text-sm font-mono text-gray-700 mt-1">
-                    If our values align, we&apos;ll start small. If not, we&apos;ll stay friends
+                    Exactly how to get 40% growth in your specific situation
                   </p>
                 </div>
               </div>
@@ -55,8 +55,8 @@ export default function Discovery() {
             
             <div className="mt-8 p-4 bg-black text-white">
               <p className="text-sm font-mono">
-                <strong>MY PROMISE:</strong> If I can&apos;t help you grow with culture intact, 
-                I&apos;ll tell you straight. No BS, just truth.
+                <strong>MY PROMISE:</strong> If I can&apos;t show you a clear path to 40% growth 
+                in 30 minutes, I&apos;ll tell you straight. No BS.
               </p>
             </div>
           </div>
@@ -84,7 +84,7 @@ export default function Discovery() {
                 rel="noopener noreferrer"
                 className="block w-full text-center px-8 py-4 bg-black text-white font-bold font-mono uppercase hover:bg-gray-900 transition-colors"
               >
-                SCHEDULE YOUR DISCOVERY CALL →
+                CLAIM YOUR GROWTH ASSESSMENT (5 SPOTS LEFT) →
               </a>
               
               <p className="text-center text-sm font-mono text-gray-600">
@@ -107,6 +107,25 @@ export default function Discovery() {
             <div className="text-3xl font-black text-black mb-2">∞</div>
             <p className="text-sm font-mono text-gray-600 uppercase">Handshakes preserved</p>
           </div>
+        </div>
+        
+        <div className="mt-12 text-center border-4 border-black bg-gray-100 p-8">
+          <div className="bg-red-600 text-white p-2 mb-4 font-mono uppercase text-sm">
+            ⚡ MARKET SHIFT: AI adoption in traditional B2B accelerating 400% YoY
+          </div>
+          <p className="text-lg font-black uppercase mb-4">LIMITED AVAILABILITY: Q3 2025</p>
+          <p className="text-sm font-mono mb-2">I work with 5 companies at a time. 2 spots filled this quarter.</p>
+          <p className="text-xs font-mono mb-6 text-gray-700">
+            Your competitors are booking calls. The first movers in each industry are winning.
+          </p>
+          <a
+            href="https://tidycal.com/noah3/boring-sales-growth"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-primary text-sm sm:text-base"
+          >
+            RESERVE YOUR SPOT BEFORE THEY&apos;RE GONE →
+          </a>
         </div>
       </div>
     </section>
