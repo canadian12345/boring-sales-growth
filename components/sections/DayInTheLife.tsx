@@ -7,7 +7,7 @@ export default function DayInTheLife() {
             THE BORING DAY THAT PRODUCES EXTRAORDINARY RESULTS
           </h2>
           <p className="text-lg font-mono uppercase">
-            How your top rep's day changes (Spoiler: it gets better, not busier)
+            How your top rep&apos;s day changes (Spoiler: it gets better, not busier)
           </p>
         </div>
 
@@ -21,7 +21,7 @@ export default function DayInTheLife() {
                 <span className="font-mono font-bold">7:00 AM</span>
                 <div className="flex-1">
                   <p className="font-bold">Already at desk, updating spreadsheets</p>
-                  <p className="font-mono text-sm text-gray-600">Yesterday's orders still not entered</p>
+                  <p className="font-mono text-sm text-gray-600">Yesterday&apos;s orders still not entered</p>
                 </div>
               </div>
               
@@ -29,7 +29,7 @@ export default function DayInTheLife() {
                 <span className="font-mono font-bold">9:00 AM</span>
                 <div className="flex-1">
                   <p className="font-bold">Searching for customer info</p>
-                  <p className="font-mono text-sm text-gray-600">"I know we talked about this..."</p>
+                  <p className="font-mono text-sm text-gray-600">&ldquo;I know we talked about this...&rdquo;</p>
                 </div>
               </div>
               
@@ -72,7 +72,7 @@ export default function DayInTheLife() {
                 <span className="font-mono font-bold">8:00 AM</span>
                 <div className="flex-1">
                   <p className="font-bold">Coffee + AI-suggested follow-ups</p>
-                  <p className="font-mono text-sm text-gray-600">"Johnson needs to reorder this week"</p>
+                  <p className="font-mono text-sm text-gray-600">&ldquo;Johnson needs to reorder this week&rdquo;</p>
                 </div>
               </div>
               
@@ -128,7 +128,7 @@ export default function DayInTheLife() {
             THE BORING SECRET
           </h3>
           <p className="font-mono text-lg mb-8 max-w-3xl mx-auto">
-            No 5am wake-ups. No hustle culture. No "10x your productivity" nonsense. 
+            No 5am wake-ups. No hustle culture. No &ldquo;10x your productivity&rdquo; nonsense. 
             Just smart tools that handle the boring stuff so you can focus on what matters: 
             relationships that drive revenue.
           </p>

@@ -7,16 +7,16 @@ export default function BoringPhilosophy() {
             BORING EATS THE BOLD
           </h2>
           <p className="text-lg font-mono uppercase">
-            Why steady growth beats "transformation" every time
+            Why steady growth beats &ldquo;transformation&rdquo; every time
           </p>
         </div>
 
         <div className="max-w-3xl mx-auto mb-16">
           <div className="bg-white text-black border-4 border-white p-8">
             <p className="text-xl font-mono mb-6">
-              "You can't leap to greatness if you're not even consistently good yet. 
-              Most family businesses are trying to 'transform' when they haven't even 
-              mastered consistent follow-up."
+              &ldquo;You can&apos;t leap to greatness if you&apos;re not even consistently good yet. 
+              Most family businesses are trying to &apos;transform&apos; when they haven&apos;t even 
+              mastered consistent follow-up.&rdquo;
             </p>
             <p className="font-black uppercase text-right">- The Truth No Consultant Will Tell You</p>
           </div>
@@ -39,7 +39,7 @@ export default function BoringPhilosophy() {
                 <h4 className="font-black uppercase mb-2">BORING COMPOUNDS</h4>
                 <p className="font-mono text-sm">
                   1% better daily = 37x better in a year. Small improvements stack. 
-                  That's how dynasties are built, not with moonshots.
+                  That&apos;s how dynasties are built, not with moonshots.
                 </p>
               </div>
               
@@ -62,20 +62,20 @@ export default function BoringPhilosophy() {
           </div>
 
           <div className="border-4 border-white p-8">
-            <h3 className="font-black uppercase text-xl mb-6">WHAT "BOLD" GETS YOU</h3>
+            <h3 className="font-black uppercase text-xl mb-6">WHAT &ldquo;BOLD&rdquo; GETS YOU</h3>
             
             <div className="space-y-6">
               <div className="bg-red-900 p-4">
                 <h4 className="font-black uppercase mb-2">CONFUSED TEAMS</h4>
                 <p className="font-mono text-sm">
-                  "Why are we changing everything that worked?"
+                  &ldquo;Why are we changing everything that worked?&rdquo;
                 </p>
               </div>
               
               <div className="bg-red-900 p-4">
                 <h4 className="font-black uppercase mb-2">LOST CUSTOMERS</h4>
                 <p className="font-mono text-sm">
-                  "This isn't the company we've trusted for 20 years"
+                  &ldquo;This isn&apos;t the company we&apos;ve trusted for 20 years&rdquo;
                 </p>
               </div>
               
@@ -89,7 +89,7 @@ export default function BoringPhilosophy() {
               <div className="bg-red-900 p-4">
                 <h4 className="font-black uppercase mb-2">WASTED MONEY</h4>
                 <p className="font-mono text-sm">
-                  Millions on "transformation" with nothing to show
+                  Millions on &ldquo;transformation&rdquo; with nothing to show
                 </p>
               </div>
             </div>
@@ -101,14 +101,14 @@ export default function BoringPhilosophy() {
             THE BORING TRUTH
           </h3>
           <p className="font-mono text-lg mb-8 max-w-3xl mx-auto">
-            We don't fix what isn't broken. We don't transform what's working. 
+            We don&apos;t fix what isn&apos;t broken. We don&apos;t transform what&apos;s working. 
             We just help you do the basics so well that excellence becomes automatic.
           </p>
           <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
             <div>
               <p className="text-4xl font-black mb-2">87%</p>
               <p className="font-mono text-sm">
-                Of "transformations" fail completely
+                Of &ldquo;transformations&rdquo; fail completely
               </p>
             </div>
             <div>

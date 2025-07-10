@@ -135,7 +135,7 @@ export default function SimpleROICalculator() {
 
         <div className="mt-12 text-center">
           <p className="font-mono text-lg mb-6">
-            "But how?" Simple. We fix what wastes time. Your team sells more.
+            &ldquo;But how?&rdquo; Simple. We fix what wastes time. Your team sells more.
           </p>
           <a href="#case-studies" className="btn-primary">
             SEE HOW 200+ COMPANIES DID IT →

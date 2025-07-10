@@ -40,7 +40,7 @@ export default function DetailedROICalculator() {
     const additionalRevenue = improvedAnnualRevenue - currentAnnualRevenue;
     
     // Investment calculation - value-based pricing
-    const annualRevenue = currentAnnualRevenue;
+    // const annualRevenue = currentAnnualRevenue;
     // Rough estimate: investment is typically 3-5% of additional revenue generated
     const investmentRate = 0.04; // 4% of additional revenue
     const estimatedInvestment = additionalRevenue * investmentRate;

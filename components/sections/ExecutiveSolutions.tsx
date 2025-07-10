@@ -22,7 +22,7 @@ export default function ExecutiveSolutions() {
             </p>
             <div className="bg-yellow-100 p-4 border-2 border-black">
               <p className="font-mono text-sm font-bold">
-                TRUTH: You can't leap to greatness if you're not even consistently good yet. 
+                TRUTH: You can&apos;t leap to greatness if you&apos;re not even consistently good yet. 
                 We fix the basics first, then amplify what works.
               </p>
             </div>

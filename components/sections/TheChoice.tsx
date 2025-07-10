@@ -16,7 +16,7 @@ export default function TheChoice() {
           <div className="border-4 border-red-600 bg-white">
             <div className="bg-red-600 text-white p-6">
               <h3 className="text-2xl font-black uppercase">BOLD TRANSFORMATION</h3>
-              <p className="font-mono mt-2">"Disrupt or Die" They Say</p>
+              <p className="font-mono mt-2">&ldquo;Disrupt or Die&rdquo; They Say</p>
             </div>
             <div className="p-8 space-y-4">
               <div className="flex items-start gap-3">
@@ -30,14 +30,14 @@ export default function TheChoice() {
                 <span className="text-red-600 font-black text-xl">✗</span>
                 <div>
                   <p className="font-black uppercase">TEAM CONFUSION</p>
-                  <p className="font-mono text-sm">"This isn't the company I joined"</p>
+                  <p className="font-mono text-sm">&ldquo;This isn&apos;t the company I joined&rdquo;</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
                 <span className="text-red-600 font-black text-xl">✗</span>
                 <div>
                   <p className="font-black uppercase">CUSTOMER ALIENATION</p>
-                  <p className="font-mono text-sm">"What happened to the people I trust?"</p>
+                  <p className="font-mono text-sm">&ldquo;What happened to the people I trust?&rdquo;</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
@@ -57,7 +57,7 @@ export default function TheChoice() {
               
               <div className="border-t-4 border-gray-200 pt-6 mt-6">
                 <p className="font-mono text-sm text-gray-600">
-                  "We transformed our entire sales process with AI. Lost 60% of our clients and our best reps quit. But hey, we're innovative now." - Anonymous CEO
+                  &ldquo;We transformed our entire sales process with AI. Lost 60% of our clients and our best reps quit. But hey, we&apos;re innovative now.&rdquo; - Anonymous CEO
                 </p>
               </div>
             </div>
@@ -67,7 +67,7 @@ export default function TheChoice() {
           <div className="border-4 border-green-600 bg-white">
             <div className="bg-green-600 text-white p-6">
               <h3 className="text-2xl font-black uppercase">BORING GROWTH</h3>
-              <p className="font-mono mt-2">"Consistency Compounds" We Know</p>
+              <p className="font-mono mt-2">&ldquo;Consistency Compounds&rdquo; We Know</p>
             </div>
             <div className="p-8 space-y-4">
               <div className="flex items-start gap-3">
@@ -81,14 +81,14 @@ export default function TheChoice() {
                 <span className="text-green-600 font-black text-xl">✓</span>
                 <div>
                   <p className="font-black uppercase">TEAM BUYS IN NATURALLY</p>
-                  <p className="font-mono text-sm">"Finally, tools that actually help"</p>
+                  <p className="font-mono text-sm">&ldquo;Finally, tools that actually help&rdquo;</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
                 <span className="text-green-600 font-black text-xl">✓</span>
                 <div>
                   <p className="font-black uppercase">CUSTOMERS LOVE CONSISTENCY</p>
-                  <p className="font-mono text-sm">"Same great people, better service"</p>
+                  <p className="font-mono text-sm">&ldquo;Same great people, better service&rdquo;</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
@@ -108,7 +108,7 @@ export default function TheChoice() {
               
               <div className="border-t-4 border-gray-200 pt-6 mt-6">
                 <p className="font-mono text-sm text-gray-600">
-                  "We chose boring growth over bold promises. 40% revenue increase, zero drama, same culture. Best decision ever." - Mike, Johnson Supply
+                  &ldquo;We chose boring growth over bold promises. 40% revenue increase, zero drama, same culture. Best decision ever.&rdquo; - Mike, Johnson Supply
                 </p>
               </div>
             </div>
@@ -132,7 +132,7 @@ export default function TheChoice() {
             <div className="text-center">
               <p className="font-mono text-sm mb-2">YEAR 5</p>
               <p className="text-4xl font-black">+537%</p>
-              <p className="font-mono text-xs mt-2">While "bold" is still transforming</p>
+              <p className="font-mono text-xs mt-2">While &ldquo;bold&rdquo; is still transforming</p>
             </div>
           </div>
           <p className="text-center font-mono mt-8">
@@ -145,7 +145,7 @@ export default function TheChoice() {
             READY TO CHOOSE BORING GROWTH THAT ACTUALLY WORKS?
           </p>
           <a href="#discovery" className="btn-primary">
-            LET'S BUILD YOUR BORING SUCCESS STORY →
+            LET&apos;S BUILD YOUR BORING SUCCESS STORY →
           </a>
         </div>
       </div>
