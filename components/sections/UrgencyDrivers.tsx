@@ -70,7 +70,7 @@ export default function UrgencyDrivers() {
 
         <div className="border-4 border-white p-6 text-center">
           <p className="text-xl font-black uppercase mb-4">
-            YOUR COMPETITORS ARE BOOKING CALLS RIGHT NOW
+            YOUR COMPETITORS ARE BOOKING BRIEFINGS RIGHT NOW
           </p>
           <p className="font-mono mb-6">
             3 companies in your industry started with us this month.<br/>

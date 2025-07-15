@@ -232,10 +232,10 @@ export default function DiagnosticCTA() {
                 href="https://tidycal.com/noah3/boring-sales-growth" 
                 className="inline-block bg-green-600 text-white px-8 py-4 text-lg font-black uppercase hover:bg-green-700 transition-colors"
               >
-                Get Your AI Battle Plan →
+                Get Your AI Strategy Briefing →
               </a>
               <p className="mt-4 text-sm text-gray-600">
-                15-minute call. We&apos;ll audit your process and show you the money.
+                15-minute briefing. We&apos;ll review your process and show you the money.
               </p>
             </div>
           </div>

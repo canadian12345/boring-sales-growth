@@ -58,7 +58,7 @@ function Header() {
               href="https://tidycal.com/noah3/boring-sales-growth"
               className="ml-4 px-6 py-3 text-sm font-bold text-white bg-black border border-black hover:bg-gray-900"
             >
-              BOOK DEMO →
+              BOOK BRIEFING →
             </a>
           </nav>
           <button className="md:hidden p-2">

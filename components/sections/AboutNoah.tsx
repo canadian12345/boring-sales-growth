@@ -160,7 +160,7 @@ export default function AboutNoah() {
               </svg>
             </a>
             <p className="text-sm font-mono text-gray-600 mt-4 uppercase">
-              3 spots left. First call determines fit.
+              3 spots left. First briefing determines fit.
             </p>
           </div>
         </div>

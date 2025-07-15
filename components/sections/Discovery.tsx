@@ -62,7 +62,7 @@ export default function Discovery() {
           </div>
           
           <div className="bg-gray-100 border-4 border-black p-8">
-            <h3 className="text-xl font-black uppercase text-black mb-6">SCHEDULE YOUR CALL</h3>
+            <h3 className="text-xl font-black uppercase text-black mb-6">SCHEDULE YOUR BRIEFING</h3>
             
             <div className="space-y-4 mb-8">
               <p className="font-mono text-black">
@@ -84,7 +84,7 @@ export default function Discovery() {
                 rel="noopener noreferrer"
                 className="block w-full text-center px-8 py-4 bg-black text-white font-bold font-mono uppercase hover:bg-gray-900 transition-colors"
               >
-                CLAIM YOUR GROWTH ASSESSMENT (5 SPOTS LEFT) →
+                CLAIM YOUR GROWTH BRIEFING (5 SPOTS LEFT) →
               </a>
               
               <p className="text-center text-sm font-mono text-gray-600">
@@ -116,7 +116,7 @@ export default function Discovery() {
           <p className="text-lg font-black uppercase mb-4">LIMITED AVAILABILITY: Q3 2025</p>
           <p className="text-sm font-mono mb-2">I work with 5 companies at a time. 2 spots filled this quarter.</p>
           <p className="text-xs font-mono mb-6 text-gray-700">
-            Your competitors are booking calls. The first movers in each industry are winning.
+            Your competitors are booking briefings. The first movers in each industry are winning.
           </p>
           <a
             href="https://tidycal.com/noah3/boring-sales-growth"
