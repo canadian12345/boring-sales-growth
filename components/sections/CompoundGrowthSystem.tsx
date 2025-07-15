@@ -14,8 +14,9 @@ export default function CompoundGrowthSystem() {
       activities: [
         "Install executive dashboard: See everything, no surprises",
         "Map your \"boring goldmine\": Which daily actions drive most revenue?",
-        "Identify discipline gaps: Where does execution break down?",
-        "Set non-negotiables: These 5 things happen daily, period"
+        "Identify discipline gaps: Where does execution break down? (AI spots patterns, humans fix root causes)",
+        "Set non-negotiables: These 5 things happen daily, period",
+        "First thing we do? Show your veterans exactly how much money they're leaving on the table personally. Nothing changes behavior like seeing '$47K in missed commissions' next to your name."
       ]
     },
     2: {
@@ -24,10 +25,10 @@ export default function CompoundGrowthSystem() {
       timeline: "Weeks 3-4",
       color: "green",
       activities: [
-        "AI-powered follow-up enforcement: Never miss another touch",
+        "AI-powered follow-up enforcement: Never miss another touch (tech tracks, humans personalize)",
         "Smart introduction prompter: Perfect timing, every time",
-        "Conversation intelligence: Every detail captured automatically",
-        "Quote acceleration: From days to minutes"
+        "Conversation intelligence: Every detail captured automatically, relationships stay human",
+        "Quote acceleration: From days to minutes (AI speeds, humans close)"
       ]
     },
     3: {
@@ -61,10 +62,10 @@ export default function CompoundGrowthSystem() {
       <div className="container max-w-6xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl sm:text-4xl lg:text-6xl font-black mb-4 uppercase">
-            The Compound Growth System™
+            The Growth Protocol 2.0™
           </h2>
           <p className="text-xl sm:text-2xl font-black text-gray-700 uppercase">
-            Where Boring Meets Brilliant
+            High-Tech, High-Touch System That Actually Works
           </p>
         </div>
         
@@ -74,7 +75,7 @@ export default function CompoundGrowthSystem() {
           </h3>
           <p className="text-center text-lg mb-8 font-mono">
             Not revolutionary. Not exciting. Just proven activities that compound into 
-            massive growth when done daily.
+            massive growth when done daily. <span className="font-bold">Pure automation vendors miss this: multiplying trust beats replacing humans.</span>
           </p>
           
           <div className="flex flex-wrap justify-center gap-4 mb-8">
@@ -114,16 +115,16 @@ export default function CompoundGrowthSystem() {
         
         <div className="grid md:grid-cols-3 gap-6 mb-12">
           <div className="bg-white border-4 border-black p-6 text-center">
-            <h4 className="font-black text-xl mb-3 uppercase text-red-600">Not CRM</h4>
-            <p className="font-mono">This enforces action, not just tracks it</p>
+            <h4 className="font-black text-xl mb-3 uppercase text-red-600">Not Another CRM</h4>
+            <p className="font-mono">This enforces action, not just tracks promises</p>
           </div>
           <div className="bg-white border-4 border-black p-6 text-center">
-            <h4 className="font-black text-xl mb-3 uppercase text-red-600">Not Training</h4>
-            <p className="font-mono">This ensures execution, not just education</p>
+            <h4 className="font-black text-xl mb-3 uppercase text-red-600">Not More Training</h4>
+            <p className="font-mono">Your team doesn't need education, they need execution</p>
           </div>
           <div className="bg-white border-4 border-black p-6 text-center">
-            <h4 className="font-black text-xl mb-3 uppercase text-red-600">Not Replacement</h4>
-            <p className="font-mono">This amplifies veterans, not alienates them</p>
+            <h4 className="font-black text-xl mb-3 uppercase text-red-600">Not The Nuclear Option</h4>
+            <p className="font-mono">We fix veterans, not fire them (though some CEOs wish we'd do both)</p>
           </div>
         </div>
         

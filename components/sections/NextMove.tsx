@@ -86,7 +86,8 @@ export default function NextMove() {
         <div className="mt-12 text-center">
           <p className="text-lg text-gray-700 mb-8">
             Stop managing hope. Start managing discipline.<br/>
-            Your veterans know what to do. AI ensures they do it.
+            Your veterans know what to do. AI-enforced excellence ensures they do it.<br/>
+            <span className="font-black">The thinking CEO's choice for Growth Protocol 2.0™</span>
           </p>
           <a 
             href="https://tidycal.com/noah3/boring-sales-growth" 

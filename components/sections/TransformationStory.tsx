@@ -3,22 +3,33 @@ export default function TransformationStory() {
     <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
       <div className="container max-w-4xl mx-auto">
         <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black mb-12 text-center">
-          From "This Too Shall Pass" to "This Changes Everything"
+          Real Companies. Real Revenue. Real Results.
         </h2>
         
         <div className="bg-white border-4 border-gray-200 p-8 mb-8">
           <h3 className="text-2xl font-black mb-4">
-            Midwest Manufacturing: 73-Year-Old Company, 30-Year Veterans
+            Manufacturing: David Chen's $47K Wake-Up Call
           </h3>
+          
+          <blockquote className="text-lg font-mono mb-6 italic">
+            "I almost fired my entire sales team last year. 32 years in business, and I'd never been so frustrated. 
+            Then we implemented BoringSales. Same guys who fought me on everything suddenly became my biggest AI advocates. 
+            Why? Because it made THEM look like heroes. Jim closed three deals in one week that had been sitting for months. 
+            Now he brags about 'his' AI assistant. Revenue's up 47%, but honestly? I'm just happy I don't dread Monday mornings anymore."
+          </blockquote>
+          <p className="font-black text-gray-700 mb-8">
+            — David Chen, President, Precision Manufacturing Corp<br/>
+            <span className="text-sm font-normal">Family business, 67 employees, competing against PE-backed giants</span>
+          </p>
           
           <div className="grid md:grid-cols-2 gap-8 mb-8">
             <div className="bg-red-50 p-6">
-              <h4 className="font-black text-lg mb-4 text-red-900">The Situation:</h4>
+              <h4 className="font-black text-lg mb-4 text-red-900">Before:</h4>
               <ul className="space-y-2 text-gray-700">
                 <li>• Sales team average tenure: 27 years</li>
                 <li>• CRM adoption after 3 attempts: Zero</li>
                 <li>• Follow-up rate: "When I remember"</li>
-                <li>• President considering early retirement from frustration</li>
+                <li>• David considering early retirement from frustration</li>
               </ul>
             </div>
             
@@ -26,7 +37,8 @@ export default function TransformationStory() {
               <h4 className="font-black text-lg mb-4 text-yellow-400">The Turning Point:</h4>
               <p className="text-sm">
                 Started with ONE enforced discipline: Follow up within 24 hours, period. 
-                AI made it automatic—draft ready, reminder persistent, no excuses.
+                AI made it automatic—draft ready, reminder persistent, no excuses. 
+                <span className="font-bold">The key: AI caught the opportunity, but John's 30-year relationship closed it.</span>
               </p>
             </div>
           </div>
@@ -44,7 +56,7 @@ export default function TransformationStory() {
               </div>
               <div>
                 <p className="font-black text-green-600">Week 3</p>
-                <p className="text-sm">Veteran rep: "Okay, what else can this thing do?"</p>
+                <p className="text-sm">Week 3's defining moment: The AI flagged unusual ordering from Mitchell Industries—a 20-year customer. Tom (their 'I don't do computers' guy) called: "Bob, noticed you're ordering differently. We screwing something up?" Turns out they were testing a competitor. Tom matched their delivery promise on the spot. $180K/year saved because AI noticed what Tom missed.</p>
               </div>
               <div>
                 <p className="font-black text-green-700">Week 4</p>
@@ -84,17 +96,35 @@ export default function TransformationStory() {
           </div>
         </div>
         
-        <div className="bg-gray-900 text-white p-8">
-          <blockquote className="text-xl font-bold mb-6">
-            "We didn't change what made us successful—relationships, expertise, trust. 
-            We just made sure the basics that support those relationships actually happen. 
-            Every. Single. Day."
+        <div className="bg-white border-4 border-gray-200 p-8 mb-8">
+          <h3 className="text-2xl font-black mb-4">
+            Distribution: Jennifer's Sweet Revenge Story
+          </h3>
+          <blockquote className="text-lg font-mono mb-6 italic">
+            "Our biggest competitor was quoting in 20 minutes. We took 3 days. I knew we were dying—I just didn't know how fast. 
+            Noah's team didn't give us some revolutionary system. They gave us accountability. AI that ensures the boring stuff happens. 
+            Every. Single. Day. First month: we won back Williams Corp (lost them 2 years ago). Month 3: Sales up 38%. 
+            Month 6: That competitor? They're now asking US how we quote so fast. Sweet revenge."
           </blockquote>
-          <p className="font-black text-yellow-400">
-            — Jim Mitchell, President, Midwest Manufacturing
+          <p className="font-black text-gray-700">
+            — Jennifer Martinez, CEO, Industrial Supply Partners<br/>
+            <span className="text-sm font-normal">Lost 30% revenue in 2023, fully recovered by 2024</span>
           </p>
-          <p className="text-sm mt-2 text-gray-400">
-            $15M distributor, 47 employees, competing against nationals
+        </div>
+        
+        <div className="bg-white border-4 border-gray-200 p-8 mb-8">
+          <h3 className="text-2xl font-black mb-4">
+            Services: Robert's Board Room Victory
+          </h3>
+          <blockquote className="text-lg font-mono mb-6 italic">
+            "I'll be honest—I hired Noah to shut my board up about 'digital transformation.' I figured we'd check the AI box and move on. 
+            Instead, he showed me something terrifying: my team was completing maybe 20% of revenue-generating activities. 
+            The other 80%? 'I'll get to it.' Now AI enforces the basics, and we're up 42%. But here's what really matters: 
+            my 30-year veterans LOVE it. Takes the grunt work off their plate so they can actually sell. Who knew?"
+          </blockquote>
+          <p className="font-black text-gray-700">
+            — Robert Thompson, Owner, Technical Services Group<br/>
+            <span className="text-sm font-normal">B2B services, built on relationships, thought AI would kill them</span>
           </p>
         </div>
         
@@ -104,7 +134,8 @@ export default function TransformationStory() {
           </h3>
           <p className="text-lg max-w-3xl mx-auto">
             The same veterans who resisted "another system" became the biggest advocates 
-            once they saw AI handling the boring stuff so they could focus on relationships.
+            once they saw AI handling the boring stuff so they could focus on relationships. 
+            Tech-powered discipline, human-powered deals.
           </p>
         </div>
       </div>

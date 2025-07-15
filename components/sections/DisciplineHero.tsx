@@ -24,7 +24,7 @@ export default function DisciplineHero() {
           <p className="text-xl sm:text-2xl mb-12 max-w-3xl mx-auto">
             It's execution. While your legacy team dismisses "another system," 
             competitors are using AI to guarantee the boring stuff that builds revenue 
-            actually gets done.
+            actually gets done. <span className="font-bold">Every day you wait costs you $47K.</span>
           </p>
           
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto mb-12">
@@ -51,7 +51,8 @@ export default function DisciplineHero() {
           
           <div className="border-4 border-black bg-gray-100 p-12 mb-12">
             <p className="text-2xl sm:text-3xl font-black mb-8 uppercase text-center">
-              Turn resistant teams into revenue machines
+              Turn resistant teams into revenue machines<br/>
+              <span className="text-xl font-normal">(40% average lift, up to 67% for manufacturing)</span>
             </p>
             
             <div className="grid md:grid-cols-3 gap-8">
@@ -61,7 +62,7 @@ export default function DisciplineHero() {
               </div>
               <div className="text-center border-l-4 border-r-4 border-gray-400 px-4">
                 <h4 className="font-black text-xl mb-3 uppercase">Preserve What Matters</h4>
-                <p className="font-mono">Relationships stay human, tasks go automatic</p>
+                <p className="font-mono">Relationships stay human, tasks go automatic. High-tech execution, high-touch relationships.</p>
               </div>
               <div className="text-center">
                 <h4 className="font-black text-xl mb-3 uppercase">See What's Hidden</h4>

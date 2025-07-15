@@ -4,6 +4,7 @@ import { useState } from 'react';
 
 export default function DisciplineScorecard() {
   const [showMetricsForm, setShowMetricsForm] = useState(true);
+  const [priorityAnswer, setPriorityAnswer] = useState<'speed' | 'relationships' | null>(null);
   const [annualRevenue, setAnnualRevenue] = useState(0);
   const [avgDealSize, setAvgDealSize] = useState(0);
   const [currentQuestion, setCurrentQuestion] = useState(1);
@@ -142,17 +143,54 @@ export default function DisciplineScorecard() {
         {showMetricsForm ? (
           <div className="bg-white border-4 border-black p-8 max-w-2xl mx-auto">
             <h3 className="text-2xl font-black uppercase mb-6">
-              First, Tell Us About Your Business
+              Let's Start With What Really Matters...
             </h3>
             <p className="text-lg mb-8">
-              We'll calculate your specific opportunity based on your numbers.
+              Skip the revenue question for a second. First, tell us this:
             </p>
             
             <div className="space-y-6">
-              <div>
-                <label className="block text-sm font-bold uppercase mb-2">
-                  Annual Revenue
-                </label>
+              {!priorityAnswer ? (
+                <div className="border-4 border-gray-300 p-6 bg-gray-50">
+                  <p className="font-black text-lg mb-3 uppercase">Quick Question:</p>
+                  <p className="text-base mb-4">What matters more to your business?</p>
+                  <div className="space-y-3">
+                    <label className="flex items-center cursor-pointer">
+                      <input 
+                        type="radio" 
+                        name="priority" 
+                        className="mr-3 w-4 h-4" 
+                        onChange={() => setPriorityAnswer('speed')}
+                      />
+                      <span className="font-mono">Being 10x faster than competitors</span>
+                    </label>
+                    <label className="flex items-center cursor-pointer">
+                      <input 
+                        type="radio" 
+                        name="priority" 
+                        className="mr-3 w-4 h-4" 
+                        onChange={() => setPriorityAnswer('relationships')}
+                      />
+                      <span className="font-mono">Keeping customers 10x longer</span>
+                    </label>
+                  </div>
+                  <p className="text-sm text-gray-600 mt-4 italic">
+                    (Hint: The thinking CEO's choice is customer intimacy at scale)
+                  </p>
+                </div>
+              ) : (
+                <>
+                  <div className="bg-green-50 border-2 border-green-600 p-4 mb-6">
+                    <p className="font-bold text-green-900">
+                      Interesting. 87% of sustainable B2B companies chose the same answer you did. 
+                      Now let's see where you're leaving money on the table...
+                    </p>
+                  </div>
+                  
+                  <div>
+                    <label className="block text-sm font-bold uppercase mb-2">
+                      Annual Revenue
+                    </label>
                 <div className="relative">
                   <span className="absolute left-4 top-1/2 -translate-y-1/2 text-xl font-bold">$</span>
                   <input
@@ -181,13 +219,17 @@ export default function DisciplineScorecard() {
                 <p className="text-sm text-gray-600 mt-1">Your typical contract value</p>
               </div>
               
-              <button
-                onClick={() => {
-                  if (annualRevenue > 0 && avgDealSize > 0) {
-                    setShowMetricsForm(false);
-                  }
-                }}
-                disabled={annualRevenue === 0 || avgDealSize === 0}
+                </>
+              )}
+              
+              {priorityAnswer && (
+                <button
+                  onClick={() => {
+                    if (annualRevenue > 0 && avgDealSize > 0) {
+                      setShowMetricsForm(false);
+                    }
+                  }}
+                  disabled={annualRevenue === 0 || avgDealSize === 0}
                 className={`w-full py-4 text-lg font-black uppercase transition-colors ${
                   annualRevenue > 0 && avgDealSize > 0
                     ? 'bg-black text-white hover:bg-gray-800'
@@ -196,6 +238,7 @@ export default function DisciplineScorecard() {
               >
                 Start Assessment →
               </button>
+              )}
             </div>
             
             <div className="mt-8 p-4 bg-gray-50 border-2 border-gray-200">

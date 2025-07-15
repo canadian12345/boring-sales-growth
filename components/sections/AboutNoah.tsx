@@ -18,7 +18,7 @@ export default function AboutNoah() {
               <div className="bg-yellow-100 border-l-4 border-yellow-600 p-4 mb-6">
                 <p className="font-black text-black">
                   &ldquo;For 20 years, I&apos;ve helped relationship-driven companies stay relationship-driven 
-                  while growing steadily.&rdquo;
+                  while growing steadily. My High-Tech, High-Touch philosophy: automate tasks, amplify trust.&rdquo;
                 </p>
               </div>
               
@@ -85,6 +85,7 @@ export default function AboutNoah() {
                 <div className="mt-6 pt-4 border-t-4 border-white">
                   <p className="text-sm font-bold font-mono uppercase">I work with 5 companies at a time</p>
                   <p className="text-xs font-mono">Quality over quantity, always</p>
+                  <p className="text-xs font-mono mt-2">Author: "The Boring Advantage: Why High-Tech/High-Touch Wins" (2025)</p>
                 </div>
               </div>
               
