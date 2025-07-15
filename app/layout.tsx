@@ -42,20 +42,20 @@ function Header() {
             </div>
           </div>
           <nav className="hidden md:flex items-center gap-8">
-            <a href="#problems" className="text-sm font-bold hover:underline">
-              PROBLEMS
+            <a href="#system" className="font-mono text-sm hover:underline">
+              METHOD
             </a>
-            <a href="#solutions" className="text-sm font-bold hover:underline">
-              SOLUTIONS
-            </a>
-            <a href="#roi" className="text-sm font-bold hover:underline">
+            <a href="#scorecard" className="font-mono text-sm hover:underline">
               CALCULATOR
             </a>
-            <a href="#cases" className="text-sm font-bold hover:underline">
+            <a href="#transformation" className="font-mono text-sm hover:underline">
               RESULTS
             </a>
+            <a href="#next-move" className="font-mono text-sm hover:underline">
+              GET STARTED
+            </a>
             <a
-              href="#discovery"
+              href="https://tidycal.com/noah3/boring-sales-growth"
               className="ml-4 px-6 py-3 text-sm font-bold text-white bg-black border border-black hover:bg-gray-900"
             >
               BOOK DEMO →
@@ -89,18 +89,18 @@ function Footer() {
           </div>
           <div>
             <h4 className="font-bold mb-4 text-sm">QUICK LINKS</h4>
-            <ul className="space-y-2 font-mono text-sm">
-              <li><a href="#problems" className="hover:underline">→ CHALLENGES</a></li>
-              <li><a href="#solutions" className="hover:underline">→ SOLUTIONS</a></li>
-              <li><a href="#roi" className="hover:underline">→ CALCULATOR</a></li>
-              <li><a href="#risk" className="hover:underline">→ RISK MITIGATION</a></li>
+            <ul className="space-y-2">
+              <li><a href="#system" className="text-gray-300 hover:text-white font-mono text-sm">METHOD</a></li>
+              <li><a href="#scorecard" className="text-gray-300 hover:text-white font-mono text-sm">CALCULATOR</a></li>
+              <li><a href="#transformation" className="text-gray-300 hover:text-white font-mono text-sm">RESULTS</a></li>
+              <li><a href="#next-move" className="text-gray-300 hover:text-white font-mono text-sm">GET STARTED</a></li>
             </ul>
           </div>
           <div>
             <h4 className="font-bold mb-4 text-sm">READY TO START?</h4>
             <p className="text-gray-300 mb-4 font-mono text-sm">NO BS. NO PRESSURE.</p>
             <a
-              href="#discovery"
+              href="https://tidycal.com/noah3/boring-sales-growth"
               className="inline-block px-6 py-3 bg-white text-black font-bold hover:bg-gray-100 border border-white"
             >
               SCHEDULE BRIEFING
