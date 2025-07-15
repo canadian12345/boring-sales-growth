@@ -61,15 +61,6 @@ export default function Credibility() {
             </div>
           </div>
           
-          <div className="mt-8 pt-6 border-t-4 border-gray-300 text-center">
-            <p className="font-black text-lg uppercase">
-              Featured In:
-            </p>
-            <p className="font-mono text-gray-600 mt-2">
-              Manufacturing Weekly | Distribution Executive | B2B Growth Report | 
-              Family Business Magazine | The Boring Advantage (2025)
-            </p>
-          </div>
         </div>
       </div>
     </section>

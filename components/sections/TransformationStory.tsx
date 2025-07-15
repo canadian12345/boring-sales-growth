@@ -8,17 +8,17 @@ export default function TransformationStory() {
         
         <div className="bg-white border-4 border-gray-200 p-8 mb-8">
           <h3 className="text-2xl font-black mb-4">
-            Manufacturing: David Chen's $47K Wake-Up Call
+            Manufacturing CEO's $47K Wake-Up Call
           </h3>
           
           <blockquote className="text-lg font-mono mb-6 italic">
             "I almost fired my entire sales team last year. 32 years in business, and I'd never been so frustrated. 
             Then we implemented BoringSales. Same guys who fought me on everything suddenly became my biggest AI advocates. 
-            Why? Because it made THEM look like heroes. Jim closed three deals in one week that had been sitting for months. 
+            Why? Because it made THEM look like heroes. One rep closed three deals in one week that had been sitting for months. 
             Now he brags about 'his' AI assistant. Revenue's up 47%, but honestly? I'm just happy I don't dread Monday mornings anymore."
           </blockquote>
           <p className="font-black text-gray-700 mb-8">
-            — David Chen, President, Precision Manufacturing Corp<br/>
+            — Manufacturing President, 32-Year-Old Company<br/>
             <span className="text-sm font-normal">Family business, 67 employees, competing against PE-backed giants</span>
           </p>
           
@@ -56,7 +56,7 @@ export default function TransformationStory() {
               </div>
               <div>
                 <p className="font-black text-green-600">Week 3</p>
-                <p className="text-sm">Week 3's defining moment: The AI flagged unusual ordering from Mitchell Industries—a 20-year customer. Tom (their 'I don't do computers' guy) called: "Bob, noticed you're ordering differently. We screwing something up?" Turns out they were testing a competitor. Tom matched their delivery promise on the spot. $180K/year saved because AI noticed what Tom missed.</p>
+                <p className="text-sm">Week 3's defining moment: The AI flagged unusual ordering from a 20-year customer. Their 'I don't do computers' guy called: "Hey, noticed you're ordering differently. We screwing something up?" Turns out they were testing a competitor. He matched their delivery promise on the spot. $180K/year saved because AI noticed what humans missed.</p>
               </div>
               <div>
                 <p className="font-black text-green-700">Week 4</p>
@@ -98,23 +98,23 @@ export default function TransformationStory() {
         
         <div className="bg-white border-4 border-gray-200 p-8 mb-8">
           <h3 className="text-2xl font-black mb-4">
-            Distribution: Jennifer's Sweet Revenge Story
+            Distribution CEO's Sweet Revenge Story
           </h3>
           <blockquote className="text-lg font-mono mb-6 italic">
             "Our biggest competitor was quoting in 20 minutes. We took 3 days. I knew we were dying—I just didn't know how fast. 
             Noah's team didn't give us some revolutionary system. They gave us accountability. AI that ensures the boring stuff happens. 
-            Every. Single. Day. First month: we won back Williams Corp (lost them 2 years ago). Month 3: Sales up 38%. 
+            Every. Single. Day. First month: we won back a major account we'd lost 2 years ago. Month 3: Sales up 38%. 
             Month 6: That competitor? They're now asking US how we quote so fast. Sweet revenge."
           </blockquote>
           <p className="font-black text-gray-700">
-            — Jennifer Martinez, CEO, Industrial Supply Partners<br/>
+            — Distribution CEO, Industrial Supply Company<br/>
             <span className="text-sm font-normal">Lost 30% revenue in 2023, fully recovered by 2024</span>
           </p>
         </div>
         
         <div className="bg-white border-4 border-gray-200 p-8 mb-8">
           <h3 className="text-2xl font-black mb-4">
-            Services: Robert's Board Room Victory
+            Services Owner's Board Room Victory
           </h3>
           <blockquote className="text-lg font-mono mb-6 italic">
             "I'll be honest—I hired Noah to shut my board up about 'digital transformation.' I figured we'd check the AI box and move on. 
@@ -123,8 +123,8 @@ export default function TransformationStory() {
             my 30-year veterans LOVE it. Takes the grunt work off their plate so they can actually sell. Who knew?"
           </blockquote>
           <p className="font-black text-gray-700">
-            — Robert Thompson, Owner, Technical Services Group<br/>
-            <span className="text-sm font-normal">B2B services, built on relationships, thought AI would kill them</span>
+            — B2B Services Owner<br/>
+            <span className="text-sm font-normal">Built on relationships, thought AI would kill them</span>
           </p>
         </div>
         

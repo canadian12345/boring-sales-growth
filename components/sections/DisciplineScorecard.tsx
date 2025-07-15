@@ -145,9 +145,11 @@ export default function DisciplineScorecard() {
             <h3 className="text-2xl font-black uppercase mb-6">
               Let's Start With What Really Matters...
             </h3>
-            <p className="text-lg mb-8">
-              Skip the revenue question for a second. First, tell us this:
-            </p>
+            {!priorityAnswer && (
+              <p className="text-lg mb-8">
+                Skip the revenue question for a second. First, tell us this:
+              </p>
+            )}
             
             <div className="space-y-6">
               {!priorityAnswer ? (
