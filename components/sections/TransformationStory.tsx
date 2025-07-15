@@ -8,7 +8,7 @@ export default function TransformationStory() {
         
         <div className="bg-white border-4 border-gray-200 p-8 mb-8">
           <h3 className="text-2xl font-black mb-4">
-            Manufacturing CEO's $47K Wake-Up Call
+            Manufacturing CEO's Wake-Up Call: 47% Revenue Growth
           </h3>
           
           <blockquote className="text-lg font-mono mb-6 italic">

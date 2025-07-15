@@ -63,7 +63,7 @@ export default function ExecutionCrisis() {
               </li>
               <li className="flex justify-between border-b-2 border-gray-200 pb-2">
                 <span>Preventable churn:</span>
-                <span className="font-black text-red-600 text-xl">$50K</span>
+                <span className="font-black text-red-600 text-xl">1-2 accounts</span>
               </li>
               <li className="flex justify-between">
                 <span>Leadership confidence:</span>
@@ -116,6 +116,9 @@ export default function ExecutionCrisis() {
             Competitors aren't smarter. They're more systematic.<br/>
             <span className="text-green-400">And AI ensures their systems actually get used.</span><br/>
             <span className="text-xl font-normal mt-4 block">Here's the AI paradox: The more we automate tasks, the more valuable human relationships become.</span>
+          </p>
+          <p className="text-sm text-gray-400 mt-6 font-mono">
+            *Industry research: B2B companies with poor sales discipline lose 10-20% revenue annually through missed opportunities, slow follow-up, and preventable churn.
           </p>
         </div>
       </div>
