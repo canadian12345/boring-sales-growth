@@ -44,7 +44,7 @@ export default function NextMove() {
                 <li className="flex items-start">
                   <span className="text-green-400 font-black mr-2">•</span>
                   <div>
-                    <span className="font-bold">The $47K Daily Bleed:</span> Calculate what inaction costs you every 24 hours
+                    <span className="font-bold">The Revenue Bleed Calculator:</span> See what poor execution costs based on YOUR actual numbers
                   </div>
                 </li>
               </ul>
@@ -207,7 +207,7 @@ export default function NextMove() {
           <h3 className="text-2xl font-black mb-6 uppercase text-yellow-400">One Final Question:</h3>
           <p className="text-xl mb-2">What's worse?</p>
           <ul className="text-lg space-y-2 mb-8 font-mono">
-            <li>• Spending 30 minutes discovering you're bleeding $47K daily?</li>
+            <li>• Spending 30 minutes discovering you're losing 15% revenue annually?</li>
             <li>• Spending another year pretending you're not?</li>
           </ul>
           

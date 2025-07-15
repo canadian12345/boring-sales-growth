@@ -24,7 +24,7 @@ export default function DisciplineHero() {
           <p className="text-xl sm:text-2xl mb-12 max-w-3xl mx-auto">
             It's execution. While your legacy team dismisses "another system," 
             competitors are using AI to guarantee the boring stuff that builds revenue 
-            actually gets done. <span className="font-bold">Every day you wait costs you $47K.</span>
+            actually gets done. <span className="font-bold">Every day you wait, competitors execute 500 more revenue activities. Automatically.</span>
           </p>
           
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto mb-12">

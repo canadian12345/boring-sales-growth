@@ -16,7 +16,7 @@ export default function CompoundGrowthSystem() {
         "Map your \"boring goldmine\": Which daily actions drive most revenue?",
         "Identify discipline gaps: Where does execution break down? (AI spots patterns, humans fix root causes)",
         "Set non-negotiables: These 5 things happen daily, period",
-        "First thing we do? Show your veterans exactly how much money they're leaving on the table personally. Nothing changes behavior like seeing '$47K in missed commissions' next to your name."
+        "First thing we do? Show your veterans exactly how much money they're leaving on the table personally. Nothing changes behavior like seeing missed commission dollars next to your name."
       ]
     },
     2: {

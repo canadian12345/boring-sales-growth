@@ -20,7 +20,7 @@ export default function ControversyBomb3() {
             
             <div className="mt-8 pt-6 border-t-4 border-red-600">
               <p className="text-lg text-gray-400 font-mono">
-                Every day you wait, your competitors execute 8,760 more revenue-generating activities than you. 
+                Every day you wait, your competitors execute 500 more revenue-generating activities than you. 
                 Automatically. The question isn't whether you need this. It's whether you'll act before it's too late.
               </p>
             </div>
