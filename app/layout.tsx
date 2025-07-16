@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import GoogleAnalytics from "@/components/GoogleAnalytics";
 
 const inter = Inter({ 
   subsets: ["latin"],
@@ -8,8 +9,45 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "BoringSalesGrowth - AI for Traditional B2B Companies",
-  description: "Grow 40% without disrupting what works. We help relationship-driven B2B companies compete with AI-powered competitors by handling the repetitive work that kills sales momentum. No transformation. Just results.",
+  title: "AI for B2B Sales Teams | Increase Close Rate 40% | BoringSalesGrowth",
+  description: "Help your sales team close 40% more deals without hiring. AI sales automation for manufacturers, distributors, and traditional B2B companies. No disruption, just results.",
+  keywords: "AI for B2B sales, sales automation manufacturing, B2B sales productivity tools, increase sales close rate, AI sales assistant",
+  openGraph: {
+    title: "AI for B2B Sales Teams | BoringSalesGrowth",
+    description: "Help your sales team close 40% more deals without hiring. AI that works like you do.",
+    url: "https://boringsalesgrowth.com",
+    siteName: "BoringSalesGrowth",
+    type: "website",
+    locale: "en_US",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "BoringSalesGrowth - AI for Traditional B2B Companies",
+      }
+    ]
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "AI for B2B Sales Teams | BoringSalesGrowth",
+    description: "Help your sales team close 40% more deals without hiring.",
+    images: ["/og-image.jpg"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  alternates: {
+    canonical: "https://boringsalesgrowth.com",
+  },
 };
 
 export default function RootLayout({
@@ -19,7 +57,39 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={inter.variable}>
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "name": "BoringSalesGrowth",
+              "description": "AI sales automation for traditional B2B companies",
+              "url": "https://boringsalesgrowth.com",
+              "logo": "https://boringsalesgrowth.com/logo.png",
+              "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+1-555-123-4567",
+                "contactType": "sales",
+                "availableLanguage": "English"
+              },
+              "sameAs": [
+                "https://linkedin.com/company/boringsalesgrowth",
+                "https://twitter.com/boringsalesgrowth"
+              ],
+              "offers": {
+                "@type": "Offer",
+                "name": "AI Sales Automation for B2B",
+                "description": "Help your sales team close 40% more deals without hiring",
+                "url": "https://boringsalesgrowth.com/get-started"
+              }
+            })
+          }}
+        />
+      </head>
       <body className="antialiased font-sans">
+        <GoogleAnalytics />
         <Header />
         {children}
         <Footer />
