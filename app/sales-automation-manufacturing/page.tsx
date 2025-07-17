@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import SchemaMarkup, { generateBreadcrumbSchema } from "@/components/SchemaMarkup";
 
 export const metadata: Metadata = {
   title: "Sales Automation for Manufacturing Companies | BoringSalesGrowth",
@@ -10,8 +11,50 @@ export const metadata: Metadata = {
 };
 
 export default function ManufacturingSalesAutomationPage() {
+  const breadcrumbData = generateBreadcrumbSchema([
+    { name: "Home", url: "https://boringsalesgrowth.com" },
+    { name: "Sales Automation for Manufacturing" }
+  ]);
+
+  const manufacturingFAQ = {
+    "@context": "https://schema.org" as const,
+    "@type": "FAQPage" as const,
+    "mainEntity": [
+      {
+        "@type": "Question" as const,
+        "name": "How does sales automation work in manufacturing?",
+        "acceptedAnswer": {
+          "@type": "Answer" as const,
+          "text": "Manufacturing sales automation handles complex quotes, tracks custom orders, manages distributor relationships, and automates follow-ups while preserving the personal touch that builds trust in industrial sales."
+        }
+      },
+      {
+        "@type": "Question" as const,
+        "name": "Can AI handle our complex product configurations?",
+        "acceptedAnswer": {
+          "@type": "Answer" as const,
+          "text": "Yes, modern AI can manage complex product configurations, custom pricing matrices, and multi-tier distributor pricing. It learns your specific rules and applies them consistently across all quotes."
+        }
+      },
+      {
+        "@type": "Question" as const,
+        "name": "What ROI can manufacturers expect from sales automation?",
+        "acceptedAnswer": {
+          "@type": "Answer" as const,
+          "text": "Manufacturing companies typically see 30-40% improvement in close rates, 50% reduction in quote generation time, and 25% increase in order accuracy. ROI is usually achieved within 90 days."
+        }
+      }
+    ]
+  };
+
   return (
-    <main className="pt-16">
+    <>
+      <SchemaMarkup type="FAQPage" data={manufacturingFAQ} />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbData) }}
+      />
+      <main className="pt-16">
       <section className="bg-white py-20 border-b-4 border-black">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <h1 className="text-5xl md:text-6xl font-black mb-6 leading-tight">
@@ -145,5 +188,6 @@ export default function ManufacturingSalesAutomationPage() {
         </div>
       </section>
     </main>
+    </>
   );
 }

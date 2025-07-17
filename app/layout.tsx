@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
+import SchemaMarkup, { organizationSchema, mainServiceSchema } from "@/components/SchemaMarkup";
 
 const inter = Inter({ 
   subsets: ["latin"],
@@ -58,35 +59,8 @@ export default function RootLayout({
   return (
     <html lang="en" className={inter.variable}>
       <head>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Organization",
-              "name": "BoringSalesGrowth",
-              "description": "AI sales automation for traditional B2B companies",
-              "url": "https://boringsalesgrowth.com",
-              "logo": "https://boringsalesgrowth.com/logo.png",
-              "contactPoint": {
-                "@type": "ContactPoint",
-                "telephone": "+1-555-123-4567",
-                "contactType": "sales",
-                "availableLanguage": "English"
-              },
-              "sameAs": [
-                "https://linkedin.com/company/boringsalesgrowth",
-                "https://twitter.com/boringsalesgrowth"
-              ],
-              "offers": {
-                "@type": "Offer",
-                "name": "AI Sales Automation for B2B",
-                "description": "Help your sales team close 40% more deals without hiring",
-                "url": "https://boringsalesgrowth.com/get-started"
-              }
-            })
-          }}
-        />
+        <SchemaMarkup type="Organization" data={organizationSchema} />
+        <SchemaMarkup type="Service" data={mainServiceSchema} />
       </head>
       <body className="antialiased font-sans">
         <GoogleAnalytics />

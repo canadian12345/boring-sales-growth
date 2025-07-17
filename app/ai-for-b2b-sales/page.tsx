@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import SchemaMarkup, { generateBreadcrumbSchema } from "@/components/SchemaMarkup";
 
 export const metadata: Metadata = {
   title: "AI for B2B Sales Teams | Automate Follow-ups & Close More Deals",
@@ -10,8 +11,50 @@ export const metadata: Metadata = {
 };
 
 export default function AIForB2BSalesPage() {
+  const breadcrumbData = generateBreadcrumbSchema([
+    { name: "Home", url: "https://boringsalesgrowth.com" },
+    { name: "AI for B2B Sales" }
+  ]);
+
+  const pageSpecificFAQ = {
+    "@context": "https://schema.org" as const,
+    "@type": "FAQPage" as const,
+    "mainEntity": [
+      {
+        "@type": "Question" as const,
+        "name": "What makes AI for B2B sales different from consumer sales AI?",
+        "acceptedAnswer": {
+          "@type": "Answer" as const,
+          "text": "B2B sales AI focuses on complex, relationship-driven sales cycles with multiple stakeholders. It handles quote generation, proposal tracking, and long-term follow-up sequences that B2B deals require."
+        }
+      },
+      {
+        "@type": "Question" as const,
+        "name": "Can AI integrate with our existing CRM system?",
+        "acceptedAnswer": {
+          "@type": "Answer" as const,
+          "text": "Yes, our AI solutions integrate with all major CRM platforms including Salesforce, HubSpot, and Microsoft Dynamics. We ensure seamless data flow without disrupting your current processes."
+        }
+      },
+      {
+        "@type": "Question" as const,
+        "name": "How does AI improve B2B sales close rates?",
+        "acceptedAnswer": {
+          "@type": "Answer" as const,
+          "text": "AI improves close rates by ensuring perfect follow-up timing, identifying buying signals, automating quote generation, and providing conversation intelligence. Our clients see an average 40% improvement in close rates."
+        }
+      }
+    ]
+  };
+
   return (
-    <main className="pt-16">
+    <>
+      <SchemaMarkup type="FAQPage" data={pageSpecificFAQ} />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbData) }}
+      />
+      <main className="pt-16">
       <section className="bg-white py-20 border-b-4 border-black">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <h1 className="text-5xl md:text-6xl font-black mb-6 leading-tight">
@@ -127,5 +170,6 @@ export default function AIForB2BSalesPage() {
         </div>
       </section>
     </main>
+    </>
   );
 }
